@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+}
+
+.serif-italic {
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+}
+
+.letter-spacing-tight {
+  letter-spacing: -0.02em;
+}
+
+.letter-spacing-wide {
+  letter-spacing: 0.1em;
+}
+
+.crimson-gradient {
+  background: radial-gradient(circle, #6b000e 0%, #960018 100%);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fbf9f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #960018;
+}

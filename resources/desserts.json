@@ -1,0 +1,451 @@
+{
+  "items": [
+    {
+      "id": "Crema Catalana",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 5.60,
+      "translations": {
+        "es": {
+          "title": "Crema Catalana",
+          "description": "Helado de biscuit con preparado de yema y azúcar caramelizado."
+        },
+        "en": {
+          "title": "Crema Catalana",
+          "description": "Biscuit ice cream with an egg yolk and caramelized sugar mixture."
+        },
+        "de": {
+          "title": "Katalanische Creme",
+          "description": "Biscuit-Eis mit einer Mischung aus Eigelb und karamellisiertem Zucker."
+        }
+      }
+    },
+    {
+      "id": "Copa Nata Nueces",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 6.50,
+      "translations": {
+        "es": {
+          "title": "Copa Nata Nueces",
+          "description": "Helado de nata acompañado de caramelo y sabrosas nueces caramelizadas."
+        },
+        "en": {
+          "title": "Copa Nata Nueces",
+          "description": "Plain ice cream with caramel and tasty caramelized nuts."
+        },
+        "de": {
+          "title": "Sahne-Nuss-Becher",
+          "description": "Sahneeis mit Karamell und leckeren karamellisierten Walnüssen."
+        }
+      }
+    },
+    {
+      "id": "Tarta Fantástica Individual",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 5.50,
+      "translations": {
+        "es": {
+          "title": "Tarta Fantástica Individual",
+          "description": "Helado de vainilla y caramelo, decorado con bolitas de toffee chocolateadas y jarabe de caramelo."
+        },
+        "en": {
+          "title": "Tarta Fantástica Individual",
+          "description": "Vanilla and caramel ice cream, decorated with chocolate-covered toffee balls and caramel syrup."
+        },
+        "de": {
+          "title": "Fantástica-Törtchen",
+          "description": "Vanille- und Karamelleis, dekoriert mit schokolierten Toffee-Kugeln und Karamellsirup."
+        }
+      }
+    },
+    {
+      "id": "Flan Biscuit",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 5.10,
+      "translations": {
+        "es": {
+          "title": "Flan Biscuit",
+          "description": "Helado de biscuit coronado con piñones y salsa de caramelo."
+        },
+        "en": {
+          "title": "Flan Biscuit",
+          "description": "Biscuit ice cream with pine nuts and caramel sauce."
+        },
+        "de": {
+          "title": "Biscuit-Flan",
+          "description": "Biscuit-Eis garniert mit Pinienkernen und Karamellsauce."
+        }
+      }
+    },
+    {
+      "id": "Trufito",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 5.10,
+      "translations": {
+        "es": {
+          "title": "Trufito",
+          "description": "Helado, salsa y crujiente cobertura de chocolate con trocitos de almendra."
+        },
+        "en": {
+          "title": "Trufito",
+          "description": "Ice cream, sauce and a crunchy chocolate coating with almond pieces."
+        },
+        "de": {
+          "title": "Trufito",
+          "description": "Eiscreme, Sauce und ein knackiger Schokoladenüberzug mit Mandelstückchen."
+        }
+      }
+    },
+    {
+      "id": "Coco Helado",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 5.80,
+      "translations": {
+        "es": {
+          "title": "Coco Helado",
+          "description": "Helado de coco con coco rallado en su cáscara natural."
+        },
+        "en": {
+          "title": "Coco Helado",
+          "description": "Coconut ice cream with grated coconut, in its natural shell."
+        },
+        "de": {
+          "title": "Kokoseis",
+          "description": "Kokoseis mit Kokosraspeln in der natürlichen Kokosnussschale."
+        }
+      }
+    },
+    {
+      "id": "Copa Frutas del Bosque",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 6.50,
+      "translations": {
+        "es": {
+          "title": "Copa Frutas del Bosque",
+          "description": "Helado de yogur con deliciosa salsa de frutas del bosque decorado con frutas del bosque enteras."
+        },
+        "en": {
+          "title": "Copa Frutas del Bosque",
+          "description": "Frozen yogurt with a delicious fruits of the forest sauce, with whole berries."
+        },
+        "de": {
+          "title": "Waldfrüchte-Becher",
+          "description": "Joghurt-Eis mit köstlicher Waldbeersauce und ganzen Waldbeeren."
+        }
+      }
+    },
+    {
+      "id": "Copa Sorbete de Limón",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 5.80,
+      "translations": {
+        "es": {
+          "title": "Copa Sorbete de Limón",
+          "description": "Un refrescante sorbete de limón"
+        },
+        "en": {
+          "title": "Copa Sorbete de Limón",
+          "description": "A refreshing lemon sorbet."
+        },
+        "de": {
+          "title": "Zitronensorbet-Becher",
+          "description": "Ein erfrischendes Zitronensorbet."
+        }
+      }
+    },
+    {
+      "id": "Coulant de Chocolate",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 5.80,
+      "translations": {
+        "es": {
+          "title": "Coulant de Chocolate",
+          "description": "Esponjoso bizcocho de chocolate con sorpresa de chocolate líquido en su interior."
+        },
+        "en": {
+          "title": "Coulant de Chocolate",
+          "description": "Chocolate sponge with a liquid chocolate surprise in the centre."
+        },
+        "de": {
+          "title": "Schokoladen-Coulant",
+          "description": "Fluffiger Schokoladenkuchen mit einem flüssigen Schokoladenkern."
+        }
+      }
+    },
+    {
+      "id": "Copa Turrón",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 6.80,
+      "translations": {
+        "es": {
+          "title": "Copa Turrón",
+          "description": "Crema helada de turrón con salsa de caramelo y crocanti de almendra."
+        },
+        "en": {
+          "title": "Copa Turrón",
+          "description": "Turrón ice cream with caramel sauce and almond crunch."
+        },
+        "de": {
+          "title": "Turrón-Becher",
+          "description": "Turrón-Eiscreme mit Karamellsauce und Mandelkrokant."
+        }
+      }
+    },
+    {
+      "id": "Punky, Barry y Vacky",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 4.95,
+      "translations": {
+        "es": { "title": "Punky, Barry y Vacky", "description": "Cremoso helado de vainilla." },
+        "en": { "title": "Punky, Barry y Vacky", "description": "Creamy vanilla ice cream." },
+        "de": { "title": "Punky, Barry und Vacky", "description": "Cremiges Vanilleeis." }
+      }
+    },
+    {
+      "id": "Copa al Gusto",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 5.50,
+      "translations": {
+        "es": {
+          "title": "Copa al Gusto",
+          "description": "Todo un clásico de las copas: delicioso helado de vainilla, fresa y chocolate ¿Te podrás resistir?"
+        },
+        "en": {
+          "title": "Copa al Gusto",
+          "description": "An ice-cream classic: a scoop each of delicious vanilla, strawberry and chocolate. Bet you can't resist it!"
+        },
+        "de": {
+          "title": "Eisbecher nach Wahl",
+          "description": "Ein echter Klassiker: köstliches Vanille-, Erdbeer- und Schokoladeneis. Kannst du widerstehen?"
+        }
+      }
+    },
+    {
+      "id": "Tarta Gran Hotel",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 4.80,
+      "translations": {
+        "es": {
+          "title": "Tarta Gran Hotel",
+          "description": "Exquisita tarta helada de nata, vainilla y turrón, sobre base de bizcocho y decorado con almendras y cerezas."
+        },
+        "en": {
+          "title": "Tarta Gran Hotel",
+          "description": "An exquisite ice cream cake made of cream, vanilla and turrón, on a sponge cake base and decorated with almonds and cherries."
+        },
+        "de": {
+          "title": "Gran Hotel Torte",
+          "description": "Exquisite Eistorte aus Sahne, Vanille und Turrón auf Biskuitboden, dekoriert mit Mandeln und Kirschen."
+        }
+      }
+    },
+    {
+      "id": "Tarta Sacher",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 4.80,
+      "translations": {
+        "es": {
+          "title": "Tarta Sacher",
+          "description": "Bizcocho de chocolate con mermelada de albaricoque, recubierto por una capa de chocolate negro glaseado."
+        },
+        "en": {
+          "title": "Tarta Sacher",
+          "description": "Chocolate sponge with apricot jam, covered with a layer of dark chocolate icing."
+        },
+        "de": {
+          "title": "Sachertorte",
+          "description": "Schokoladenbiskuit mit Aprikosenmarmelade, überzogen mit dunkler Schokoladenglasur."
+        }
+      }
+    },
+    {
+      "id": "Limón Helado",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 5.50,
+      "translations": {
+        "es": {
+          "title": "Limón Helado",
+          "description": "Refrescante helado de limón en su corteza natural."
+        },
+        "en": {
+          "title": "Limón Helado",
+          "description": "Refreshing lemon ice cream, in its natural skin."
+        },
+        "de": {
+          "title": "Gefrorene Zitrone",
+          "description": "Erfrischendes Zitroneneis in der natürlichen Fruchtschale."
+        }
+      }
+    },
+    {
+      "id": "Naranja Helada",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 5.50,
+      "translations": {
+        "es": {
+          "title": "Naranja Helada",
+          "description": "Helado de naranja presentado en su corteza natural."
+        },
+        "en": {
+          "title": "Naranja Helada",
+          "description": "Orange ice cream, presented in its natural skin."
+        },
+        "de": {
+          "title": "Gefrorene Orange",
+          "description": "Orangeneis, serviert in der natürlichen Fruchtschale."
+        }
+      }
+    },
+    {
+      "id": "Mini Nórdica",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 4.50,
+      "translations": {
+        "es": {
+          "title": "Mini Nórdica",
+          "description": "Mini tartita de nata con crujientes láminas de chocolate en su interior."
+        },
+        "en": {
+          "title": "Mini Nórdica",
+          "description": "Mini tartlet cream with crunchy chocolate foil inside."
+        },
+        "de": {
+          "title": "Mini Nórdica",
+          "description": "Mini-Sahnetörtchen mit knusprigen Schokoladenplättchen im Inneren."
+        }
+      }
+    },
+    {
+      "id": "Helado Frito con Miel",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 5.30,
+      "translations": {
+        "es": { "title": "Helado Frito con Miel", "description": "" },
+        "en": { "title": "Fried Ice cream with Honey", "description": "" },
+        "de": { "title": "Frittiertes Eis mit Honig", "description": "" }
+      }
+    },
+    {
+      "id": "Helado con Nueces",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 5.50,
+      "translations": {
+        "es": { "title": "Helado con Nueces", "description": "" },
+        "en": { "title": "Ice cream with Walnuts", "description": "" },
+        "de": { "title": "Eis mit Walnüssen", "description": "" }
+      }
+    },
+    {
+      "id": "Bola Helado",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 3.50,
+      "translations": {
+        "es": { "title": "Bola Helado", "description": "" },
+        "en": { "title": "Ice cream ball", "description": "" },
+        "de": { "title": "Eiskugel", "description": "" }
+      }
+    },
+    {
+      "id": "Postre de Fruta Frita",
+      "category": {
+        "es": "Postres",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      "price": 6.50,
+      "translations": {
+        "es": {
+          "title": "Platano/ Piña / Manzana Frita con Miel y Helado",
+          "description": ""
+        },
+        "en": {
+          "title": "Fried Banana / Apple / Pineapple with Honey and Ice cream",
+          "description": ""
+        },
+        "de": {
+          "title": "Frittierte Banane / Apfel / Ananas mit Honig und Eis",
+          "description": ""
+        }
+      }
+    }
+  ]
+}

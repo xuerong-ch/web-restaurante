@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Imperial - Restaurante Hongkong</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-container": "#802c25",
+                        "surface-variant": "#e4e3db",
+                        "surface-container": "#f0eee6",
+                        "tertiary-fixed": "#ffdad5",
+                        "on-tertiary-fixed": "#410001",
+                        "on-secondary-fixed-variant": "#574500",
+                        "surface": "#fbf9f1",
+                        "secondary": "#735c00",
+                        "tertiary": "#611611",
+                        "primary-fixed": "#ffdad7",
+                        "tertiary-fixed-dim": "#ffb4aa",
+                        "secondary-fixed": "#ffe088",
+                        "on-primary-fixed": "#410005",
+                        "on-primary-container": "#ff9d98",
+                        "on-tertiary-fixed-variant": "#7e2b23",
+                        "on-error-container": "#93000a",
+                        "primary": "#6b000e",
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-container": "#fed65b",
+                        "surface-dim": "#dcdad2",
+                        "primary-container": "#960018",
+                        "surface-container-high": "#eae8e0",
+                        "primary-fixed-dim": "#ffb3af",
+                        "on-surface": "#1b1c17",
+                        "surface-container-highest": "#e4e3db",
+                        "outline-variant": "#e2bebb",
+                        "inverse-primary": "#ffb3af",
+                        "error": "#ba1a1a",
+                        "surface-container-low": "#f5f4ec",
+                        "on-secondary-fixed": "#241a00",
+                        "outline": "#8e706e",
+                        "on-secondary-container": "#745c00",
+                        "inverse-surface": "#30312c",
+                        "on-primary-fixed-variant": "#930017",
+                        "background": "#fbf9f1",
+                        "on-background": "#1b1c17",
+                        "on-secondary": "#ffffff",
+                        "on-surface-variant": "#5a403f",
+                        "surface-tint": "#b6212b",
+                        "on-tertiary": "#ffffff",
+                        "on-tertiary-container": "#ff9d92",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#e9c349",
+                        "on-primary": "#ffffff",
+                        "surface-bright": "#fbf9f1",
+                        "inverse-on-surface": "#f3f1e9"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0px",
+                        "lg": "0px",
+                        "xl": "0px",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+        }
+        .serif-italic { font-family: 'Noto Serif', serif; font-style: italic; }
+        .letter-spacing-tight { letter-spacing: -0.02em; }
+        .letter-spacing-wide { letter-spacing: 0.1em; }
+        .crimson-gradient {
+            background: radial-gradient(circle, #6b000e 0%, #960018 100%);
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #fbf9f1; }
+        ::-webkit-scrollbar-thumb { background: #960018; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-primary">
+<!-- Sidebar Navigation (Desktop) -->
+<aside class="hidden md:flex flex-col justify-between py-12 px-8 h-screen w-64 fixed left-0 top-0 bg-[#fbf9f1] dark:bg-stone-950">
+<div class="flex flex-col space-y-12">
+<div class="space-y-1">
+<h1 class="text-3xl font-serif text-[#6b000e] dark:text-red-800 tracking-tighter">The Imperial</h1>
+<p class="uppercase tracking-widest font-sans Manrope text-xs text-on-surface-variant">Editorial</p>
+</div>
+<nav class="flex flex-col space-y-6">
+<a class="text-[#960018] dark:text-red-500 font-bold border-b-2 border-[#e9c349] pb-1 uppercase tracking-widest text-xs" href="#portada">Portada</a>
+<a class="text-[#1b1c17] dark:text-stone-400 opacity-70 hover:opacity-100 transition-opacity hover:text-[#735c00] uppercase tracking-widest text-xs" href="#starters">Starters</a>
+<a class="text-[#1b1c17] dark:text-stone-400 opacity-70 hover:opacity-100 transition-opacity hover:text-[#735c00] uppercase tracking-widest text-xs" href="#mains">Mains</a>
+<a class="text-[#1b1c17] dark:text-stone-400 opacity-70 hover:opacity-100 transition-opacity hover:text-[#735c00] uppercase tracking-widest text-xs" href="#desserts">Desserts</a>
+</nav>
+</div>
+<div class="flex flex-col space-y-4">
+<div class="flex space-x-4">
+<button class="text-xs font-label uppercase tracking-widest hover:text-secondary transition-colors">ES</button>
+<button class="text-xs font-label uppercase tracking-widest opacity-40 hover:text-secondary transition-colors">EN</button>
+<button class="text-xs font-label uppercase tracking-widest opacity-40 hover:text-secondary transition-colors">DE</button>
+</div>
+<img alt="The Imperial Editorial Logo" class="w-12 h-12 grayscale opacity-80" data-alt="Traditional red ink wax seal with Chinese calligraphy characters on textured aged paper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCawTRP70oUF9pPrLtvW1D5ch1vEO3t0D1IlhsdAjsq_5cYkMSykchVay8d4nCidIpENQyHHNdzBQXp7wMKCtE5lFvMvfJMpltN0AiinZMkU_T_PRdQn34vjA7qnbQj0uE1-75wjQZUJkz7IUI4TX26k8pBHj7M4AxdSzUie3CLzsZYjIT6xN_Fk2LTMYiC2dLeQXiGcmI19IJpAXfNEXNBtQ03gPlWDYUENKkPYp7Il3ifIzAzFGBL5mjwfgMFsloTESY8WxBqwVI"/>
+</div>
+</aside>
+<!-- Top App Bar (Mobile) -->
+<header class="flex md:hidden justify-between items-center px-6 py-4 w-full bg-[#fbf9f1]/85 dark:bg-stone-950/85 backdrop-blur-xl sticky top-0 z-50 border-b border-[#8e706e]/15">
+<h2 class="text-xl font-serif text-[#6b000e] dark:text-red-800">The Imperial</h2>
+<button class="text-[#960018]">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<main class="md:pl-64">
+<!-- Section: Portada (Hero) -->
+<section class="relative h-screen flex items-center overflow-hidden" id="portada">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="Cinematic wide shot of a traditional luxury Hong Kong dining room with red silk lanterns, dark wood paneling, and soft atmospheric steam rising" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPB0OXaQQI3SObocjP9DUP8IBmdVfpJe6GUJhOXagne0FnFXs-Q_91x4yhMYBvXDBKscXoUrv6iKh30Df62OcJaUsuy6PdIRWe-XM00kSpjWZiiwrLiexGMDmolGlJqUfFBcYavN-u-AqZsock20GXM-G5YVM8WL13ECo4sypsN3-R7mGGsbR_XGN7uCdN0t_FX8kOYwvIMj-L2Yh_x5YhM-6oZea8uzWBmMd0kHb4D_-Nt1qtxUrumLDv20bqEVtIC9lXm2EBPGs"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface via-transparent to-transparent opacity-90 md:opacity-100"></div>
+</div>
+<div class="relative z-10 px-8 md:px-20 max-w-4xl">
+<span class="text-secondary font-label uppercase tracking-[0.3em] text-xs mb-4 block">Hong Kong Legacy</span>
+<h1 class="text-6xl md:text-8xl font-serif italic text-primary leading-tight mb-6 letter-spacing-tight">El Ritual del Sabor Imperial</h1>
+<p class="text-on-surface-variant text-lg md:text-xl font-body max-w-md leading-relaxed mb-12">
+                    Una crónica gastronómica que trasciende fronteras. La herencia de la Dinastía Qing reimaginada en el corazón de la modernidad.
+                </p>
+<div class="flex items-center space-x-8">
+<button class="bg-primary-container text-on-primary px-10 py-4 font-label uppercase tracking-widest text-xs hover:bg-primary transition-all duration-500">
+                        Explorar Menú
+                    </button>
+<div class="hidden md:block h-px w-24 bg-outline-variant"></div>
+<span class="hidden md:block text-xs font-label uppercase tracking-widest text-outline">Est. 1924</span>
+</div>
+</div>
+<!-- Vertical Decoration -->
+<div class="absolute right-12 bottom-0 h-1/2 w-px bg-secondary-fixed-dim hidden lg:block opacity-40"></div>
+</section>
+<!-- Section: Starters (Entrantes) -->
+<section class="py-24 px-8 md:px-20 bg-surface" id="starters">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<div class="max-w-xl">
+<span class="text-secondary font-label uppercase tracking-[0.2em] text-[10px] mb-2 block">— Capítulo I</span>
+<h2 class="text-4xl md:text-5xl font-serif italic text-on-surface">Starters &amp; Dim Sum</h2>
+</div>
+<p class="text-on-surface-variant font-body italic text-sm md:text-base max-w-xs text-right">
+                    Pequeños bocados de seda diseñados para despertar los sentidos del comensal.
+                </p>
+</div>
+<!-- Featured Dish -->
+<div class="grid md:grid-cols-2 gap-16 items-center mb-24">
+<div class="order-2 md:order-1">
+<span class="text-secondary font-label uppercase tracking-[0.1em] text-[10px] mb-4 block">Recomendado</span>
+<h3 class="text-3xl font-serif text-primary mb-4">Har Gow de Langosta Real</h3>
+<p class="text-on-surface-variant font-body mb-8 leading-relaxed">
+                        Transparente y delicada masa de almidón de trigo rellena de langosta fresca del Mar de China, jengibre joven y un toque de oro comestible.
+                    </p>
+<div class="flex items-baseline space-x-4">
+<span class="text-2xl font-serif text-on-surface">18</span>
+<span class="text-[10px] font-label uppercase tracking-widest text-on-surface-variant">Euros</span>
+</div>
+</div>
+<div class="order-1 md:order-2">
+<img class="w-full aspect-[4/5] object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Close-up of three delicate shrimp dumplings in a bamboo steamer with soft steam rising and dark atmospheric background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2cefaJik7Pv5BRmcHjOPtCN6aVxO7U0MeuJrrzNPqCxyjqx10ldP5616k5SkNiFwmUjZ9qgfz_mQYq_W0WXf8eZziqBlGdzJ36sBonlr9UZG5BMGryzRiouHZ9iV7D6yfYOEvGmTT5FIRtVUaCMc4zdb1NuGFMTpMD9OpaSxjeJFa6V5kpWqwbMf-58SqT5_72NPo9QdxDhN_6k2I3nRvp02NrWUSKT_ud4tLI9amKzmHY0H2FoF8gSsx7hvh-5DpCJ8QS1yxW4c"/>
+</div>
+</div>
+<!-- List of Starters -->
+<div class="space-y-12">
+<div class="flex flex-col md:flex-row md:items-baseline justify-between py-6 border-b border-outline-variant/15">
+<div class="max-w-md">
+<h4 class="text-xl font-serif text-on-surface mb-1">Siu Mai Tradicional</h4>
+<p class="text-sm text-on-surface-variant font-body">Cerdo ibérico, setas shiitake y huevas de pez volador.</p>
+</div>
+<span class="text-lg font-serif text-secondary mt-2 md:mt-0">14</span>
+</div>
+<div class="flex flex-col md:flex-row md:items-baseline justify-between py-6 border-b border-outline-variant/15">
+<div class="max-w-md">
+<h4 class="text-xl font-serif text-on-surface mb-1">Rollos de Primavera Imperial</h4>
+<p class="text-sm text-on-surface-variant font-body">Vegetales de temporada salteados al wok con salsa de ciruela casera.</p>
+</div>
+<span class="text-lg font-serif text-secondary mt-2 md:mt-0">12</span>
+</div>
+<div class="flex flex-col md:flex-row md:items-baseline justify-between py-6 border-b border-outline-variant/15">
+<div class="max-w-md">
+<h4 class="text-xl font-serif text-on-surface mb-1">Wonton de Szechuan</h4>
+<p class="text-sm text-on-surface-variant font-body">Bocadillos de pollo en aceite de chile tostado y sésamo negro.</p>
+</div>
+<span class="text-lg font-serif text-secondary mt-2 md:mt-0">15</span>
+</div>
+</div>
+</section>
+<!-- Section: Mains (Principales) -->
+<section class="py-24 px-8 md:px-20 bg-surface-container-low" id="mains">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<div class="max-w-xl">
+<span class="text-secondary font-label uppercase tracking-[0.2em] text-[10px] mb-2 block">— Capítulo II</span>
+<h2 class="text-4xl md:text-5xl font-serif italic text-on-surface">Principales</h2>
+</div>
+</div>
+<!-- Featured Mains Bento Grid-ish -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-24">
+<div class="md:col-span-7">
+<img class="w-full aspect-video object-cover" data-alt="Traditional Peking Duck carved with crispy skin on a white porcelain plate, garnished with scallions and hoisin sauce" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCi8TTXuCLH0VenSof-ooVmoEEj2kvOhzsVw9C1hAPT8O8Yb7FjVOlLV7XbBzUlCuXueYVNPin3mOODtg0jkk_C-O_IkOf6gQ-zA9TdzJxXG9DqKjshCJb0QwtFOSDrR1P4LoVwnpIE5kYLeU6tvU_6Sxrk8vVSrMQaxAEn0zv9RxqWdGx-FrAMiSfOrXw9g4CpglGPQvLlc2tDSpQ-wJDL3ZVhU8wa_fe3AW8qUs16KZyYLmTnqF_ptjFoKe2AX5ufe_KF4VJoADU"/>
+<div class="mt-8">
+<span class="text-secondary font-label uppercase tracking-[0.1em] text-[10px] mb-4 block">Especialidad de la Casa</span>
+<h3 class="text-4xl font-serif text-primary mb-4">Pato Laqueado Pekín</h3>
+<p class="text-on-surface-variant font-body mb-6 max-w-lg">
+                            Asado durante 24 horas en horno de leña de frutal. Servido con crepes finos, cebolleta, pepino y nuestra salsa secreta Imperial.
+                        </p>
+<span class="text-2xl font-serif text-on-surface">65</span>
+</div>
+</div>
+<div class="md:col-span-5 flex flex-col justify-center">
+<div class="bg-surface p-12 shadow-sm">
+<h3 class="text-2xl font-serif text-on-surface mb-6">Joyas del Wok</h3>
+<div class="space-y-8">
+<div>
+<h4 class="text-lg font-serif text-primary">Solomillo al Estilo Cantonés</h4>
+<p class="text-xs text-on-surface-variant mt-2">Dados de solomillo salteados con pimienta negra y ajo fermentado.</p>
+<p class="text-sm font-serif text-secondary mt-1">32</p>
+</div>
+<div class="h-px bg-outline-variant/20"></div>
+<div>
+<h4 class="text-lg font-serif text-primary">Lubina al Vapor con Soja</h4>
+<p class="text-xs text-on-surface-variant mt-2">Filete de lubina salvaje con jengibre, cilantro y aceite de sésamo caliente.</p>
+<p class="text-sm font-serif text-secondary mt-1">28</p>
+</div>
+<div class="h-px bg-outline-variant/20"></div>
+<div>
+<h4 class="text-lg font-serif text-primary">Bogavante 'Ginger &amp; Scallion'</h4>
+<p class="text-xs text-on-surface-variant mt-2">Bogavante azul salteado al wok con jengibre fresco y cebolleta china.</p>
+<p class="text-sm font-serif text-secondary mt-1">45</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Desserts (Postres) -->
+<section class="py-24 px-8 md:px-20 bg-surface" id="desserts">
+<div class="text-center mb-20">
+<span class="text-secondary font-label uppercase tracking-[0.2em] text-[10px] mb-2 block">— El Epílogo</span>
+<h2 class="text-4xl md:text-5xl font-serif italic text-on-surface">Postres &amp; Tés</h2>
+</div>
+<div class="grid md:grid-cols-3 gap-12">
+<div class="text-center">
+<img class="w-full aspect-square object-cover mb-8" data-alt="Artisanal matcha green tea cake with delicate layers and white chocolate decoration on a minimalist plate" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnIddmccixZA0itoiWcP4ITa23WZsbXUPyEL4N07yhpPVOf3TDnWO9D1SS14kSh4kflHxyHDEeo89jO8KPU0ne4wXImERlCoEWjJtuSeIlERv34PhzOLqOhL22uWU01U3IB0fzJCa5Vwm4706UdagfezoBl8rqlgIx-t0A_Ae69TRBxEtmiLx9xjCTXjDLqQhCCyKJ9r4FsOEq7GkZaLscdjfYI_6-6XHTgMbZMve2rBl2PMcCDiW2AyOMTvmcY29WtHaMtUqPSk0"/>
+<h3 class="text-xl font-serif text-on-surface mb-2">Milhojas de Matcha</h3>
+<p class="text-sm text-on-surface-variant font-body mb-4 px-4">Capas de hojaldre crujiente con crema ligera de té matcha de grado ceremonial.</p>
+<span class="text-lg font-serif text-secondary">10</span>
+</div>
+<div class="text-center">
+<img class="w-full aspect-square object-cover mb-8" data-alt="Golden fried sesame balls coated in seeds, served in a wooden bowl with a warm honey drizzle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCO3je_qYsXxl_59nvXWg9o1AYI-YidB_Zss1imG8ugFlt2xe0RBZCKUFGg1fSPFrB4D1fr4QmSIeWKEFvuPU7MsdVngoOzp0cIGxfwQoE05jKwM6LEcGulw-0RJt0LEwAgAqfZ8dc7TvuAeeqdVsADodxEwcnu_LrRrQ4wGxhx0bWefVqiWgcgOvx5mCjTj-lX6Eo8ztp4xBjwmGF-xjjnjiyNd-3577hhjVbDw9DLIt5gELRMaqd-FVsQPdbHLn_OoFsLHEt_JDw"/>
+<h3 class="text-xl font-serif text-on-surface mb-2">Bolas de Sésamo Calientes</h3>
+<p class="text-sm text-on-surface-variant font-body mb-4 px-4">Mochi de arroz glutinoso relleno de pasta de judía roja dulce.</p>
+<span class="text-lg font-serif text-secondary">8</span>
+</div>
+<div class="text-center">
+<img class="w-full aspect-square object-cover mb-8" data-alt="Traditional Chinese tea ceremony set with porcelain cups and dark loose leaf tea on a wooden tray" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDB98Gulwy4C-GaOXKIBPOPQM27l0pKTQzH6ADhcyCaiV_I9QMUT1aI7JRZb8seFXrFVe6qxEWj75IcfvPlyURCxmCNMYdUXuFDyRaDWCEJtCzN2ZuJ7rvwhbLxKryM4GmeqIc13HyfXXMQeYbDDVuc5GLNv0mizqr5YN4TVEVsfPq6NfYJgWJ4ElMhjSnvrvya9rb4b8TtBZUIkyt1uSHhax-NUZjuAGFvqbZN8miBx5kTRSYyxQRYswynci0N3kvBOD80qUKo0XA"/>
+<h3 class="text-xl font-serif text-on-surface mb-2">Selección de Té Imperial</h3>
+<p class="text-sm text-on-surface-variant font-body mb-4 px-4">Tés raros recolectados en las montañas de Yunnan, servidos en ceremonia.</p>
+<span class="text-lg font-serif text-secondary">12</span>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#eae8e0] dark:bg-stone-900 full-width py-12 flex flex-col items-center justify-center space-y-4 w-full">
+<div class="flex space-x-8 mb-4">
+<a class="font-sans Manrope text-[10px] uppercase tracking-[0.2em] text-[#5a403f] hover:text-[#1b1c17] transition-colors" href="#">Privacy</a>
+<a class="font-sans Manrope text-[10px] uppercase tracking-[0.2em] text-[#5a403f] hover:text-[#1b1c17] transition-colors" href="#">Terms</a>
+<a class="font-sans Manrope text-[10px] uppercase tracking-[0.2em] text-[#5a403f] hover:text-[#1b1c17] transition-colors" href="#">Contact</a>
+</div>
+<p class="font-sans Manrope text-[10px] uppercase tracking-[0.2em] text-on-surface-variant">© 2024 The Imperial Editorial. All Rights Reserved.</p>
+</footer>
+</main>
+<!-- Floating Reservation Button -->
+<button class="fixed bottom-10 right-10 z-40 bg-primary text-on-primary w-20 h-20 shadow-[0_0_32px_rgba(107,0,14,0.15)] flex flex-col items-center justify-center group hover:bg-primary-container transition-all duration-500">
+<span class="material-symbols-outlined text-2xl mb-1 group-hover:scale-110 transition-transform">calendar_month</span>
+<span class="text-[8px] font-label uppercase tracking-widest">Reserva</span>
+</button>
+</body></html>

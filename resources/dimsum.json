@@ -1,0 +1,308 @@
+{
+  "items": [
+    {
+      "id": "item-001",
+      "category": "dim_sum",
+      "price": 5.50,
+      "translations": {
+        "es": {
+          "title": "Sau Mai de Arroz",
+          "description": "Relleno de carne de cerdo, fécula de patata y seta china."
+        },
+        "en": {
+          "title": "Sau Mai de Arroz",
+          "description": "Stuffed with pork, potato starch and chinese mushroom."
+        },
+        "de": {
+          "title": "Reis Siu Mai",
+          "description": "Gefüllt mit Schweinefleisch, Kartoffelstärke und chinesischen Pilzen."
+        }
+      }
+    },
+    {
+      "id": "item-002",
+      "category": "dim_sum",
+      "price": 4.50,
+      "translations": {
+        "es": {
+          "title": "Shien ló Pao",
+          "description": "Pan Chino Frito relleno de verduras y carne de cerdo."
+        },
+        "en": {
+          "title": "Shien ló Pao",
+          "description": "Chinese bread fried of vegetable and pork."
+        },
+        "de": {
+          "title": "Shien Lo Pao",
+          "description": "Frittiertes chinesisches Brot mit Gemüse- und Schweinefleischfüllung."
+        }
+      }
+    },
+    {
+      "id": "item-003",
+      "category": "dim_sum",
+      "price": 5.50,
+      "translations": {
+        "es": {
+          "title": "Shia Chiao",
+          "description": "Empanadilla rellena de gambas y bambú al vapor."
+        },
+        "en": {
+          "title": "Shia Chiao",
+          "description": "Dumpling stuffed of shrimp and bamboo to the steam."
+        },
+        "de": {
+          "title": "Shia Chiao (Ha Gow)",
+          "description": "Gedämpfte Teigtaschen mit Garnelen- und Bambusfüllung."
+        }
+      }
+    },
+    {
+      "id": "item-004",
+      "category": "dim_sum",
+      "price": 5.50,
+      "translations": {
+        "es": {
+          "title": "Sau Mai",
+          "description": "Rellenos de carne de cerdo y setas al vapor."
+        },
+        "en": {
+          "title": "Sau Mai",
+          "description": "Stuffed whims of pork and mushrooms to the steam."
+        },
+        "de": {
+          "title": "Sau Mai (Siu Mai)",
+          "description": "Gedämpfte Teigtaschen mit Schweinefleisch und Pilzen."
+        }
+      }
+    },
+    {
+      "id": "item-005",
+      "category": "dim_sum",
+      "price": 4.95,
+      "translations": {
+        "es": {
+          "title": "Kuotie",
+          "description": "Empanadilla fritas, rellenas de carne de cerdo y verdura."
+        },
+        "en": {
+          "title": "Kuotie",
+          "description": "Dumpling fried stuffed of meat and vegetable."
+        },
+        "de": {
+          "title": "Kuotie",
+          "description": "Frittierte Teigtaschen gefüllt mit Fleisch und Gemüse."
+        }
+      }
+    },
+    {
+      "id": "item-006",
+      "category": "dim_sum",
+      "price": 4.50,
+      "translations": {
+        "es": {
+          "title": "Siau Long Pao",
+          "description": "Empanadilla con carne de cerdo y col china."
+        },
+        "en": {
+          "title": "Siau Long Pao",
+          "description": "Bun with pork and pakchoi center."
+        },
+        "de": {
+          "title": "Xiao Long Bao",
+          "description": "Teigtaschen mit Schweinefleisch und Pak Choi Füllung."
+        }
+      }
+    },
+    {
+      "id": "item-007",
+      "category": "dim_sum",
+      "price": 5.50,
+      "translations": {
+        "es": {
+          "title": "Sau Mai de 4 estaciones",
+          "description": "Rellenos de pollo y verduras la vapor."
+        },
+        "en": {
+          "title": "Four Seasons Sau Mai",
+          "description": "Four seasons of chicken and steamed vegetables."
+        },
+        "de": {
+          "title": "Vier Jahreszeiten Sau Mai",
+          "description": "Gedämpfte Teigtaschen mit Hähnchen und Gemüse."
+        }
+      }
+    },
+    {
+      "id": "item-008",
+      "category": "dim_sum",
+      "price": 5.50,
+      "translations": {
+        "es": {
+          "title": "Gyozas de pollo a la plancha",
+          "description": "Empanadillas rellenas de carne de pollo, cebolletas y col."
+        },
+        "en": {
+          "title": "Grilled Chicken Gyoza",
+          "description": "Dumpling stuffed with chicken, chives and cabbage."
+        },
+        "de": {
+          "title": "Hähnchen-Gyoza",
+          "description": "Gebratene Teigtaschen gefüllt mit Hähnchen, Frühlingszwiebeln und Kohl."
+        }
+      }
+    },
+    {
+      "id": "item-009",
+      "category": "dim_sum",
+      "price": 5.50,
+      "translations": {
+        "es": {
+          "title": "Empanadillas vegetales Shuijing",
+          "description": "Empanadillas rellenas de verduras chinas con setas y bambú."
+        },
+        "en": {
+          "title": "Shuijing Vegetable Dumplings",
+          "description": "Chinese vegetable crystal with mushroom and bamboo."
+        },
+        "de": {
+          "title": "Vegetarische Shuijing Teigtaschen",
+          "description": "Chinesische Kristall-Teigtaschen mit Gemüse, Pilzen und Bambus."
+        }
+      }
+    },
+    {
+      "id": "item-010",
+      "category": "dim_sum",
+      "price": 6.50,
+      "translations": {
+        "es": {
+          "title": "Albóndigas de sepia y gambas",
+          "description": "Bolitas hechas a base de sepia y gambas."
+        },
+        "en": {
+          "title": "Cuttlefish and Prawn Meatballs",
+          "description": "Meatballs with cuttlefish and prawns."
+        },
+        "de": {
+          "title": "Tintenfisch- und Garnelenbällchen",
+          "description": "Bällchen hergestellt aus Tintenfisch und Garnelen."
+        }
+      }
+    },
+    {
+      "id": "item-011",
+      "category": "dim_sum",
+      "price": 4.50,
+      "translations": {
+        "es": {
+          "title": "Samosa",
+          "description": "Empanadillas de pollo al curry."
+        },
+        "en": {
+          "title": "Samosa",
+          "description": "Samosa of chicken to curry."
+        },
+        "de": {
+          "title": "Samosa",
+          "description": "Teigtaschen mit Hähnchen-Curry."
+        }
+      }
+    },
+    {
+      "id": "item-012",
+      "category": "dim_sum",
+      "price": 5.60,
+      "translations": {
+        "es": {
+          "title": "Sau Mai de marisco",
+          "description": "Caprichos rellenos de sepia, gambas y verduras."
+        },
+        "en": {
+          "title": "Seafood Sau Mai",
+          "description": "Dumpling stuffed with cuttlefish, shrimp and vegetables."
+        },
+        "de": {
+          "title": "Meeresfrüchte Sau Mai",
+          "description": "Köstlichkeiten gefüllt mit Tintenfisch, Garnelen und Gemüse."
+        }
+      }
+    },
+    {
+      "id": "item-013",
+      "category": "dim_sum",
+      "price": 5.50,
+      "translations": {
+        "es": {
+          "title": "Ensalada de algas wakame",
+          "description": "Combinado de algas, cortadas en finas tiras y listas para consumir."
+        },
+        "en": {
+          "title": "Wakame Seaweed Salad",
+          "description": "Seaweed salad mix and cut into thin strips ready to eat."
+        },
+        "de": {
+          "title": "Wakame-Algensalat",
+          "description": "Algenmischung, in feine Streifen geschnitten und servierfertig."
+        }
+      }
+    },
+    {
+      "id": "item-014",
+      "category": "dim_sum",
+      "price": 5.60,
+      "translations": {
+        "es": {
+          "title": "Combinado 1: Sau Mai",
+          "description": "Sau Mai de cerdo, Sau Mai de arroz, Sau Mai cuatro estaciones y Sau Mai de marisco."
+        },
+        "en": {
+          "title": "Combo 1: Sau Mai",
+          "description": "Pork Sau Mai, Rice Sau Mai, Four Seasons Sau Mai and Seafood Sau Mai."
+        },
+        "de": {
+          "title": "Kombination 1: Sau Mai",
+          "description": "Schwein-, Reis-, Vier-Jahreszeiten- und Meeresfrüchte-Sau-Mai."
+        }
+      }
+    },
+    {
+      "id": "item-015",
+      "category": "dim_sum",
+      "price": 9.50,
+      "translations": {
+        "es": {
+          "title": "Combinado 2: Vapor",
+          "description": "Combinado 1, Shia Chiao, Siau Long Pao, Capricho de gambas, Cristal de verduras."
+        },
+        "en": {
+          "title": "Combo 2: Steam",
+          "description": "Combo 1, Shia Chiao, Siau Long Pao, Shrimp Whim, Vegetable Crystal."
+        },
+        "de": {
+          "title": "Kombination 2: Dampf",
+          "description": "Kombination 1, Shia Chiao, Xiao Long Bao, Garnelen-Häppchen, Kristall-Gemüse."
+        }
+      }
+    },
+    {
+      "id": "item-016",
+      "category": "dim_sum",
+      "price": 9.50,
+      "translations": {
+        "es": {
+          "title": "Combinado 3: Fritos",
+          "description": "Bolitas de dragón, Kuotie Atadito vegetal y Samosa."
+        },
+        "en": {
+          "title": "Combo 3: Fried",
+          "description": "Dragon balls, Kuotie, Vegetable knot and Samosa."
+        },
+        "de": {
+          "title": "Kombination 3: Frittiert",
+          "description": "Drachenbällchen, Kuotie, Gemüse-Säckchen und Samosa."
+        }
+      }
+    }
+  ]
+}
