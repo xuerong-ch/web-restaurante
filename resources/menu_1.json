@@ -14,7 +14,11 @@
           "description": ""
         },
         "de": {
-          "title": "Garnele Cracker",
+          "title": "Krabbenchips",
+          "description": ""
+        },
+        "cn": {
+          "title": "虾片",
           "description": ""
         }
       }
@@ -33,7 +37,11 @@
           "description": ""
         },
         "de": {
-          "title": "Brat Garnelen mit sesame",
+          "title": "Gebratene Garnelen mit Sesam",
+          "description": ""
+        },
+        "cn": {
+          "title": "芝麻炸虾",
           "description": ""
         }
       }
@@ -52,7 +60,11 @@
           "description": ""
         },
         "de": {
-          "title": "Teig-Brat Garnelen",
+          "title": "Garnelen im Teigmantel",
+          "description": ""
+        },
+        "cn": {
+          "title": "炸大虾",
           "description": ""
         }
       }
@@ -73,6 +85,10 @@
         "de": {
           "title": "Frühlingsrollen (2)",
           "description": ""
+        },
+        "cn": {
+          "title": "春卷 (2)",
+          "description": ""
         }
       }
     },
@@ -90,7 +106,11 @@
           "description": ""
         },
         "de": {
-          "title": "Chinese brot",
+          "title": "Chinesisches Brot",
+          "description": ""
+        },
+        "cn": {
+          "title": "炸馒头",
           "description": ""
         }
       }
@@ -109,7 +129,11 @@
           "description": ""
         },
         "de": {
-          "title": "Brat wan-tun",
+          "title": "Gebackene Wan-Tan",
+          "description": ""
+        },
+        "cn": {
+          "title": "炸云吞",
           "description": ""
         }
       }
@@ -128,7 +152,11 @@
           "description": ""
         },
         "de": {
-          "title": "Satay Huhn Spieße",
+          "title": "Satay-Hähnchenspieße",
+          "description": ""
+        },
+        "cn": {
+          "title": "沙爹鸡肉串",
           "description": ""
         }
       }
@@ -147,7 +175,11 @@
           "description": ""
         },
         "de": {
-          "title": "Knusprig Ente mit Pfannkuchen",
+          "title": "Knusprige Ente mit Pfannkuchen",
+          "description": ""
+        },
+        "cn": {
+          "title": "香酥鸭配薄饼",
           "description": ""
         }
       }
@@ -166,7 +198,11 @@
           "description": ""
         },
         "de": {
-          "title": "Rippen mit Kapital Soße",
+          "title": "Rippchen in Capital-Sauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "京都排骨",
           "description": ""
         }
       }
@@ -185,7 +221,11 @@
           "description": ""
         },
         "de": {
-          "title": "Rippen mit Salz und Pfeffer",
+          "title": "Rippchen mit Salz und Pfeffer",
+          "description": ""
+        },
+        "cn": {
+          "title": "椒盐排骨",
           "description": ""
         }
       }
@@ -204,7 +244,11 @@
           "description": ""
         },
         "de": {
-          "title": "Brat Huhn Flügel mit Salz und Pfeffer",
+          "title": "Gebratene Hähnchenflügel mit Salz und Pfeffer",
+          "description": ""
+        },
+        "cn": {
+          "title": "椒盐鸡翅",
           "description": ""
         }
       }
@@ -223,8 +267,12 @@
           "description": "(2 people, Thai rolls, shrimp rolls, ribs, chicken skewers, chicken wings and fried shrimp)"
         },
         "de": {
-          "title": "Abwechslungsreiche Vorspeisen",
-          "description": "(2 Menschen, Thai Rollen, Garnele Rollen, Rippen, Huhn Spieß, Huhn Flügel und Garnelen)"
+          "title": "Vorspeisenplatte",
+          "description": "Für 2 Personen: Thai-Frühlingsrollen, Garnelenrollen, Rippchen, Hähnchenspieße, Hähnchenflügel und Garnelen im Teigmantel"
+        },
+        "cn": {
+          "title": "什锦拼盘",
+          "description": "(2人份，泰式春卷，虾卷，排骨，鸡肉串，鸡翅和炸虾)"
         }
       }
     },
@@ -242,7 +290,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Garnelen mit Knoblauch",
+          "title": "Garnelen in Knoblauch",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板蒜蓉虾",
           "description": ""
         }
       }
@@ -261,7 +313,11 @@
           "description": ""
         },
         "de": {
-          "title": "Thai Rollen",
+          "title": "Thai-Frühlingsrollen",
+          "description": ""
+        },
+        "cn": {
+          "title": "泰式春卷",
           "description": ""
         }
       }
@@ -280,7 +336,11 @@
           "description": ""
         },
         "de": {
-          "title": "Garnele Rollen",
+          "title": "Garnelenrollen",
+          "description": ""
+        },
+        "cn": {
+          "title": "虾卷",
           "description": ""
         }
       }
@@ -299,7 +359,11 @@
           "description": ""
         },
         "de": {
-          "title": "Bangkok Rippen",
+          "title": "Rippchen Bangkok-Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "曼谷排骨",
           "description": ""
         }
       }
@@ -318,7 +382,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn Suppe mit Korn",
+          "title": "Hühnersuppe mit Mais",
+          "description": ""
+        },
+        "cn": {
+          "title": "玉米鸡肉汤",
           "description": ""
         }
       }
@@ -337,7 +405,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn Suppe mit Nudeln",
+          "title": "Hühnernudelsuppe",
+          "description": ""
+        },
+        "cn": {
+          "title": "鸡肉面汤",
           "description": ""
         }
       }
@@ -356,7 +428,11 @@
           "description": ""
         },
         "de": {
-          "title": "Wanton Suppe",
+          "title": "Wan-Tan-Suppe",
+          "description": ""
+        },
+        "cn": {
+          "title": "云吞汤",
           "description": ""
         }
       }
@@ -375,7 +451,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gemüse Suppe",
+          "title": "Gemüsesuppe",
+          "description": ""
+        },
+        "cn": {
+          "title": "蔬菜汤",
           "description": ""
         }
       }
@@ -394,7 +474,11 @@
           "description": ""
         },
         "de": {
-          "title": "Süß und sauer Suppe",
+          "title": "Sauer-Scharf-Suppe",
+          "description": ""
+        },
+        "cn": {
+          "title": "酸辣汤",
           "description": ""
         }
       }
@@ -413,7 +497,11 @@
           "description": ""
         },
         "de": {
-          "title": "Knusprig Huhn mit Pfeffer and Salz",
+          "title": "Knuspriges Hähnchen mit Salz und Pfeffer",
+          "description": ""
+        },
+        "cn": {
+          "title": "椒盐脆皮鸡",
           "description": ""
         }
       }
@@ -432,7 +520,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn mit Bambus und chinese Pilze",
+          "title": "Hähnchen mit Bambus und chinesischen Pilzen",
+          "description": ""
+        },
+        "cn": {
+          "title": "双冬鸡 (竹笋香菇鸡)",
           "description": ""
         }
       }
@@ -451,7 +543,11 @@
           "description": ""
         },
         "de": {
-          "title": "Curry Huhn",
+          "title": "Hähnchen-Curry",
+          "description": ""
+        },
+        "cn": {
+          "title": "咖喱鸡",
           "description": ""
         }
       }
@@ -470,7 +566,11 @@
           "description": ""
         },
         "de": {
-          "title": "Knusprig Huhn mit Chili und süß und sauer Soße",
+          "title": "Knuspriges Hähnchen mit Chili und Süß-Sauer-Sauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "甜酸辣脆皮鸡",
           "description": ""
         }
       }
@@ -489,7 +589,11 @@
           "description": ""
         },
         "de": {
-          "title": "Süß und sauer Huhn",
+          "title": "Hähnchen süß-sauer",
+          "description": ""
+        },
+        "cn": {
+          "title": "咕噜鸡 (甜酸鸡)",
           "description": ""
         }
       }
@@ -508,7 +612,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn mit Würzig Soße",
+          "title": "Hähnchen in pikanter Sauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "辣酱鸡",
           "description": ""
         }
       }
@@ -527,7 +635,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn mit satay Soße",
+          "title": "Hähnchen in Satay-Sauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "沙爹鸡",
           "description": ""
         }
       }
@@ -546,7 +658,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn mit schwarze Bohne Soße",
+          "title": "Hähnchen in Schwarzbohnensauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "豉汁鸡",
           "description": ""
         }
       }
@@ -565,7 +681,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Huhn mit black Pfeffer Soße",
+          "title": "Gegrilltes Hähnchen mit schwarzer Pfeffersauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板黑椒鸡",
           "description": ""
         }
       }
@@ -584,7 +704,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Huhn mit Canton Soße",
+          "title": "Gegrilltes Hähnchen nach Kanton-Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板广东鸡",
           "description": ""
         }
       }

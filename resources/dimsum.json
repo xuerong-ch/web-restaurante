@@ -14,8 +14,12 @@
           "description": "Stuffed with pork, potato starch and chinese mushroom."
         },
         "de": {
-          "title": "Reis Siu Mai",
+          "title": "Siu Mai mit Reis",
           "description": "Gefüllt mit Schweinefleisch, Kartoffelstärke und chinesischen Pilzen."
+        },
+        "cn": {
+          "title": "糯米烧卖",
+          "description": "馅料为猪肉、土豆淀粉和香菇。"
         }
       }
     },
@@ -34,7 +38,11 @@
         },
         "de": {
           "title": "Shien Lo Pao",
-          "description": "Frittiertes chinesisches Brot mit Gemüse- und Schweinefleischfüllung."
+          "description": "Frittiertes chinesisches Brot mit Gemüse und Schweinefleisch."
+        },
+        "cn": {
+          "title": "生煎包",
+          "description": "煎炸的中国包子，馅料为蔬菜和猪肉。"
         }
       }
     },
@@ -54,6 +62,10 @@
         "de": {
           "title": "Shia Chiao (Ha Gow)",
           "description": "Gedämpfte Teigtaschen mit Garnelen- und Bambusfüllung."
+        },
+        "cn": {
+          "title": "虾饺",
+          "description": "蒸制的水晶虾饺，内含虾仁和竹笋。"
         }
       }
     },
@@ -71,8 +83,12 @@
           "description": "Stuffed whims of pork and mushrooms to the steam."
         },
         "de": {
-          "title": "Sau Mai (Siu Mai)",
+          "title": "Siu Mai",
           "description": "Gedämpfte Teigtaschen mit Schweinefleisch und Pilzen."
+        },
+        "cn": {
+          "title": "烧卖",
+          "description": "蒸制的猪肉香菇馅点心。"
         }
       }
     },
@@ -92,6 +108,10 @@
         "de": {
           "title": "Kuotie",
           "description": "Frittierte Teigtaschen gefüllt mit Fleisch und Gemüse."
+        },
+        "cn": {
+          "title": "锅贴",
+          "description": "煎饺，馅料为肉和蔬菜。"
         }
       }
     },
@@ -111,6 +131,10 @@
         "de": {
           "title": "Xiao Long Bao",
           "description": "Teigtaschen mit Schweinefleisch und Pak Choi Füllung."
+        },
+        "cn": {
+          "title": "小笼包",
+          "description": "猪肉白菜馅小笼包。"
         }
       }
     },
@@ -128,8 +152,12 @@
           "description": "Four seasons of chicken and steamed vegetables."
         },
         "de": {
-          "title": "Vier Jahreszeiten Sau Mai",
+          "title": "Siu Mai Vier Jahreszeiten",
           "description": "Gedämpfte Teigtaschen mit Hähnchen und Gemüse."
+        },
+        "cn": {
+          "title": "四季烧卖",
+          "description": "蒸制的鸡肉和蔬菜馅点心。"
         }
       }
     },
@@ -149,6 +177,10 @@
         "de": {
           "title": "Hähnchen-Gyoza",
           "description": "Gebratene Teigtaschen gefüllt mit Hähnchen, Frühlingszwiebeln und Kohl."
+        },
+        "cn": {
+          "title": "铁板鸡肉饺子",
+          "description": "煎饺，馅料为鸡肉、韭菜和卷心菜。"
         }
       }
     },
@@ -168,6 +200,10 @@
         "de": {
           "title": "Vegetarische Shuijing Teigtaschen",
           "description": "Chinesische Kristall-Teigtaschen mit Gemüse, Pilzen und Bambus."
+        },
+        "cn": {
+          "title": "水晶素饺",
+          "description": "水晶饺子，馅料为蔬菜、香菇和竹笋。"
         }
       }
     },
@@ -187,6 +223,10 @@
         "de": {
           "title": "Tintenfisch- und Garnelenbällchen",
           "description": "Bällchen hergestellt aus Tintenfisch und Garnelen."
+        },
+        "cn": {
+          "title": "墨鱼虾丸",
+          "description": "由墨鱼和虾仁制成的肉丸。"
         }
       }
     },
@@ -206,6 +246,10 @@
         "de": {
           "title": "Samosa",
           "description": "Teigtaschen mit Hähnchen-Curry."
+        },
+        "cn": {
+          "title": "咖喱角",
+          "description": "咖喱鸡肉角。"
         }
       }
     },
@@ -223,8 +267,12 @@
           "description": "Dumpling stuffed with cuttlefish, shrimp and vegetables."
         },
         "de": {
-          "title": "Meeresfrüchte Sau Mai",
+          "title": "Meeresfrüchte Siu Mai",
           "description": "Köstlichkeiten gefüllt mit Tintenfisch, Garnelen und Gemüse."
+        },
+        "cn": {
+          "title": "海鲜烧卖",
+          "description": "馅料为墨鱼、虾仁和蔬菜的烧卖。"
         }
       }
     },
@@ -244,6 +292,10 @@
         "de": {
           "title": "Wakame-Algensalat",
           "description": "Algenmischung, in feine Streifen geschnitten und servierfertig."
+        },
+        "cn": {
+          "title": "裙带菜沙拉",
+          "description": "切成细条的海藻沙拉拌菜，即食。"
         }
       }
     },
@@ -261,8 +313,12 @@
           "description": "Pork Sau Mai, Rice Sau Mai, Four Seasons Sau Mai and Seafood Sau Mai."
         },
         "de": {
-          "title": "Kombination 1: Sau Mai",
-          "description": "Schwein-, Reis-, Vier-Jahreszeiten- und Meeresfrüchte-Sau-Mai."
+          "title": "Dim-Sum-Mix 1: Siu Mai",
+          "description": "Schweinefleisch-, Reis-, Vier Jahreszeiten- und Meeresfrüchte-Siu-Mai."
+        },
+        "cn": {
+          "title": "烧卖组合1",
+          "description": "猪肉烧卖、糯米烧卖、四季烧卖和海鲜烧卖。"
         }
       }
     },
@@ -280,8 +336,12 @@
           "description": "Combo 1, Shia Chiao, Siau Long Pao, Shrimp Whim, Vegetable Crystal."
         },
         "de": {
-          "title": "Kombination 2: Dampf",
-          "description": "Kombination 1, Shia Chiao, Xiao Long Bao, Garnelen-Häppchen, Kristall-Gemüse."
+          "title": "Dim-Sum-Mix 2: Gedämpft",
+          "description": "Mix 1, Shia Chiao, Xiao Long Bao, Garnelen-Häppchen, Kristall-Gemüse."
+        },
+        "cn": {
+          "title": "蒸点组合2",
+          "description": "烧卖组合1、虾饺、小笼包、虾仁烧卖、水晶素饺。"
         }
       }
     },
@@ -299,8 +359,12 @@
           "description": "Dragon balls, Kuotie, Vegetable knot and Samosa."
         },
         "de": {
-          "title": "Kombination 3: Frittiert",
+          "title": "Dim-Sum-Mix 3: Frittiert",
           "description": "Drachenbällchen, Kuotie, Gemüse-Säckchen und Samosa."
+        },
+        "cn": {
+          "title": "炸点组合3",
+          "description": "龙珠、锅贴、蔬菜福袋和咖喱角。"
         }
       }
     }

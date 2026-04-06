@@ -16,6 +16,10 @@
         "de": {
           "title": "Katalanische Creme",
           "description": "Biscuit-Eis mit einer Mischung aus Eigelb und karamellisiertem Zucker."
+        },
+        "cn": {
+          "title": "卡塔兰焦糖奶冻",
+          "description": "带有蛋黄和焦糖的饼干冰淇淋。"
         }
       },
       "image": "/desserts/crema_catalana.png"
@@ -36,6 +40,10 @@
         "de": {
           "title": "Sahne-Nuss-Becher",
           "description": "Sahneeis mit Karamell und leckeren karamellisierten Walnüssen."
+        },
+        "cn": {
+          "title": "奶油核桃冰淇淋杯",
+          "description": "搭配焦糖和美味焦糖核桃的奶油冰淇淋。"
         }
       },
       "image": "/desserts/copa_nata_nueces.png"
@@ -56,6 +64,10 @@
         "de": {
           "title": "Fantástica-Törtchen",
           "description": "Vanille- und Karamelleis, dekoriert mit schokolierten Toffee-Kugeln und Karamellsirup."
+        },
+        "cn": {
+          "title": "奇幻小蛋糕",
+          "description": "香草和焦糖冰淇淋，点缀巧克力太妃球和焦糖糖浆。"
         }
       },
       "image": "/desserts/tarta_fantastica_individual.png"
@@ -76,6 +88,10 @@
         "de": {
           "title": "Biscuit-Flan",
           "description": "Biscuit-Eis garniert mit Pinienkernen und Karamellsauce."
+        },
+        "cn": {
+          "title": "焦糖饼干布丁",
+          "description": "饼干冰淇淋配松子和焦糖酱。"
         }
       },
       "image": "/desserts/flan_biscuit.png"
@@ -96,6 +112,10 @@
         "de": {
           "title": "Trufito",
           "description": "Eiscreme, Sauce und ein knackiger Schokoladenüberzug mit Mandelstückchen."
+        },
+        "cn": {
+          "title": "巧克力松露冰淇淋",
+          "description": "冰淇淋，酱汁和带有杏仁碎的脆皮巧克力涂层。"
         }
       },
       "image": "/desserts/trufito.png"
@@ -116,6 +136,10 @@
         "de": {
           "title": "Kokoseis",
           "description": "Kokoseis mit Kokosraspeln in der natürlichen Kokosnussschale."
+        },
+        "cn": {
+          "title": "椰子冰淇淋",
+          "description": "盛在天然椰壳中的椰丝冰淇淋。"
         }
       },
       "image": "/desserts/coco_helado.png"
@@ -136,6 +160,10 @@
         "de": {
           "title": "Waldfrüchte-Becher",
           "description": "Joghurt-Eis mit köstlicher Waldbeersauce und ganzen Waldbeeren."
+        },
+        "cn": {
+          "title": "森林浆果杯",
+          "description": "酸奶冰淇淋配美味森林浆果酱和整颗浆果。"
         }
       },
       "image": "/desserts/copa_frutas_del_bosque.png"
@@ -156,6 +184,10 @@
         "de": {
           "title": "Zitronensorbet-Becher",
           "description": "Ein erfrischendes Zitronensorbet."
+        },
+        "cn": {
+          "title": "柠檬雪葩杯",
+          "description": "清爽的柠檬雪葩。"
         }
       },
       "image": "/desserts/copa_sorbetes_de_limon.png"
@@ -176,6 +208,10 @@
         "de": {
           "title": "Schokoladen-Coulant",
           "description": "Fluffiger Schokoladenkuchen mit einem flüssigen Schokoladenkern."
+        },
+        "cn": {
+          "title": "熔岩巧克力蛋糕",
+          "description": "松软的巧克力海绵蛋糕，内有液体巧克力夹心。"
         }
       },
       "image": "/desserts/coulant_de_chocolate.png"
@@ -196,6 +232,10 @@
         "de": {
           "title": "Turrón-Becher",
           "description": "Turrón-Eiscreme mit Karamellsauce und Mandelkrokant."
+        },
+        "cn": {
+          "title": "牛轧糖冰淇淋杯",
+          "description": "牛轧糖冰淇淋配焦糖酱和杏仁脆。"
         }
       },
       "image": "/desserts/copa_turron.png"
@@ -216,6 +256,10 @@
         "de": {
           "title": "Punky, Barry und Vacky",
           "description": "Cremiges Vanilleeis."
+        },
+        "cn": {
+          "title": "Punky, Barry和Vacky",
+          "description": "丝滑香草冰淇淋。"
         }
       },
       "image": "/desserts/punky_barry_y_vacky.png"
@@ -236,6 +280,10 @@
         "de": {
           "title": "Eisbecher nach Wahl",
           "description": "Ein echter Klassiker: köstliches Vanille-, Erdbeer- und Schokoladeneis. Kannst du widerstehen?"
+        },
+        "cn": {
+          "title": "自选冰淇淋杯",
+          "description": "经典的冰淇淋杯：美味的香草、草莓和巧克力冰淇淋。你能抗拒吗？"
         }
       },
       "image": "/desserts/copa_al_gusto.png"
@@ -256,6 +304,10 @@
         "de": {
           "title": "Gran Hotel Torte",
           "description": "Exquisite Eistorte aus Sahne, Vanille und Turrón auf Biskuitboden, dekoriert mit Mandeln und Kirschen."
+        },
+        "cn": {
+          "title": "大饭店蛋糕",
+          "description": "精致的奶油、香草和牛轧糖冰淇淋蛋糕，海绵蛋糕底座，点缀杏仁和樱桃。"
         }
       },
       "image": "/desserts/tarta_gran_hotel.png"
@@ -276,6 +328,10 @@
         "de": {
           "title": "Sachertorte",
           "description": "Schokoladenbiskuit mit Aprikosenmarmelade, überzogen mit dunkler Schokoladenglasur."
+        },
+        "cn": {
+          "title": "萨赫蛋糕",
+          "description": "巧克力海绵蛋糕夹杏子酱，覆盖黑巧克力糖霜层。"
         }
       },
       "image": "/desserts/tarta_sacher.png"
@@ -296,6 +352,10 @@
         "de": {
           "title": "Gefrorene Zitrone",
           "description": "Erfrischendes Zitroneneis in der natürlichen Fruchtschale."
+        },
+        "cn": {
+          "title": "冰冻柠檬",
+          "description": "盛在天然柠檬皮中的清爽柠檬冰淇淋。"
         }
       },
       "image": "/desserts/limon_helado.png"
@@ -316,6 +376,10 @@
         "de": {
           "title": "Gefrorene Orange",
           "description": "Orangeneis, serviert in der natürlichen Fruchtschale."
+        },
+        "cn": {
+          "title": "冰冻香橙",
+          "description": "盛在天然橙皮中的香橙冰淇淋。"
         }
       },
       "image": "/desserts/naranja_helada.png"
@@ -336,6 +400,10 @@
         "de": {
           "title": "Mini Nórdica",
           "description": "Mini-Sahnetörtchen mit knusprigen Schokoladenplättchen im Inneren."
+        },
+        "cn": {
+          "title": "迷你北欧蛋糕",
+          "description": "迷你奶油馅饼，内有脆巧克力片。"
         }
       },
       "image": "/desserts/mini_nordica.jpg"
@@ -355,6 +423,10 @@
         },
         "de": {
           "title": "Frittiertes Eis mit Honig",
+          "description": ""
+        },
+        "cn": {
+          "title": "蜂蜜炸冰淇淋",
           "description": ""
         }
       },
@@ -376,6 +448,10 @@
         "de": {
           "title": "Eis mit Walnüssen",
           "description": ""
+        },
+        "cn": {
+          "title": "核桃冰淇淋",
+          "description": ""
         }
       },
       "image": "/desserts/helado_con_nueces.png"
@@ -396,6 +472,10 @@
         "de": {
           "title": "Eiskugel",
           "description": ""
+        },
+        "cn": {
+          "title": "冰淇淋球",
+          "description": ""
         }
       },
       "image": "/desserts/bola_helado.png"
@@ -415,6 +495,10 @@
         },
         "de": {
           "title": "Frittierte Banane / Apfel / Ananas mit Honig und Eis",
+          "description": ""
+        },
+        "cn": {
+          "title": "炸香蕉/菠萝/苹果配蜂蜜和冰淇淋",
           "description": ""
         }
       },

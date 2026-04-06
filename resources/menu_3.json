@@ -14,7 +14,11 @@
           "description": ""
         },
         "de": {
-          "title": "Ente mit Orange Soße",
+          "title": "Ente in Orangensauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "橙汁鸭",
           "description": ""
         }
       }
@@ -33,7 +37,11 @@
           "description": ""
         },
         "de": {
-          "title": "Ente mit Würzig Soße",
+          "title": "Ente in pikanter Sauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "辣酱鸭",
           "description": ""
         }
       }
@@ -52,7 +60,11 @@
           "description": ""
         },
         "de": {
-          "title": "Ente mit Bambus und chinese Pilze",
+          "title": "Ente mit Bambus und chinesischen Pilzen",
+          "description": ""
+        },
+        "cn": {
+          "title": "双冬鸭",
           "description": ""
         }
       }
@@ -71,7 +83,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Ente mit Canton Soße",
+          "title": "Gegrillte Ente nach Kanton-Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板广东鸭",
           "description": ""
         }
       }
@@ -90,7 +106,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt knusprig Ente",
+          "title": "Gegrillte knusprige Ente",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板脆皮鸭",
           "description": ""
         }
       }
@@ -109,7 +129,11 @@
           "description": ""
         },
         "de": {
-          "title": "Ente mit rot curry Soße",
+          "title": "Ente in rotem Curry",
+          "description": ""
+        },
+        "cn": {
+          "title": "红咖喱鸭",
           "description": ""
         }
       }
@@ -128,7 +152,11 @@
           "description": ""
         },
         "de": {
-          "title": "Ente mit grün curry Soße",
+          "title": "Ente in grünem Curry",
+          "description": ""
+        },
+        "cn": {
+          "title": "绿咖喱鸭",
           "description": ""
         }
       }
@@ -147,7 +175,11 @@
           "description": ""
         },
         "de": {
-          "title": "Bangkok Ente",
+          "title": "Ente Bangkok-Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "曼谷鸭",
           "description": ""
         }
       }
@@ -166,7 +198,11 @@
           "description": ""
         },
         "de": {
-          "title": "Wurst",
+          "title": "Würstchen",
+          "description": ""
+        },
+        "cn": {
+          "title": "香肠",
           "description": ""
         }
       }
@@ -185,7 +221,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn Ball",
+          "title": "Hähnchenbällchen",
+          "description": ""
+        },
+        "cn": {
+          "title": "鸡肉球",
           "description": ""
         }
       }
@@ -204,7 +244,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn curry",
+          "title": "Hähnchen-Curry",
+          "description": ""
+        },
+        "cn": {
+          "title": "咖喱鸡",
           "description": ""
         }
       }
@@ -225,6 +269,10 @@
         "de": {
           "title": "Fischstäbchen",
           "description": ""
+        },
+        "cn": {
+          "title": "炸鱼条",
+          "description": ""
         }
       }
     },
@@ -242,7 +290,11 @@
           "description": ""
         },
         "de": {
-          "title": "Paniertes Huhn",
+          "title": "Paniertes Hähnchenbrustfilet",
+          "description": ""
+        },
+        "cn": {
+          "title": "炸鸡胸",
           "description": ""
         }
       }
@@ -261,7 +313,11 @@
           "description": ""
         },
         "de": {
-          "title": "Brat Huhn Flügel",
+          "title": "Gebratene Hähnchenflügel",
+          "description": ""
+        },
+        "cn": {
+          "title": "炸鸡翅",
           "description": ""
         }
       }
@@ -280,7 +336,11 @@
           "description": ""
         },
         "de": {
-          "title": "Weiß Reis",
+          "title": "Gekochter Reis",
+          "description": ""
+        },
+        "cn": {
+          "title": "白饭",
           "description": ""
         }
       }
@@ -299,7 +359,11 @@
           "description": ""
         },
         "de": {
-          "title": "Brat Reis mit Eier",
+          "title": "Gebratener Reis mit Ei",
+          "description": ""
+        },
+        "cn": {
+          "title": "蛋炒饭",
           "description": ""
         }
       }
@@ -318,7 +382,11 @@
           "description": ""
         },
         "de": {
-          "title": "Drei Juwelen Reis",
+          "title": "Gebratener Reis mit drei Köstlichkeiten",
+          "description": ""
+        },
+        "cn": {
+          "title": "三鲜炒饭",
           "description": ""
         }
       }
@@ -337,7 +405,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn Brat Reis",
+          "title": "Gebratener Reis mit Hähnchen",
+          "description": ""
+        },
+        "cn": {
+          "title": "鸡肉炒饭",
           "description": ""
         }
       }
@@ -356,7 +428,11 @@
           "description": ""
         },
         "de": {
-          "title": "Spezial Brat Reis",
+          "title": "Gebratener Spezialreis",
+          "description": ""
+        },
+        "cn": {
+          "title": "特别炒饭",
           "description": ""
         }
       }
@@ -375,7 +451,11 @@
           "description": ""
         },
         "de": {
-          "title": "Brat Nudeln",
+          "title": "Gebratene Nudeln",
+          "description": ""
+        },
+        "cn": {
+          "title": "炒面",
           "description": ""
         }
       }
@@ -394,7 +474,11 @@
           "description": ""
         },
         "de": {
-          "title": "Nudeln mit Gemüses",
+          "title": "Gebratene Nudeln mit Gemüse",
+          "description": ""
+        },
+        "cn": {
+          "title": "蔬菜炒面",
           "description": ""
         }
       }
@@ -413,7 +497,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn Nudeln",
+          "title": "Gebratene Nudeln mit Hähnchen",
+          "description": ""
+        },
+        "cn": {
+          "title": "鸡肉炒面",
           "description": ""
         }
       }
@@ -432,7 +520,11 @@
           "description": ""
         },
         "de": {
-          "title": "Garnele Nudeln",
+          "title": "Gebratene Nudeln mit Garnelen",
+          "description": ""
+        },
+        "cn": {
+          "title": "虾仁炒面",
           "description": ""
         }
       }
@@ -451,7 +543,11 @@
           "description": ""
         },
         "de": {
-          "title": "Drei Juwelen Nudeln",
+          "title": "Gebratene Nudeln mit drei Köstlichkeiten",
+          "description": ""
+        },
+        "cn": {
+          "title": "三鲜炒面",
           "description": ""
         }
       }
@@ -470,7 +566,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Chinese Stil Nudeln",
+          "title": "Gebratene Nudeln nach chinesischer Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板中式炒面",
           "description": ""
         }
       }
@@ -489,7 +589,11 @@
           "description": ""
         },
         "de": {
-          "title": "Reis Nudeln mit Gemüses",
+          "title": "Reisnudeln mit Gemüse",
+          "description": ""
+        },
+        "cn": {
+          "title": "蔬菜炒米粉",
           "description": ""
         }
       }
@@ -508,7 +612,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn Reis Nudeln",
+          "title": "Reisnudeln mit Hähnchen",
+          "description": ""
+        },
+        "cn": {
+          "title": "鸡肉炒米粉",
           "description": ""
         }
       }
@@ -527,7 +635,11 @@
           "description": ""
         },
         "de": {
-          "title": "Garnele Reis Nudeln",
+          "title": "Reisnudeln mit Garnelen",
+          "description": ""
+        },
+        "cn": {
+          "title": "虾仁炒米粉",
           "description": ""
         }
       }
@@ -546,7 +658,11 @@
           "description": ""
         },
         "de": {
-          "title": "Drei Juwelen Reis Nudeln",
+          "title": "Reisnudeln mit drei Köstlichkeiten",
+          "description": ""
+        },
+        "cn": {
+          "title": "三鲜炒米粉",
           "description": ""
         }
       }
@@ -565,7 +681,11 @@
           "description": ""
         },
         "de": {
-          "title": "Singapur Stil Reis Nudeln",
+          "title": "Reisnudeln nach Singapur-Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "星洲炒米粉",
           "description": ""
         }
       }
@@ -584,7 +704,11 @@
           "description": ""
         },
         "de": {
-          "title": "Pommes",
+          "title": "Pommes frites",
+          "description": ""
+        },
+        "cn": {
+          "title": "炸薯条",
           "description": ""
         }
       }
@@ -603,7 +727,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn Pad Thai",
+          "title": "Pad Thai mit Hähnchen",
+          "description": ""
+        },
+        "cn": {
+          "title": "鸡肉泰式炒河粉",
           "description": ""
         }
       }
@@ -622,7 +750,11 @@
           "description": ""
         },
         "de": {
-          "title": "Garnele Pad Thai",
+          "title": "Pad Thai mit Garnelen",
+          "description": ""
+        },
+        "cn": {
+          "title": "鲜虾泰式炒河粉",
           "description": ""
         }
       }
@@ -641,8 +773,12 @@
           "description": "spicy noodles with shrimp, chicken, beef and vegetables"
         },
         "de": {
-          "title": "Komplett Pad Thai",
-          "description": "Würzig Nudeln mit Garnele, Huhn, Rindfleisch und Gemüses"
+          "title": "Pad Thai Spezial",
+          "description": "Pikante Nudeln mit Garnelen, Hähnchen, Rindfleisch und Gemüse"
+        },
+        "cn": {
+          "title": "什锦泰式炒河粉",
+          "description": "辣味炒河粉，配虾，鸡肉，牛肉和蔬菜"
         }
       }
     }

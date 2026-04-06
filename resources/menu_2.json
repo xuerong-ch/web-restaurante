@@ -14,7 +14,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Huhn mit Ingwer und Zwiebel",
+          "title": "Gegrilltes Hähnchen mit Ingwer und Zwiebeln",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板姜葱鸡",
           "description": ""
         }
       }
@@ -33,7 +37,11 @@
           "description": ""
         },
         "de": {
-          "title": "Würzig Knoblauch Gegrillt Huhn",
+          "title": "Gegrilltes Hähnchen in scharfem Knoblauch",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板辣蒜鸡",
           "description": ""
         }
       }
@@ -52,7 +60,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn mit Mandel",
+          "title": "Hähnchen mit Mandeln",
+          "description": ""
+        },
+        "cn": {
+          "title": "杏仁鸡",
           "description": ""
         }
       }
@@ -71,7 +83,11 @@
           "description": ""
         },
         "de": {
-          "title": "Knusprig Huhn mit Mandel",
+          "title": "Knuspriges Hähnchen mit Mandeln",
+          "description": ""
+        },
+        "cn": {
+          "title": "杏仁炸鸡",
           "description": ""
         }
       }
@@ -90,7 +106,11 @@
           "description": ""
         },
         "de": {
-          "title": "Brat Huhn mit Zitrone Soße",
+          "title": "Hähnchen in Zitronensauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "柠檬炸鸡",
           "description": ""
         }
       }
@@ -109,7 +129,11 @@
           "description": ""
         },
         "de": {
-          "title": "Spezial Gegrillt curry (Rindfleisch, Huhn und Garnele)",
+          "title": "Gegrilltes Spezial-Curry (Rind, Hähnchen und Garnelen)",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板特色咖喱（牛，鸡，虾）",
           "description": ""
         }
       }
@@ -128,7 +152,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn mit rot curry Soße",
+          "title": "Hähnchen in rotem Curry",
+          "description": ""
+        },
+        "cn": {
+          "title": "红咖喱鸡",
           "description": ""
         }
       }
@@ -147,7 +175,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn mit grün curry Soße",
+          "title": "Hähnchen in grünem Curry",
+          "description": ""
+        },
+        "cn": {
+          "title": "绿咖喱鸡",
           "description": ""
         }
       }
@@ -166,7 +198,11 @@
           "description": ""
         },
         "de": {
-          "title": "Bangkok Huhn",
+          "title": "Hähnchen Bangkok-Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "曼谷鸡",
           "description": ""
         }
       }
@@ -185,7 +221,11 @@
           "description": ""
         },
         "de": {
-          "title": "Huhn mit Kokosnuss und Ananas",
+          "title": "Hähnchen mit Kokosnuss und Ananas",
+          "description": ""
+        },
+        "cn": {
+          "title": "椰香菠萝鸡",
           "description": ""
         }
       }
@@ -204,7 +244,11 @@
           "description": ""
         },
         "de": {
-          "title": "Rindfleisch mit grün Pfeffers",
+          "title": "Rindfleisch mit grüner Paprika",
+          "description": ""
+        },
+        "cn": {
+          "title": "青椒牛肉",
           "description": ""
         }
       }
@@ -223,7 +267,11 @@
           "description": ""
         },
         "de": {
-          "title": "Rindfleisch mit Bambus und chinese Pilze",
+          "title": "Rindfleisch mit Bambus und chinesischen Pilzen",
+          "description": ""
+        },
+        "cn": {
+          "title": "双冬牛肉",
           "description": ""
         }
       }
@@ -242,7 +290,11 @@
           "description": ""
         },
         "de": {
-          "title": "Rindfleisch mit curry Soße",
+          "title": "Rindfleisch in Curry-Sauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "咖喱牛肉",
           "description": ""
         }
       }
@@ -261,7 +313,11 @@
           "description": ""
         },
         "de": {
-          "title": "Knusprig Rindfleisch mit Chili und süß und sauer Soße",
+          "title": "Knuspriges Rindfleisch mit Chili und Süß-Sauer-Sauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "甜酸辣脆皮牛",
           "description": ""
         }
       }
@@ -280,7 +336,11 @@
           "description": ""
         },
         "de": {
-          "title": "Rindfleisch mit Auster Soße",
+          "title": "Rindfleisch in Austernsauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "蚝油牛肉",
           "description": ""
         }
       }
@@ -299,7 +359,11 @@
           "description": ""
         },
         "de": {
-          "title": "Rindfleisch mit Würzig Soße",
+          "title": "Rindfleisch in pikanter Sauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "辣子牛肉",
           "description": ""
         }
       }
@@ -318,7 +382,11 @@
           "description": ""
         },
         "de": {
-          "title": "Rindfleisch mit satay Soße",
+          "title": "Rindfleisch in Satay-Sauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "沙爹牛肉",
           "description": ""
         }
       }
@@ -337,7 +405,11 @@
           "description": ""
         },
         "de": {
-          "title": "Rindfleisch mit schwarze Bohne Soße",
+          "title": "Rindfleisch in Schwarzbohnensauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "豉汁牛肉",
           "description": ""
         }
       }
@@ -356,7 +428,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Rindfleisch mit black Pfeffer Soße",
+          "title": "Gegrilltes Rindfleisch mit schwarzer Pfeffersauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板黑椒牛肉",
           "description": ""
         }
       }
@@ -375,7 +451,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Rindfleisch mit Canton Soße",
+          "title": "Gegrilltes Rindfleisch nach Kanton-Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板广东牛肉",
           "description": ""
         }
       }
@@ -394,7 +474,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Rindfleisch mit Ingwer und Zwiebel",
+          "title": "Gegrilltes Rindfleisch mit Ingwer und Zwiebeln",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板姜葱牛肉",
           "description": ""
         }
       }
@@ -413,7 +497,11 @@
           "description": ""
         },
         "de": {
-          "title": "Rindfleisch mit rot curry Soße",
+          "title": "Rindfleisch in rotem Curry",
+          "description": ""
+        },
+        "cn": {
+          "title": "红咖喱牛肉",
           "description": ""
         }
       }
@@ -432,7 +520,11 @@
           "description": ""
         },
         "de": {
-          "title": "Rindfleisch mit grün curry Soße",
+          "title": "Rindfleisch in grünem Curry",
+          "description": ""
+        },
+        "cn": {
+          "title": "绿咖喱牛肉",
           "description": ""
         }
       }
@@ -451,7 +543,11 @@
           "description": ""
         },
         "de": {
-          "title": "Bangkok Rindfleisch",
+          "title": "Rindfleisch Bangkok-Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "曼谷牛肉",
           "description": ""
         }
       }
@@ -470,7 +566,11 @@
           "description": ""
         },
         "de": {
-          "title": "Brat Rindfleisch mit Kokosnuss und Ananas",
+          "title": "Rindfleisch mit Kokosnuss und Ananas",
+          "description": ""
+        },
+        "cn": {
+          "title": "椰香菠萝炸牛肉",
           "description": ""
         }
       }
@@ -489,7 +589,11 @@
           "description": ""
         },
         "de": {
-          "title": "Garnele mit Salz und Pfeffer",
+          "title": "Garnelen mit Salz und Pfeffer",
+          "description": ""
+        },
+        "cn": {
+          "title": "椒盐大虾",
           "description": ""
         }
       }
@@ -508,7 +612,11 @@
           "description": ""
         },
         "de": {
-          "title": "Knusprig Garnele mit Chili und süß und sauer Soße",
+          "title": "Knusprige Garnelen mit Chili und Süß-Sauer-Sauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "甜酸辣脆皮大虾",
           "description": ""
         }
       }
@@ -527,7 +635,11 @@
           "description": ""
         },
         "de": {
-          "title": "Garnele mit süß und sauer Soße",
+          "title": "Garnelen süß-sauer",
+          "description": ""
+        },
+        "cn": {
+          "title": "甜酸大虾",
           "description": ""
         }
       }
@@ -546,7 +658,11 @@
           "description": ""
         },
         "de": {
-          "title": "Garnele mit Würzig Soße",
+          "title": "Garnelen in pikanter Sauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "辣酱大虾",
           "description": ""
         }
       }
@@ -565,7 +681,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Garnele mit Canton Soße",
+          "title": "Gegrillte Garnelen nach Kanton-Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板广东大虾",
           "description": ""
         }
       }
@@ -584,7 +704,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Garnele mit Ingwer und Zwiebel",
+          "title": "Gegrillte Garnelen mit Ingwer und Zwiebeln",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板姜葱大虾",
           "description": ""
         }
       }
@@ -603,7 +727,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Würzig Knoblauch Garnele",
+          "title": "Gegrillte Garnelen in scharfem Knoblauch",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板辣蒜大虾",
           "description": ""
         }
       }
@@ -622,7 +750,11 @@
           "description": ""
         },
         "de": {
-          "title": "Garnele mit rot curry Soße",
+          "title": "Garnelen in rotem Curry",
+          "description": ""
+        },
+        "cn": {
+          "title": "红咖喱大虾",
           "description": ""
         }
       }
@@ -641,7 +773,11 @@
           "description": ""
         },
         "de": {
-          "title": "Garnele mit grün curry Soße",
+          "title": "Garnelen in grünem Curry",
+          "description": ""
+        },
+        "cn": {
+          "title": "绿咖喱大虾",
           "description": ""
         }
       }
@@ -660,7 +796,11 @@
           "description": ""
         },
         "de": {
-          "title": "Bangkok Garnele",
+          "title": "Garnelen Bangkok-Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "曼谷大虾",
           "description": ""
         }
       }

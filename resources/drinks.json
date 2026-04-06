@@ -16,6 +16,10 @@
         "de": {
           "title": "Hauswein",
           "description": ""
+        },
+        "cn": {
+          "title": "招牌酒",
+          "description": ""
         }
       }
     },
@@ -34,6 +38,10 @@
         },
         "de": {
           "title": "Viña Sol",
+          "description": ""
+        },
+        "cn": {
+          "title": "阳光葡萄园 (Viña Sol)",
           "description": ""
         }
       }
@@ -54,6 +62,10 @@
         "de": {
           "title": "Viña Sol ½ B",
           "description": "Halbe Flasche"
+        },
+        "cn": {
+          "title": "阳光葡萄园 (Viña Sol) ½瓶",
+          "description": "半瓶"
         }
       }
     },
@@ -72,6 +84,10 @@
         },
         "de": {
           "title": "San Valentín",
+          "description": ""
+        },
+        "cn": {
+          "title": "圣瓦伦丁 (San Valentín)",
           "description": ""
         }
       }
@@ -92,6 +108,10 @@
         "de": {
           "title": "San Valentín ½ B",
           "description": "Halbe Flasche"
+        },
+        "cn": {
+          "title": "圣瓦伦丁 (San Valentín) ½瓶",
+          "description": "半瓶"
         }
       }
     },
@@ -110,6 +130,10 @@
         },
         "de": {
           "title": "Marqués de Cáceres",
+          "description": ""
+        },
+        "cn": {
+          "title": "侯爵 (Marqués de Cáceres)",
           "description": ""
         }
       }
@@ -130,6 +154,10 @@
         "de": {
           "title": "El Grifo",
           "description": ""
+        },
+        "cn": {
+          "title": "狮鹫 (El Grifo)",
+          "description": ""
         }
       }
     },
@@ -148,6 +176,10 @@
         },
         "de": {
           "title": "Hauswein",
+          "description": ""
+        },
+        "cn": {
+          "title": "招牌酒",
           "description": ""
         }
       }
@@ -168,6 +200,10 @@
         "de": {
           "title": "Crianza Gómez de Segura",
           "description": ""
+        },
+        "cn": {
+          "title": "戈麦斯陈酿 (Crianza Gómez de Segura)",
+          "description": ""
         }
       }
     },
@@ -186,6 +222,10 @@
         },
         "de": {
           "title": "Heras Cordón",
+          "description": ""
+        },
+        "cn": {
+          "title": "赫拉斯科顿 (Heras Cordón)",
           "description": ""
         }
       }
@@ -206,6 +246,10 @@
         "de": {
           "title": "Reserva Heras Cordón",
           "description": ""
+        },
+        "cn": {
+          "title": "赫拉斯科顿珍藏 (Reserva Heras Cordón)",
+          "description": ""
         }
       }
     },
@@ -225,6 +269,10 @@
         "de": {
           "title": "Ninín",
           "description": "Ribera del Duero"
+        },
+        "cn": {
+          "title": "尼宁 (Ninín)",
+          "description": "杜埃罗河岸 (Ribera del Duero)"
         }
       }
     },
@@ -244,6 +292,10 @@
         "de": {
           "title": "Antonino Izquierdo",
           "description": "Ausgewählte Ernte"
+        },
+        "cn": {
+          "title": "安东尼奥 (Antonino Izquierdo)",
+          "description": "精选葡萄"
         }
       }
     },
@@ -262,6 +314,10 @@
         },
         "de": {
           "title": "Hauswein",
+          "description": ""
+        },
+        "cn": {
+          "title": "招牌酒",
           "description": ""
         }
       }
@@ -282,6 +338,10 @@
         "de": {
           "title": "Torres de Casta",
           "description": ""
+        },
+        "cn": {
+          "title": "桃乐丝 (Torres de Casta)",
+          "description": ""
         }
       }
     },
@@ -301,6 +361,10 @@
         "de": {
           "title": "Torres de Casta ½ B",
           "description": "Halbe Flasche"
+        },
+        "cn": {
+          "title": "桃乐丝 (Torres de Casta) ½瓶",
+          "description": "半瓶"
         }
       }
     },
@@ -319,6 +383,10 @@
         },
         "de": {
           "title": "Mateus Rosé",
+          "description": ""
+        },
+        "cn": {
+          "title": "蜜桃红 (Mateus Rosé)",
           "description": ""
         }
       }
@@ -339,6 +407,10 @@
         "de": {
           "title": "Sangria 1L",
           "description": ""
+        },
+        "cn": {
+          "title": "桑格利亚果酒 1升",
+          "description": ""
         }
       }
     },
@@ -357,6 +429,10 @@
         },
         "de": {
           "title": "Sangria ½ L",
+          "description": ""
+        },
+        "cn": {
+          "title": "桑格利亚果酒 ½升",
           "description": ""
         }
       }
@@ -377,6 +453,10 @@
         "de": {
           "title": "Martini Sprite",
           "description": ""
+        },
+        "cn": {
+          "title": "马天尼雪碧",
+          "description": ""
         }
       }
     },
@@ -395,6 +475,10 @@
         },
         "de": {
           "title": "Gin Tonic",
+          "description": ""
+        },
+        "cn": {
+          "title": "金汤力",
           "description": ""
         }
       }
@@ -415,6 +499,10 @@
         "de": {
           "title": "Bacardi Cola",
           "description": ""
+        },
+        "cn": {
+          "title": "百加得可乐",
+          "description": ""
         }
       }
     },
@@ -433,6 +521,10 @@
         },
         "de": {
           "title": "Malibú Cola",
+          "description": ""
+        },
+        "cn": {
+          "title": "马利宝可乐",
           "description": ""
         }
       }
@@ -453,6 +545,10 @@
         "de": {
           "title": "Wodka Cola",
           "description": ""
+        },
+        "cn": {
+          "title": "伏特加可乐",
+          "description": ""
         }
       }
     },
@@ -471,6 +567,10 @@
         },
         "de": {
           "title": "Tía María",
+          "description": ""
+        },
+        "cn": {
+          "title": "添万利 (Tía María)",
           "description": ""
         }
       }
@@ -491,6 +591,10 @@
         "de": {
           "title": "Baileys",
           "description": ""
+        },
+        "cn": {
+          "title": "百利甜酒",
+          "description": ""
         }
       }
     },
@@ -509,6 +613,10 @@
         },
         "de": {
           "title": "Sambuca",
+          "description": ""
+        },
+        "cn": {
+          "title": "珊布卡 (Sambuca)",
           "description": ""
         }
       }
@@ -529,6 +637,10 @@
         "de": {
           "title": "Honigrum",
           "description": ""
+        },
+        "cn": {
+          "title": "蜂蜜朗姆酒",
+          "description": ""
         }
       }
     },
@@ -547,6 +659,10 @@
         },
         "de": {
           "title": "Magno",
+          "description": ""
+        },
+        "cn": {
+          "title": "马格诺 (Magno)",
           "description": ""
         }
       }
@@ -567,6 +683,10 @@
         "de": {
           "title": "Veterano",
           "description": ""
+        },
+        "cn": {
+          "title": "老将 (Veterano)",
+          "description": ""
         }
       }
     },
@@ -585,6 +705,10 @@
         },
         "de": {
           "title": "Brandy 103",
+          "description": ""
+        },
+        "cn": {
+          "title": "103白兰地",
           "description": ""
         }
       }
@@ -605,6 +729,10 @@
         "de": {
           "title": "Remy Martin",
           "description": ""
+        },
+        "cn": {
+          "title": "人头马 (Remy Martin)",
+          "description": ""
         }
       }
     },
@@ -623,6 +751,10 @@
         },
         "de": {
           "title": "Ballantines",
+          "description": ""
+        },
+        "cn": {
+          "title": "百龄坛 (Ballantines)",
           "description": ""
         }
       }
@@ -643,6 +775,10 @@
         "de": {
           "title": "100 Pipers",
           "description": ""
+        },
+        "cn": {
+          "title": "100派笛 (100 Pipers)",
+          "description": ""
         }
       }
     },
@@ -661,6 +797,10 @@
         },
         "de": {
           "title": "J&B",
+          "description": ""
+        },
+        "cn": {
+          "title": "珍宝 (J&B)",
           "description": ""
         }
       }
@@ -681,6 +821,10 @@
         "de": {
           "title": "Jack Daniel's",
           "description": ""
+        },
+        "cn": {
+          "title": "杰克丹尼 (Jack Daniel's)",
+          "description": ""
         }
       }
     },
@@ -699,6 +843,10 @@
         },
         "de": {
           "title": "Johny Walker Red Label",
+          "description": ""
+        },
+        "cn": {
+          "title": "尊尼获加红方",
           "description": ""
         }
       }
@@ -719,6 +867,10 @@
         "de": {
           "title": "Johny Walker Black Label",
           "description": ""
+        },
+        "cn": {
+          "title": "尊尼获加黑方",
+          "description": ""
         }
       }
     },
@@ -737,6 +889,10 @@
         },
         "de": {
           "title": "Chivas",
+          "description": ""
+        },
+        "cn": {
+          "title": "芝华士 (Chivas)",
           "description": ""
         }
       }
@@ -757,6 +913,10 @@
         "de": {
           "title": "Großes Bier",
           "description": "Krug"
+        },
+        "cn": {
+          "title": "大杯生啤",
+          "description": "扎啤"
         }
       }
     },
@@ -776,6 +936,10 @@
         "de": {
           "title": "Kleines Bier",
           "description": "Glas"
+        },
+        "cn": {
+          "title": "小杯生啤",
+          "description": "杯装"
         }
       }
     },
@@ -794,6 +958,10 @@
         },
         "de": {
           "title": "Heineken",
+          "description": ""
+        },
+        "cn": {
+          "title": "喜力 (Heineken)",
           "description": ""
         }
       }
@@ -814,6 +982,10 @@
         "de": {
           "title": "Coronita",
           "description": ""
+        },
+        "cn": {
+          "title": "科罗娜 (Coronita)",
+          "description": ""
         }
       }
     },
@@ -833,6 +1005,10 @@
         "de": {
           "title": "Tsingtao",
           "description": "Chinesisches Bier"
+        },
+        "cn": {
+          "title": "青岛啤酒 (Tsingtao)",
+          "description": "中国啤酒"
         }
       }
     },
@@ -851,6 +1027,10 @@
         },
         "de": {
           "title": "Strongbow Cider",
+          "description": ""
+        },
+        "cn": {
+          "title": "强弓苹果酒 (Strongbow)",
           "description": ""
         }
       }
@@ -871,6 +1051,10 @@
         "de": {
           "title": "Alkoholfreies Bier",
           "description": ""
+        },
+        "cn": {
+          "title": "无醇啤酒",
+          "description": ""
         }
       }
     },
@@ -889,6 +1073,10 @@
         },
         "de": {
           "title": "Kopper",
+          "description": ""
+        },
+        "cn": {
+          "title": "Kopper 啤酒",
           "description": ""
         }
       }
@@ -909,6 +1097,10 @@
         "de": {
           "title": "Fanta",
           "description": "Orange oder Zitrone"
+        },
+        "cn": {
+          "title": "芬达",
+          "description": "香橙或柠檬"
         }
       }
     },
@@ -928,6 +1120,10 @@
         "de": {
           "title": "Erfrischungsgetränk",
           "description": "Sprite, Coca Cola oder Tonic"
+        },
+        "cn": {
+          "title": "软饮料",
+          "description": "雪碧，可口可乐或汤力水"
         }
       }
     },
@@ -946,6 +1142,10 @@
         },
         "de": {
           "title": "Wasser",
+          "description": ""
+        },
+        "cn": {
+          "title": "水",
           "description": ""
         }
       }
@@ -966,6 +1166,10 @@
         "de": {
           "title": "Nestea",
           "description": ""
+        },
+        "cn": {
+          "title": "雀巢冰爽茶 (Nestea)",
+          "description": ""
         }
       }
     },
@@ -984,6 +1188,10 @@
         },
         "de": {
           "title": "Appletiser",
+          "description": ""
+        },
+        "cn": {
+          "title": "苹果气泡水 (Appletiser)",
           "description": ""
         }
       }
@@ -1004,6 +1212,10 @@
         "de": {
           "title": "Fruchtsaft",
           "description": ""
+        },
+        "cn": {
+          "title": "果汁",
+          "description": ""
         }
       }
     },
@@ -1022,6 +1234,10 @@
         },
         "de": {
           "title": "Frisch gepresster Orangensaft",
+          "description": ""
+        },
+        "cn": {
+          "title": "鲜榨橙汁",
           "description": ""
         }
       }

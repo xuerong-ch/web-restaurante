@@ -7,6 +7,9 @@ const texts = {
   },
   de: {
     rights: "Alle Rechte vorbehalten."
+  },
+  cn: {
+    rights: "版权所有。"
   }
 }
 

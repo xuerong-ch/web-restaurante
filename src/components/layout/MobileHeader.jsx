@@ -24,6 +24,12 @@ function MobileHeader({ onToggleMenu = () => {}, lang = 'es', onLangChange = () 
           >
             DE
           </button>
+          <button 
+            onClick={() => onLangChange('cn')}
+            className={`text-xs font-bold uppercase tracking-widest transition-colors ${lang === 'cn' ? 'text-primary-container dark:text-red-500' : 'text-on-surface dark:text-stone-300 opacity-80 hover:opacity-100 hover:text-primary-container dark:hover:text-red-400'}`}
+          >
+            CN
+          </button>
         </div>
         <button className="text-primary-container flex items-center" onClick={onToggleMenu}>
           <span className="material-symbols-outlined text-2xl">menu</span>

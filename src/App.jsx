@@ -12,6 +12,7 @@ import menu1 from '../resources/menu_1.json'
 import menu2 from '../resources/menu_2.json'
 import menu3 from '../resources/menu_3.json'
 import menu4 from '../resources/menu_4.json'
+import menu5 from '../resources/menu_5.json'
 import desserts from '../resources/desserts.json'
 import drinks from '../resources/drinks.json'
 import dimsum from '../resources/dimsum.json'
@@ -34,6 +35,11 @@ const staticSectionData = {
         subtitle: '— Kapitel I',
         title: 'Vorspeisen & Dim Sum',
         description: 'Kleine Seidenhappen, entworfen, um die Sinne des Gastes zu wecken.'
+      },
+      cn: {
+        subtitle: '— 第一章',
+        title: '前菜与点心',
+        description: '精心制作的美味小点，唤醒食客的味蕾。'
       }
     }
   },
@@ -57,12 +63,43 @@ const staticSectionData = {
         title: 'Hauptgerichte',
         featuredDishName: 'Peking-Ente',
         featuredDishDesc: '24 Stunden im Obstholzofen geröstet. Serviert mit dünnen Crêpes, Schnittlauch, Gurke und unserer geheimen Haussauce.'
+      },
+      cn: {
+        subtitle: '— 第二章',
+        title: '主菜',
+        featuredDishName: '北京烤鸭',
+        featuredDishDesc: '果木炭火烤制24小时。佐以薄饼、葱段、黄瓜和秘制酱料。'
       }
     },
     featuredDish: {
       price: 65,
       image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCi8TTXuCLH0VenSof-ooVmoEEj2kvOhzsVw9C1hAPT8O8Yb7FjVOlLV7XbBzUlCuXueYVNPin3mOODtg0jkk_C-O_IkOf6gQ-zA9TdzJxXG9DqKjshCJb0QwtFOSDrR1P4LoVwnpIE5kYLeU6tvU_6Sxrk8vVSrMQaxAEn0zv9RxqWdGx-FrAMiSfOrXw9g4CpglGPQvLlc2tDSpQ-wJDL3ZVhU8wa_fe3AW8qUs16KZyYLmTnqF_ptjFoKe2AX5ufe_KF4VJoADU',
       alt: 'Traditional Peking Duck carved with crispy skin on a white porcelain plate, garnished with scallions and hoisin sauce'
+    }
+  },
+  menus: {
+    id: 'menus',
+    translations: {
+      es: {
+        subtitle: '— Para Compartir',
+        title: 'Menús Especiales',
+        description: '* El precio de los menús es por persona. Mínimo 2 personas.'
+      },
+      en: {
+        subtitle: '— To Share',
+        title: 'Set Menus',
+        description: '* Menu prices are per person. Minimum 2 people.'
+      },
+      de: {
+        subtitle: '— Zum Teilen',
+        title: 'Spezial Menüs',
+        description: '* Die Menüpreise gelten pro Person. Minimum 2 Personen.'
+      },
+      cn: {
+        subtitle: '— 共享美味',
+        title: '特别套餐',
+        description: '* 套餐价格为每人价格。2人起售。'
+      }
     }
   },
   desserts: {
@@ -79,6 +116,10 @@ const staticSectionData = {
       de: {
         subtitle: '— Der Epilog',
         title: 'Desserts & Tees'
+      },
+      cn: {
+        subtitle: '— 尾声',
+        title: '甜点与茶'
       }
     },
     items: []
@@ -97,6 +138,10 @@ const staticSectionData = {
       de: {
         subtitle: '— Der Toast',
         title: 'Weinkeller & Getränke'
+      },
+      cn: {
+        subtitle: '— 举杯',
+        title: '酒水饮料'
       }
     },
     items: []
@@ -105,7 +150,7 @@ const staticSectionData = {
 
 const drinkCategories = ['white_wine', 'red_wine', 'rose_wine', 'aperitifs', 'liquor', 'spirits', 'beer', 'soft_drinks']
 
-const allJsonData = [menu1, menu2, menu3, menu4, desserts, drinks, dimsum]
+const allJsonData = [menu1, menu2, menu3, menu4, menu5, desserts, drinks, dimsum]
 const itemsByCategory = {}
 
 allJsonData.forEach(data => {
@@ -149,7 +194,7 @@ function MainContent() {
   const navigate = useNavigate()
 
   // Verify language, if invalid, redirect to /es
-  const isValidLang = ['es', 'en', 'de'].includes(urlLang)
+  const isValidLang = ['es', 'en', 'de', 'cn'].includes(urlLang)
   if (!isValidLang) {
     return <Navigate to="/es" replace />
   }

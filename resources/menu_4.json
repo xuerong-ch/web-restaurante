@@ -14,8 +14,12 @@
           "description": "chicken, beef and shrimp"
         },
         "de": {
-          "title": "Spezial rot Thai curry",
-          "description": "Huhn, Rindfleisch und Garnele"
+          "title": "Rotes Thai-Curry Spezial",
+          "description": "Hähnchen, Rindfleisch und Garnelen"
+        },
+        "cn": {
+          "title": "泰式特色红咖喱",
+          "description": "鸡肉，牛肉和虾"
         }
       }
     },
@@ -33,7 +37,11 @@
           "description": ""
         },
         "de": {
-          "title": "Mongolisch Stil Huhn",
+          "title": "Hähnchen nach mongolischer Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "蒙古鸡肉",
           "description": ""
         }
       }
@@ -52,7 +60,11 @@
           "description": ""
         },
         "de": {
-          "title": "Mongolisch Stil Rindfleisch",
+          "title": "Rindfleisch nach mongolischer Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "蒙古牛肉",
           "description": ""
         }
       }
@@ -71,7 +83,11 @@
           "description": ""
         },
         "de": {
-          "title": "Mongolisch Stil Lendenstück",
+          "title": "Rinderfilet nach mongolischer Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "蒙古牛柳",
           "description": ""
         }
       }
@@ -90,7 +106,11 @@
           "description": ""
         },
         "de": {
-          "title": "Mongolisch Stil lamb",
+          "title": "Lamm nach mongolischer Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "蒙古羊肉",
           "description": ""
         }
       }
@@ -109,7 +129,11 @@
           "description": ""
         },
         "de": {
-          "title": "Lamm Hot Pot",
+          "title": "Lamm im Feuertopf",
+          "description": ""
+        },
+        "cn": {
+          "title": "羊肉煲",
           "description": ""
         }
       }
@@ -128,7 +152,11 @@
           "description": ""
         },
         "de": {
-          "title": "Lendenstück Hot Pot",
+          "title": "Rinderfilet im Feuertopf",
+          "description": ""
+        },
+        "cn": {
+          "title": "牛柳煲",
           "description": ""
         }
       }
@@ -147,7 +175,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gemüses Hot Pot",
+          "title": "Gemüse im Feuertopf",
+          "description": ""
+        },
+        "cn": {
+          "title": "蔬菜煲",
           "description": ""
         }
       }
@@ -166,8 +198,12 @@
           "description": "chicken, shrimp and beef"
         },
         "de": {
-          "title": "Hot Pot Spezial",
-          "description": "Huhn, Garnele und Rindfleisch"
+          "title": "Feuertopf Spezial",
+          "description": "Hähnchen, Garnelen und Rindfleisch"
+        },
+        "cn": {
+          "title": "特色煲",
+          "description": "鸡肉，虾和牛肉"
         }
       }
     },
@@ -185,7 +221,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Lamm mit Ingwer und Zwiebel",
+          "title": "Gegrilltes Lamm mit Ingwer und Zwiebeln",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板姜葱羊肉",
           "description": ""
         }
       }
@@ -204,7 +244,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Lendenstück mit Canton Soße",
+          "title": "Gegrilltes Rinderfilet nach Kanton-Art",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板广东牛柳",
           "description": ""
         }
       }
@@ -223,7 +267,11 @@
           "description": ""
         },
         "de": {
-          "title": "Gegrillt Lendenstück mit black Pfeffer Soße",
+          "title": "Gegrilltes Rinderfilet mit schwarzer Pfeffersauce",
+          "description": ""
+        },
+        "cn": {
+          "title": "铁板黑椒牛柳",
           "description": ""
         }
       }

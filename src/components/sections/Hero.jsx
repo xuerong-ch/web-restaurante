@@ -31,6 +31,15 @@ const texts = {
     whatsapp: "WhatsApp",
     location: "Standort",
     openMap: "Karte Öffnen"
+  },
+  cn: {
+    legacy: "传统与卓越",
+    title: "香港中餐厅\n HONG KONG II",
+    description: "每一道菜谱都凝聚了多年的经验。发现真正的美味，随时享受正宗的中国美食。",
+    call: "致电",
+    whatsapp: "WhatsApp",
+    location: "位置",
+    openMap: "打开地图"
   }
 }
 

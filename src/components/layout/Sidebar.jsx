@@ -73,6 +73,12 @@ function Sidebar({ categories = ['starters', 'mains', 'desserts'], activeId = 's
           >
             DE
           </button>
+          <button 
+            onClick={() => onLangChange('cn')}
+            className={`text-xs font-bold uppercase tracking-widest transition-colors ${lang === 'cn' ? 'text-primary-container dark:text-red-500' : 'text-on-surface dark:text-stone-300 opacity-80 hover:opacity-100 hover:text-primary-container dark:hover:text-red-400'}`}
+          >
+            CN
+          </button>
         </div>
       </div>
     </aside>

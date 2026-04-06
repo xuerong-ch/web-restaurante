@@ -2,111 +2,139 @@
   "portada": {
     "es": "Portada",
     "en": "Cover",
-    "de": "Titelseite"
+    "de": "Titelseite",
+    "cn": "封面"
   },
   "drinks": {
     "es": "Bodega y Bebidas",
     "en": "Drinks",
-    "de": "Getränke"
+    "de": "Getränke",
+    "cn": "酒水饮料"
   },
   "desserts": {
     "es": "Postres",
     "en": "Desserts",
-    "de": "Desserts"
+    "de": "Desserts",
+    "cn": "甜点"
   },
   "starters": {
     "es": "Entrantes",
     "en": "Starters",
-    "de": "Vorspeisen"
+    "de": "Vorspeisen",
+    "cn": "前菜"
   },
   "mains": {
     "es": "Principales",
     "en": "Mains",
-    "de": "Hauptgerichte"
+    "de": "Hauptgerichte",
+    "cn": "主菜"
   },
   "dim_sum": {
     "es": "Dim Sum",
     "en": "Dim Sum",
-    "de": "Dim Sum"
+    "de": "Dim Sum",
+    "cn": "点心"
   },
   "soups": {
     "es": "Sopas",
     "en": "Soups",
-    "de": "Suppen"
+    "de": "Suppen",
+    "cn": "汤类"
   },
   "chicken": {
     "es": "Pollo",
     "en": "Chicken",
-    "de": "Huhn"
+    "de": "Huhn",
+    "cn": "鸡肉"
   },
   "beef": {
     "es": "Ternera",
     "en": "Beef",
-    "de": "Rindfleisch"
+    "de": "Rindfleisch",
+    "cn": "牛肉"
   },
   "shrimp": {
     "es": "Mariscos",
     "en": "Seafood",
-    "de": "Meeresfrüchte"
+    "de": "Meeresfrüchte",
+    "cn": "海鲜"
   },
   "duck": {
     "es": "Pato",
     "en": "Duck",
-    "de": "Ente"
+    "de": "Ente",
+    "cn": "鸭肉"
   },
   "children_s_menu": {
     "es": "Menú Infantil",
     "en": "Kids Menu",
-    "de": "Kindermenü"
+    "de": "Kindermenü",
+    "cn": "儿童套餐"
   },
   "rice_and_noodles": {
     "es": "Arroz y Tallarines",
     "en": "Rice & Noodles",
-    "de": "Reis & Nudeln"
+    "de": "Reis & Nudeln",
+    "cn": "饭面类"
   },
   "special_dishes": {
     "es": "Especialidades",
     "en": "Specialties",
-    "de": "Spezialitäten"
+    "de": "Spezialitäten",
+    "cn": "特色菜"
   },
   "white_wine": {
     "es": "Vino Blanco",
     "en": "White Wine",
-    "de": "Weißwein"
+    "de": "Weißwein",
+    "cn": "白葡萄酒"
   },
   "red_wine": {
     "es": "Vino Tinto",
     "en": "Red Wine",
-    "de": "Rotwein"
+    "de": "Rotwein",
+    "cn": "红葡萄酒"
   },
   "rose_wine": {
     "es": "Vino Rosado",
     "en": "Rosé Wine",
-    "de": "Roséwein"
+    "de": "Roséwein",
+    "cn": "桃红葡萄酒"
   },
   "aperitifs": {
     "es": "Aperitivos",
     "en": "Aperitifs",
-    "de": "Aperitifs"
+    "de": "Aperitifs",
+    "cn": "开胃酒"
   },
   "liquor": {
     "es": "Licores",
     "en": "Liquors",
-    "de": "Liköre"
+    "de": "Liköre",
+    "cn": "烈酒"
   },
   "beer": {
     "es": "Cervezas",
     "en": "Beers",
-    "de": "Biere"
+    "de": "Biere",
+    "cn": "啤酒"
   },
   "soft_drinks": {
     "es": "Refrescos",
     "en": "Soft Drinks",
-    "de": "Getränke"
+    "de": "Erfrischungsgetränke",
+    "cn": "软饮料"
   },
   "spirits": {
     "es": "Bebidas Espirituosas",
     "en": "Spirits",
-    "de": "Spirituosen"
+    "de": "Spirituosen",
+    "cn": "烈性酒"
+  },
+  "menus": {
+    "es": "Menús Especiales",
+    "en": "Set Menus",
+    "de": "Spezial Menüs",
+    "cn": "特别套餐"
   }
 }
