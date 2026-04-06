@@ -1,10 +1,12 @@
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import categoriesMaster from '../../data/categories.json'
 
 gsap.registerPlugin(ScrollTrigger)
+
+ScrollTrigger.config({ ignoreMobileResize: true })
 
 function MenuSection({ variant = 'starters', sectionData = { items: [] }, lang = 'es' }) {
   const containerRef = useRef(null)
@@ -29,7 +31,16 @@ function MenuSection({ variant = 'starters', sectionData = { items: [] }, lang =
         }
       )
     })
-  }, { scope: containerRef, dependencies: [lang] })
+  }, { scope: containerRef })
+
+  // Refresh ScrollTrigger positions when language changes and layout shifts
+  useEffect(() => {
+    // A small timeout ensures the DOM has updated its layout sizes before refreshing
+    const timeout = setTimeout(() => {
+      ScrollTrigger.refresh()
+    }, 50)
+    return () => clearTimeout(timeout)
+  }, [lang])
 
   const bgClass = variant === 'mains' ? 'bg-surface-container-low' : 'bg-surface'
 
@@ -48,9 +59,7 @@ function MenuSection({ variant = 'starters', sectionData = { items: [] }, lang =
             <h3 className="text-3xl font-serif text-primary mb-4">
               {featuredDish.name}
             </h3>
-            <p className="text-on-surface-variant font-body mb-8 leading-relaxed">
-              {featuredDish.description}
-            </p>
+            <p className="text-on-surface-variant font-body mb-8 leading-relaxed whitespace-pre-line" dangerouslySetInnerHTML={{ __html: featuredDish.description }} />
             <div className="flex items-baseline space-x-4">
               <span className="text-2xl font-serif text-on-surface">{featuredDish.price}</span>
               <span className="text-[10px] font-label uppercase tracking-widest text-on-surface-variant">Euros</span>
@@ -76,7 +85,7 @@ function MenuSection({ variant = 'starters', sectionData = { items: [] }, lang =
               <span className="text-lg font-serif text-secondary shrink-0 pl-4">{item.price}</span>
             </div>
             <div className="max-w-md mt-2">
-              <p className="text-sm text-on-surface-variant font-body">{getItemText(item, 'description') || item.description}</p>
+              <p className="text-sm text-on-surface-variant font-body whitespace-pre-line" dangerouslySetInnerHTML={{ __html: getItemText(item, 'description') || item.description }} />
             </div>
           </div>
         ))}
@@ -98,9 +107,7 @@ function MenuSection({ variant = 'starters', sectionData = { items: [] }, lang =
               Especialidad de la Casa
             </span>
             <h3 className="text-4xl font-serif text-primary mb-4">{featuredDish.name}</h3>
-            <p className="text-on-surface-variant font-body mb-6 max-w-lg">
-              {featuredDish.description}
-            </p>
+            <p className="text-on-surface-variant font-body mb-6 max-w-lg" dangerouslySetInnerHTML={{ __html: featuredDish.description }} />
             <span className="text-2xl font-serif text-on-surface">{featuredDish.price}</span>
           </div>
         </div>
@@ -118,7 +125,7 @@ function MenuSection({ variant = 'starters', sectionData = { items: [] }, lang =
                   <div className="flex-1 border-b border-dashed border-outline-variant/40 group-hover:border-primary/40 transition-colors mb-1.5"></div>
                   <p className="text-sm font-serif text-secondary shrink-0 pl-3">{item.price}</p>
                 </div>
-                <p className="text-xs text-on-surface-variant mt-2 max-w-[85%]">{getItemText(item, 'description') || item.description}</p>
+                <p className="text-xs text-on-surface-variant mt-2 max-w-[85%] whitespace-pre-line" dangerouslySetInnerHTML={{ __html: getItemText(item, 'description') || item.description }} />
               </div>
             ))}
           </div>
@@ -141,7 +148,7 @@ function MenuSection({ variant = 'starters', sectionData = { items: [] }, lang =
             </div>
           )}
           <h3 className="text-xl font-serif text-on-surface mb-2">{item.name}</h3>
-          <p className="text-sm text-on-surface-variant font-body mb-4 px-4">{getItemText(item, 'description') || item.description}</p>
+          <p className="text-sm text-on-surface-variant font-body mb-4 px-4 whitespace-pre-line" dangerouslySetInnerHTML={{ __html: getItemText(item, 'description') || item.description }} />
           <span className="text-lg font-serif text-secondary">{item.price}</span>
         </div>
       ))}

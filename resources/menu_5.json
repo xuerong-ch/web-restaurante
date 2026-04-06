@@ -7,19 +7,19 @@
       "translations": {
         "es": {
           "title": "Menú Especial Hong Kong para 4 personas",
-          "description": "Sopa de pollo con maíz, Entremeses variados, Pato aromático crujiente con crepes, Solomillo mongoliano, Pollo con curry, Pollo crujiente con sal y pimienta, Arroz frito especial, Langostinos con salsa Cantón a la plancha"
+          "description": "<b>Entrantes:</b> Sopa de pollo con maíz, Entremeses variados, Pato aromático crujiente con crepes\n<b>Comida:</b> Solomillo mongoliano, Pollo con curry, Pollo crujiente con sal y pimienta, Arroz frito especial, Langostinos con salsa Cantón a la plancha"
         },
         "en": {
           "title": "Special Hong Kong Menu for 4 people",
-          "description": "Chicken soup with corn, Varied appetizers, Crispy aromatic duck with pancakes, Mongolian sirloin, Chicken with curry sauce, Crispy chicken with salt and pepper, Special fried rice, Shrimp with Cantonese sauce"
+          "description": "<b>Starters:</b> Chicken soup with corn, Varied appetizers, Crispy aromatic duck with pancakes\n<b>Mains:</b> Mongolian sirloin, Chicken with curry sauce, Crispy chicken with salt and pepper, Special fried rice, Shrimp with Cantonese sauce"
         },
         "de": {
           "title": "Spezial-Menü Hong Kong für 4 Personen",
-          "description": "Hühnersuppe mit Mais, Vorspeisenplatte, Knusprige aromatische Ente mit Pfannkuchen, Rinderfilet nach mongolischer Art, Hähnchen in Curry-Sauce, Knuspriges Hähnchen mit Salz und Pfeffer, Gebratener Spezialreis, Garnelen nach Kanton-Art"
+          "description": "<b>Vorspeisen:</b> Hühnersuppe mit Mais, Vorspeisenplatte, Knusprige aromatische Ente mit Pfannkuchen\n<b>Hauptspeisen:</b> Rinderfilet nach mongolischer Art, Hähnchen in Curry-Sauce, Knuspriges Hähnchen mit Salz und Pfeffer, Gebratener Spezialreis, Garnelen nach Kanton-Art"
         },
         "cn": {
           "title": "香港四人特色套餐",
-          "description": "玉米鸡肉汤，什锦拼盘，香酥鸭配薄饼，蒙古牛柳，咖喱鸡，椒盐脆皮鸡，特别炒饭，铁板广东大虾"
+          "description": "<b>前菜：</b>玉米鸡肉汤，什锦拼盘，香酥鸭配薄饼\n<b>主菜：</b>蒙古牛柳，咖喱鸡，椒盐脆皮鸡，特别炒饭，铁板广东大虾"
         }
       }
     },
@@ -30,19 +30,19 @@
       "translations": {
         "es": {
           "title": "Menú A para 2 personas",
-          "description": "Sopa de pollo con maíz, Rollitos de primavera, Costillas, Ternera con judías negras, Pollo agridulce, Arroz frito con huevo"
+          "description": "<b>Entrantes:</b> Sopa de pollo con maíz, Rollitos de primavera, Costillas\n<b>Comida:</b> Ternera con judías negras, Pollo agridulce, Arroz frito con huevo"
         },
         "en": {
           "title": "Menu A for 2 people",
-          "description": "Chicken soup with corn, Spring rolls, Ribs, Beef with black bean sauce, Chicken with sweet and sour sauce, Fried rice with eggs"
+          "description": "<b>Starters:</b> Chicken soup with corn, Spring rolls, Ribs\n<b>Mains:</b> Beef with black bean sauce, Chicken with sweet and sour sauce, Fried rice with eggs"
         },
         "de": {
           "title": "Menü A für 2 Personen",
-          "description": "Hühnersuppe mit Mais, Frühlingsrollen, Rippchen, Rindfleisch in Schwarzbohnensauce, Hähnchen süß-sauer, Gebratener Reis mit Ei"
+          "description": "<b>Vorspeisen:</b> Hühnersuppe mit Mais, Frühlingsrollen, Rippchen\n<b>Hauptspeisen:</b> Rindfleisch in Schwarzbohnensauce, Hähnchen süß-sauer, Gebratener Reis mit Ei"
         },
         "cn": {
           "title": "两人套餐 A",
-          "description": "玉米鸡肉汤，春卷，排骨，豉汁牛肉，咕噜鸡，蛋炒饭"
+          "description": "<b>前菜：</b>玉米鸡肉汤，春卷，排骨\n<b>主菜：</b>豉汁牛肉，咕噜鸡，蛋炒饭"
         }
       }
     },
@@ -53,19 +53,19 @@
       "translations": {
         "es": {
           "title": "Menú B para 2 personas",
-          "description": "Sopa de pollo con maíz, Pato aromático crujiente con crepes, Ternera cantonesa a la plancha, Pollo agridulce, Arroz frito con huevos"
+          "description": "<b>Entrantes:</b> Sopa de pollo con maíz, Pato aromático crujiente con crepes\n<b>Comida:</b> Ternera cantonesa a la plancha, Pollo agridulce, Arroz frito con huevos"
         },
         "en": {
           "title": "Menu B for 2 people",
-          "description": "Chicken soup with corn, Crispy aromatic duck with pancakes, Grilled beef with Cantonese sauce, Chicken with sweet and sour sauce, Fried rice with eggs"
+          "description": "<b>Starters:</b> Chicken soup with corn, Crispy aromatic duck with pancakes\n<b>Mains:</b> Grilled beef with Cantonese sauce, Chicken with sweet and sour sauce, Fried rice with eggs"
         },
         "de": {
           "title": "Menü B für 2 Personen",
-          "description": "Hühnersuppe mit Mais, Knusprige aromatische Ente mit Pfannkuchen, Gegrilltes Rindfleisch nach Kanton-Art, Hähnchen süß-sauer, Gebratener Reis mit Ei"
+          "description": "<b>Vorspeisen:</b> Hühnersuppe mit Mais, Knusprige aromatische Ente mit Pfannkuchen\n<b>Hauptspeisen:</b> Gegrilltes Rindfleisch nach Kanton-Art, Hähnchen süß-sauer, Gebratener Reis mit Ei"
         },
         "cn": {
           "title": "两人套餐 B",
-          "description": "玉米鸡肉汤，香酥鸭配薄饼，铁板广东牛肉，咕噜鸡，蛋炒饭"
+          "description": "<b>前菜：</b>玉米鸡肉汤，香酥鸭配薄饼\n<b>主菜：</b>铁板广东牛肉，咕噜鸡，蛋炒饭"
         }
       }
     },
@@ -76,19 +76,19 @@
       "translations": {
         "es": {
           "title": "Menú A para 4 personas",
-          "description": "Sopa de pollo con maíz, Rollitos de primavera, Costillas, Pollo con curry, Pollo agridulce, Ternera con judías negras, Langostinos con sal y pimienta, Arroz frito con huevo"
+          "description": "<b>Entrantes:</b> Sopa de pollo con maíz, Rollitos de primavera, Costillas\n<b>Comida:</b> Pollo con curry, Pollo agridulce, Ternera con judías negras, Langostinos con sal y pimienta, Arroz frito con huevo"
         },
         "en": {
           "title": "Menu A for 4 people",
-          "description": "Chicken soup with corn, Spring rolls, Ribs, Chicken with curry sauce, Chicken with sweet and sour sauce, Beef with black bean sauce, Shrimp with salt and pepper, Fried rice with eggs"
+          "description": "<b>Starters:</b> Chicken soup with corn, Spring rolls, Ribs\n<b>Mains:</b> Chicken with curry sauce, Chicken with sweet and sour sauce, Beef with black bean sauce, Shrimp with salt and pepper, Fried rice with eggs"
         },
         "de": {
           "title": "Menü A für 4 Personen",
-          "description": "Hühnersuppe mit Mais, Frühlingsrollen, Rippchen, Hähnchen in Curry-Sauce, Hähnchen süß-sauer, Rindfleisch in Schwarzbohnensauce, Garnelen mit Salz und Pfeffer, Gebratener Reis mit Ei"
+          "description": "<b>Vorspeisen:</b> Hühnersuppe mit Mais, Frühlingsrollen, Rippchen\n<b>Hauptspeisen:</b> Hähnchen in Curry-Sauce, Hähnchen süß-sauer, Rindfleisch in Schwarzbohnensauce, Garnelen mit Salz und Pfeffer, Gebratener Reis mit Ei"
         },
         "cn": {
           "title": "四人套餐 A",
-          "description": "玉米鸡肉汤，春卷，排骨，咖喱鸡，咕噜鸡，豉汁牛肉，椒盐大虾，蛋炒饭"
+          "description": "<b>前菜：</b>玉米鸡肉汤，春卷，排骨\n<b>主菜：</b>咖喱鸡，咕噜鸡，豉汁牛肉，椒盐大虾，蛋炒饭"
         }
       }
     },
@@ -99,19 +99,19 @@
       "translations": {
         "es": {
           "title": "Menú B para 4 personas",
-          "description": "Sopa de pollo con maíz, Pato aromático crujiente con crepes, Costillas, Ternera cantonesa a la plancha, Pollo al curry, Pollo agridulce, Langostinos crujientes con chili y salsa agridulce, Arroz frito con huevos"
+          "description": "<b>Entrantes:</b> Sopa de pollo con maíz, Pato aromático crujiente con crepes, Costillas\n<b>Comida:</b> Ternera cantonesa a la plancha, Pollo al curry, Pollo agridulce, Langostinos crujientes con chili y salsa agridulce, Arroz frito con huevos"
         },
         "en": {
           "title": "Menu B for 4 people",
-          "description": "Chicken soup with corn, Crispy aromatic duck with pancakes, Ribs, Grilled beef with Cantonese sauce, Chicken with curry sauce, Chicken with sweet and sour sauce, Crispy shrimp with chili and sweet and sour sauce, Fried rice with eggs"
+          "description": "<b>Starters:</b> Chicken soup with corn, Crispy aromatic duck with pancakes, Ribs\n<b>Mains:</b> Grilled beef with Cantonese sauce, Chicken with curry sauce, Chicken with sweet and sour sauce, Crispy shrimp with chili and sweet and sour sauce, Fried rice with eggs"
         },
         "de": {
           "title": "Menü B für 4 Personen",
-          "description": "Hühnersuppe mit Mais, Knusprige aromatische Ente mit Pfannkuchen, Rippchen, Gegrilltes Rindfleisch nach Kanton-Art, Hähnchen in Curry-Sauce, Hähnchen süß-sauer, Knusprige Garnelen mit Chili und Süß-Sauer-Sauce, Gebratener Reis mit Ei"
+          "description": "<b>Vorspeisen:</b> Hühnersuppe mit Mais, Knusprige aromatische Ente mit Pfannkuchen, Rippchen\n<b>Hauptspeisen:</b> Gegrilltes Rindfleisch nach Kanton-Art, Hähnchen in Curry-Sauce, Hähnchen süß-sauer, Knusprige Garnelen mit Chili und Süß-Sauer-Sauce, Gebratener Reis mit Ei"
         },
         "cn": {
           "title": "四人套餐 B",
-          "description": "玉米鸡肉汤，香酥鸭配薄饼，排骨，铁板广东牛肉，咖喱鸡，咕噜鸡，甜酸辣脆皮大虾，蛋炒饭"
+          "description": "<b>前菜：</b>玉米鸡肉汤，香酥鸭配薄饼，排骨\n<b>主菜：</b>铁板广东牛肉，咖喱鸡，咕噜鸡，甜酸辣脆皮大虾，蛋炒饭"
         }
       }
     }
