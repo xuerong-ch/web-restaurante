@@ -145,7 +145,7 @@ function Hero({ lang = 'es' }) {
         <div className="mt-10 grid max-w-2xl gap-3 sm:grid-cols-2">
           {contactActions.map(action => (
             <a
-              key={`${action.icon}-${action.label}`}
+              key={action.href}
               href={action.href}
               target={action.external ? '_blank' : undefined}
               rel={action.external ? 'noreferrer' : undefined}
