@@ -2,459 +2,610 @@
   "items": [
     {
       "id": "001",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
-      "price": 1.80,
+      "category": "starters",
+      "price": 1.8,
       "translations": {
-        "es": { "title": "Pan de gambas", "description": "" },
-        "en": { "title": "Prawn cracker", "description": "" },
-        "de": { "title": "Garnele Cracker", "description": "" }
+        "es": {
+          "title": "Pan de gambas",
+          "description": ""
+        },
+        "en": {
+          "title": "Prawn cracker",
+          "description": ""
+        },
+        "de": {
+          "title": "Garnele Cracker",
+          "description": ""
+        }
       }
     },
     {
       "id": "002",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
+      "category": "starters",
       "price": 8.95,
       "translations": {
-        "es": { "title": "Langostinos fritos con sésamo", "description": "" },
-        "en": { "title": "Fried shrimps with sesame", "description": "" },
-        "de": { "title": "Brat Garnelen mit sesame", "description": "" }
+        "es": {
+          "title": "Langostinos fritos con sésamo",
+          "description": ""
+        },
+        "en": {
+          "title": "Fried shrimps with sesame",
+          "description": ""
+        },
+        "de": {
+          "title": "Brat Garnelen mit sesame",
+          "description": ""
+        }
       }
     },
     {
       "id": "003",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
+      "category": "starters",
       "price": 8.95,
       "translations": {
-        "es": { "title": "Langostinos rebozados", "description": "" },
-        "en": { "title": "Batter-fried shrimps", "description": "" },
-        "de": { "title": "Teig-Brat Garnelen", "description": "" }
+        "es": {
+          "title": "Langostinos rebozados",
+          "description": ""
+        },
+        "en": {
+          "title": "Batter-fried shrimps",
+          "description": ""
+        },
+        "de": {
+          "title": "Teig-Brat Garnelen",
+          "description": ""
+        }
       }
     },
     {
       "id": "004",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
-      "price": 2.50,
+      "category": "starters",
+      "price": 2.5,
       "translations": {
-        "es": { "title": "Rollitos de primavera (2)", "description": "" },
-        "en": { "title": "Spring Rolls (2)", "description": "" },
-        "de": { "title": "Frühlingsrollen (2)", "description": "" }
+        "es": {
+          "title": "Rollitos de primavera (2)",
+          "description": ""
+        },
+        "en": {
+          "title": "Spring Rolls (2)",
+          "description": ""
+        },
+        "de": {
+          "title": "Frühlingsrollen (2)",
+          "description": ""
+        }
       }
     },
     {
       "id": "005",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
-      "price": 1.80,
+      "category": "starters",
+      "price": 1.8,
       "translations": {
-        "es": { "title": "Pan chino", "description": "" },
-        "en": { "title": "Chinese bread", "description": "" },
-        "de": { "title": "Chinese brot", "description": "" }
+        "es": {
+          "title": "Pan chino",
+          "description": ""
+        },
+        "en": {
+          "title": "Chinese bread",
+          "description": ""
+        },
+        "de": {
+          "title": "Chinese brot",
+          "description": ""
+        }
       }
     },
     {
       "id": "006",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
-      "price": 4.50,
+      "category": "starters",
+      "price": 4.5,
       "translations": {
-        "es": { "title": "Wan-tun frito", "description": "" },
-        "en": { "title": "Fried wan-tun", "description": "" },
-        "de": { "title": "Brat wan-tun", "description": "" }
+        "es": {
+          "title": "Wan-tun frito",
+          "description": ""
+        },
+        "en": {
+          "title": "Fried wan-tun",
+          "description": ""
+        },
+        "de": {
+          "title": "Brat wan-tun",
+          "description": ""
+        }
       }
     },
     {
       "id": "007",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
-      "price": 6.50,
+      "category": "starters",
+      "price": 6.5,
       "translations": {
-        "es": { "title": "Pinchos de pollo satay", "description": "" },
-        "en": { "title": "Satay chicken skewers", "description": "" },
-        "de": { "title": "Satay Huhn Spieße", "description": "" }
+        "es": {
+          "title": "Pinchos de pollo satay",
+          "description": ""
+        },
+        "en": {
+          "title": "Satay chicken skewers",
+          "description": ""
+        },
+        "de": {
+          "title": "Satay Huhn Spieße",
+          "description": ""
+        }
       }
     },
     {
       "id": "008",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
+      "category": "starters",
       "price": 13.95,
       "translations": {
-        "es": { "title": "Pato crujiente con crepes", "description": "" },
-        "en": { "title": "Crispy duck with pancakes", "description": "" },
-        "de": { "title": "Knusprig Ente mit Pfannkuchen", "description": "" }
+        "es": {
+          "title": "Pato crujiente con crepes",
+          "description": ""
+        },
+        "en": {
+          "title": "Crispy duck with pancakes",
+          "description": ""
+        },
+        "de": {
+          "title": "Knusprig Ente mit Pfannkuchen",
+          "description": ""
+        }
       }
     },
     {
       "id": "009",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
+      "category": "starters",
       "price": 6.95,
       "translations": {
-        "es": { "title": "Costillas con salsa capital", "description": "" },
-        "en": { "title": "Ribs with capital sauce", "description": "" },
-        "de": { "title": "Rippen mit Kapital Soße", "description": "" }
+        "es": {
+          "title": "Costillas con salsa capital",
+          "description": ""
+        },
+        "en": {
+          "title": "Ribs with capital sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Rippen mit Kapital Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "010",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
+      "category": "starters",
       "price": 6.95,
       "translations": {
-        "es": { "title": "Costillas con sal pimienta", "description": "" },
-        "en": { "title": "Ribs with salt and pepper", "description": "" },
-        "de": { "title": "Rippen mit Salz und Pfeffer", "description": "" }
+        "es": {
+          "title": "Costillas con sal pimienta",
+          "description": ""
+        },
+        "en": {
+          "title": "Ribs with salt and pepper",
+          "description": ""
+        },
+        "de": {
+          "title": "Rippen mit Salz und Pfeffer",
+          "description": ""
+        }
       }
     },
     {
       "id": "011",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
+      "category": "starters",
       "price": 6.75,
       "translations": {
-        "es": { "title": "Alitas de pollo fritas con sal y pimienta", "description": "" },
-        "en": { "title": "Fried chicken wings with salt and pepper", "description": "" },
-        "de": { "title": "Brat Huhn Flügel mit Salz und Pfeffer", "description": "" }
+        "es": {
+          "title": "Alitas de pollo fritas con sal y pimienta",
+          "description": ""
+        },
+        "en": {
+          "title": "Fried chicken wings with salt and pepper",
+          "description": ""
+        },
+        "de": {
+          "title": "Brat Huhn Flügel mit Salz und Pfeffer",
+          "description": ""
+        }
       }
     },
     {
       "id": "012",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
-      "price": 11.50,
+      "category": "starters",
+      "price": 11.5,
       "translations": {
-        "es": { 
-          "title": "Entremeses variados", 
-          "description": "(2 pers, rollito thai, rollito de langostinos, costillas, pinchos de pollos, alitas de pollo y langostinos rebozados)" 
+        "es": {
+          "title": "Entremeses variados",
+          "description": "(2 pers, rollito thai, rollito de langostinos, costillas, pinchos de pollos, alitas de pollo y langostinos rebozados)"
         },
-        "en": { 
-          "title": "Varied appetizers", 
-          "description": "(2 people, Thai rolls, shrimp rolls, ribs, chicken skewers, chicken wings and fried shrimp)" 
+        "en": {
+          "title": "Varied appetizers",
+          "description": "(2 people, Thai rolls, shrimp rolls, ribs, chicken skewers, chicken wings and fried shrimp)"
         },
-        "de": { 
-          "title": "Abwechslungsreiche Vorspeisen", 
-          "description": "(2 Menschen, Thai Rollen, Garnele Rollen, Rippen, Huhn Spieß, Huhn Flügel und Garnelen)" 
+        "de": {
+          "title": "Abwechslungsreiche Vorspeisen",
+          "description": "(2 Menschen, Thai Rollen, Garnele Rollen, Rippen, Huhn Spieß, Huhn Flügel und Garnelen)"
         }
       }
     },
     {
       "id": "013",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
+      "category": "starters",
       "price": 8.95,
       "translations": {
-        "es": { "title": "Gamba al ajillo", "description": "" },
-        "en": { "title": "Grilled Garlic Shrimp", "description": "" },
-        "de": { "title": "Gegrillt Garnelen mit Knoblauch", "description": "" }
+        "es": {
+          "title": "Gamba al ajillo",
+          "description": ""
+        },
+        "en": {
+          "title": "Grilled Garlic Shrimp",
+          "description": ""
+        },
+        "de": {
+          "title": "Gegrillt Garnelen mit Knoblauch",
+          "description": ""
+        }
       }
     },
     {
       "id": "T414",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
-      "price": 4.50,
+      "category": "starters",
+      "price": 4.5,
       "translations": {
-        "es": { "title": "Rollitos Thai", "description": "" },
-        "en": { "title": "Thai rolls", "description": "" },
-        "de": { "title": "Thai Rollen", "description": "" }
+        "es": {
+          "title": "Rollitos Thai",
+          "description": ""
+        },
+        "en": {
+          "title": "Thai rolls",
+          "description": ""
+        },
+        "de": {
+          "title": "Thai Rollen",
+          "description": ""
+        }
       }
     },
     {
       "id": "T415",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
+      "category": "starters",
       "price": 5.75,
       "translations": {
-        "es": { "title": "Rollitos de langostino", "description": "" },
-        "en": { "title": "Shrimp rolls", "description": "" },
-        "de": { "title": "Garnele Rollen", "description": "" }
+        "es": {
+          "title": "Rollitos de langostino",
+          "description": ""
+        },
+        "en": {
+          "title": "Shrimp rolls",
+          "description": ""
+        },
+        "de": {
+          "title": "Garnele Rollen",
+          "description": ""
+        }
       }
     },
     {
       "id": "T416",
-      "category": {
-        "es": "Entrantes",
-        "en": "Starters",
-        "de": "Vorspeisen"
-      },
+      "category": "starters",
       "price": 7.95,
       "translations": {
-        "es": { "title": "Costilla Bangkok", "description": "" },
-        "en": { "title": "Bangkok ribs", "description": "" },
-        "de": { "title": "Bangkok Rippen", "description": "" }
+        "es": {
+          "title": "Costilla Bangkok",
+          "description": ""
+        },
+        "en": {
+          "title": "Bangkok ribs",
+          "description": ""
+        },
+        "de": {
+          "title": "Bangkok Rippen",
+          "description": ""
+        }
       }
     },
     {
       "id": "016",
-      "category": {
-        "es": "Sopas",
-        "en": "Soups",
-        "de": "Suppen"
-      },
+      "category": "soups",
       "price": 2.95,
       "translations": {
-        "es": { "title": "Sopa de pollo con maíz", "description": "" },
-        "en": { "title": "Chicken soup with corn", "description": "" },
-        "de": { "title": "Huhn Suppe mit Korn", "description": "" }
+        "es": {
+          "title": "Sopa de pollo con maíz",
+          "description": ""
+        },
+        "en": {
+          "title": "Chicken soup with corn",
+          "description": ""
+        },
+        "de": {
+          "title": "Huhn Suppe mit Korn",
+          "description": ""
+        }
       }
     },
     {
       "id": "017",
-      "category": {
-        "es": "Sopas",
-        "en": "Soups",
-        "de": "Suppen"
-      },
+      "category": "soups",
       "price": 2.95,
       "translations": {
-        "es": { "title": "Sopa de pollo con tallarines", "description": "" },
-        "en": { "title": "Chicken soup with noodles", "description": "" },
-        "de": { "title": "Huhn Suppe mit Nudeln", "description": "" }
+        "es": {
+          "title": "Sopa de pollo con tallarines",
+          "description": ""
+        },
+        "en": {
+          "title": "Chicken soup with noodles",
+          "description": ""
+        },
+        "de": {
+          "title": "Huhn Suppe mit Nudeln",
+          "description": ""
+        }
       }
     },
     {
       "id": "018",
-      "category": {
-        "es": "Sopas",
-        "en": "Soups",
-        "de": "Suppen"
-      },
-      "price": 3.50,
+      "category": "soups",
+      "price": 3.5,
       "translations": {
-        "es": { "title": "Sopa de Wanton", "description": "" },
-        "en": { "title": "Wanton soup", "description": "" },
-        "de": { "title": "Wanton Suppe", "description": "" }
+        "es": {
+          "title": "Sopa de Wanton",
+          "description": ""
+        },
+        "en": {
+          "title": "Wanton soup",
+          "description": ""
+        },
+        "de": {
+          "title": "Wanton Suppe",
+          "description": ""
+        }
       }
     },
     {
       "id": "019",
-      "category": {
-        "es": "Sopas",
-        "en": "Soups",
-        "de": "Suppen"
-      },
+      "category": "soups",
       "price": 2.95,
       "translations": {
-        "es": { "title": "Sopa vegetal", "description": "" },
-        "en": { "title": "Vegetable soup", "description": "" },
-        "de": { "title": "Gemüse Suppe", "description": "" }
+        "es": {
+          "title": "Sopa vegetal",
+          "description": ""
+        },
+        "en": {
+          "title": "Vegetable soup",
+          "description": ""
+        },
+        "de": {
+          "title": "Gemüse Suppe",
+          "description": ""
+        }
       }
     },
     {
       "id": "020",
-      "category": {
-        "es": "Sopas",
-        "en": "Soups",
-        "de": "Suppen"
-      },
-      "price": 3.50,
+      "category": "soups",
+      "price": 3.5,
       "translations": {
-        "es": { "title": "Sopa agripicante", "description": "" },
-        "en": { "title": "Hot and sour soup", "description": "" },
-        "de": { "title": "Süß und sauer Suppe", "description": "" }
+        "es": {
+          "title": "Sopa agripicante",
+          "description": ""
+        },
+        "en": {
+          "title": "Hot and sour soup",
+          "description": ""
+        },
+        "de": {
+          "title": "Süß und sauer Suppe",
+          "description": ""
+        }
       }
     },
     {
       "id": "021",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 6.80,
+      "category": "chicken",
+      "price": 6.8,
       "translations": {
-        "es": { "title": "Pollo crujiente con sal y pimienta", "description": "" },
-        "en": { "title": "Crispy chicken with pepper and salt", "description": "" },
-        "de": { "title": "Knusprig Huhn mit Pfeffer and Salz", "description": "" }
+        "es": {
+          "title": "Pollo crujiente con sal y pimienta",
+          "description": ""
+        },
+        "en": {
+          "title": "Crispy chicken with pepper and salt",
+          "description": ""
+        },
+        "de": {
+          "title": "Knusprig Huhn mit Pfeffer and Salz",
+          "description": ""
+        }
       }
     },
     {
       "id": "022",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 6.50,
+      "category": "chicken",
+      "price": 6.5,
       "translations": {
-        "es": { "title": "Pollo con bambú y setas chinas", "description": "" },
-        "en": { "title": "Chicken with bamboo and chinese mushrooms", "description": "" },
-        "de": { "title": "Huhn mit Bambus und chinese Pilze", "description": "" }
+        "es": {
+          "title": "Pollo con bambú y setas chinas",
+          "description": ""
+        },
+        "en": {
+          "title": "Chicken with bamboo and chinese mushrooms",
+          "description": ""
+        },
+        "de": {
+          "title": "Huhn mit Bambus und chinese Pilze",
+          "description": ""
+        }
       }
     },
     {
       "id": "023",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 6.30,
+      "category": "chicken",
+      "price": 6.3,
       "translations": {
-        "es": { "title": "Pollo con salsa curry", "description": "" },
-        "en": { "title": "Curry chicken", "description": "" },
-        "de": { "title": "Curry Huhn", "description": "" }
+        "es": {
+          "title": "Pollo con salsa curry",
+          "description": ""
+        },
+        "en": {
+          "title": "Curry chicken",
+          "description": ""
+        },
+        "de": {
+          "title": "Curry Huhn",
+          "description": ""
+        }
       }
     },
     {
       "id": "024",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
+      "category": "chicken",
       "price": 6.85,
       "translations": {
-        "es": { "title": "Pollo crujiente con chili y salsa agridulce", "description": "" },
-        "en": { "title": "Crispy chicken with chili and sweet and sour sauce", "description": "" },
-        "de": { "title": "Knusprig Huhn mit Chili und süß und sauer Soße", "description": "" }
+        "es": {
+          "title": "Pollo crujiente con chili y salsa agridulce",
+          "description": ""
+        },
+        "en": {
+          "title": "Crispy chicken with chili and sweet and sour sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Knusprig Huhn mit Chili und süß und sauer Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "025",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 6.30,
+      "category": "chicken",
+      "price": 6.3,
       "translations": {
-        "es": { "title": "Pollo agridulce", "description": "" },
-        "en": { "title": "Sweet and sour chicken", "description": "" },
-        "de": { "title": "Süß und sauer Huhn", "description": "" }
+        "es": {
+          "title": "Pollo agridulce",
+          "description": ""
+        },
+        "en": {
+          "title": "Sweet and sour chicken",
+          "description": ""
+        },
+        "de": {
+          "title": "Süß und sauer Huhn",
+          "description": ""
+        }
       }
     },
     {
       "id": "026",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 6.30,
+      "category": "chicken",
+      "price": 6.3,
       "translations": {
-        "es": { "title": "Pollo con salsa picante", "description": "" },
-        "en": { "title": "Chicken with spicy sauce", "description": "" },
-        "de": { "title": "Huhn mit Würzig Soße", "description": "" }
+        "es": {
+          "title": "Pollo con salsa picante",
+          "description": ""
+        },
+        "en": {
+          "title": "Chicken with spicy sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Huhn mit Würzig Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "027",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 6.50,
+      "category": "chicken",
+      "price": 6.5,
       "translations": {
-        "es": { "title": "Pollo con salsa de satay", "description": "" },
-        "en": { "title": "Chicken with satay sauce", "description": "" },
-        "de": { "title": "Huhn mit satay Soße", "description": "" }
+        "es": {
+          "title": "Pollo con salsa de satay",
+          "description": ""
+        },
+        "en": {
+          "title": "Chicken with satay sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Huhn mit satay Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "028",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 6.30,
+      "category": "chicken",
+      "price": 6.3,
       "translations": {
-        "es": { "title": "Pollo con salsa de judías negras", "description": "" },
-        "en": { "title": "Chicken with black bean sauce", "description": "" },
-        "de": { "title": "Huhn mit schwarze Bohne Soße", "description": "" }
+        "es": {
+          "title": "Pollo con salsa de judías negras",
+          "description": ""
+        },
+        "en": {
+          "title": "Chicken with black bean sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Huhn mit schwarze Bohne Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "029",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 7.30,
+      "category": "chicken",
+      "price": 7.3,
       "translations": {
-        "es": { "title": "Pollo con salsa de pimienta negra a la plancha", "description": "" },
-        "en": { "title": "Grilled chicken with black pepper sauce", "description": "" },
-        "de": { "title": "Gegrillt Huhn mit black Pfeffer Soße", "description": "" }
+        "es": {
+          "title": "Pollo con salsa de pimienta negra a la plancha",
+          "description": ""
+        },
+        "en": {
+          "title": "Grilled chicken with black pepper sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Gegrillt Huhn mit black Pfeffer Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "030",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 7.30,
+      "category": "chicken",
+      "price": 7.3,
       "translations": {
-        "es": { "title": "Pollo con salsa Cantón a la plancha", "description": "" },
-        "en": { "title": "Grilled chicken with Cantonese sauce", "description": "" },
-        "de": { "title": "Gegrillt Huhn mit Canton Soße", "description": "" }
+        "es": {
+          "title": "Pollo con salsa Cantón a la plancha",
+          "description": ""
+        },
+        "en": {
+          "title": "Grilled chicken with Cantonese sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Gegrillt Huhn mit Canton Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "031",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 7.50,
+      "category": "chicken",
+      "price": 7.5,
       "translations": {
-        "es": { "title": "", "description": "" },
-        "en": { "title": "Grilled chicken with ginger and onion", "description": "" },
-        "de": { "title": "", "description": "" }
+        "es": {
+          "title": "Pollo con jengibre y cebolla a la plancha",
+          "description": ""
+        },
+        "en": {
+          "title": "Grilled chicken with ginger and onion",
+          "description": ""
+        },
+        "de": {
+          "title": "",
+          "description": ""
+        }
       }
     }
   ]

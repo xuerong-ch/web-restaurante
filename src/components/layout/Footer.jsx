@@ -13,7 +13,7 @@ function Footer() {
         </a>
       </div>
       <p className="font-sans text-[10px] uppercase tracking-[0.2em] text-on-surface-variant">
-        © 2024 The Imperial Editorial. All Rights Reserved.
+        © {new Date().getFullYear()} Restaurante Hongkong. Todos los derechos reservados.
       </p>
     </footer>
   )

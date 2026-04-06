@@ -2,12 +2,8 @@
   "items": [
     {
       "id": "Crema Catalana",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 5.60,
+      "category": "desserts",
+      "price": 5.6,
       "translations": {
         "es": {
           "title": "Crema Catalana",
@@ -25,12 +21,8 @@
     },
     {
       "id": "Copa Nata Nueces",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 6.50,
+      "category": "desserts",
+      "price": 6.5,
       "translations": {
         "es": {
           "title": "Copa Nata Nueces",
@@ -48,12 +40,8 @@
     },
     {
       "id": "Tarta Fantástica Individual",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 5.50,
+      "category": "desserts",
+      "price": 5.5,
       "translations": {
         "es": {
           "title": "Tarta Fantástica Individual",
@@ -71,12 +59,8 @@
     },
     {
       "id": "Flan Biscuit",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 5.10,
+      "category": "desserts",
+      "price": 5.1,
       "translations": {
         "es": {
           "title": "Flan Biscuit",
@@ -94,12 +78,8 @@
     },
     {
       "id": "Trufito",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 5.10,
+      "category": "desserts",
+      "price": 5.1,
       "translations": {
         "es": {
           "title": "Trufito",
@@ -117,12 +97,8 @@
     },
     {
       "id": "Coco Helado",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 5.80,
+      "category": "desserts",
+      "price": 5.8,
       "translations": {
         "es": {
           "title": "Coco Helado",
@@ -140,12 +116,8 @@
     },
     {
       "id": "Copa Frutas del Bosque",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 6.50,
+      "category": "desserts",
+      "price": 6.5,
       "translations": {
         "es": {
           "title": "Copa Frutas del Bosque",
@@ -163,12 +135,8 @@
     },
     {
       "id": "Copa Sorbete de Limón",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 5.80,
+      "category": "desserts",
+      "price": 5.8,
       "translations": {
         "es": {
           "title": "Copa Sorbete de Limón",
@@ -186,12 +154,8 @@
     },
     {
       "id": "Coulant de Chocolate",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 5.80,
+      "category": "desserts",
+      "price": 5.8,
       "translations": {
         "es": {
           "title": "Coulant de Chocolate",
@@ -209,12 +173,8 @@
     },
     {
       "id": "Copa Turrón",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 6.80,
+      "category": "desserts",
+      "price": 6.8,
       "translations": {
         "es": {
           "title": "Copa Turrón",
@@ -232,26 +192,27 @@
     },
     {
       "id": "Punky, Barry y Vacky",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
+      "category": "desserts",
       "price": 4.95,
       "translations": {
-        "es": { "title": "Punky, Barry y Vacky", "description": "Cremoso helado de vainilla." },
-        "en": { "title": "Punky, Barry y Vacky", "description": "Creamy vanilla ice cream." },
-        "de": { "title": "Punky, Barry und Vacky", "description": "Cremiges Vanilleeis." }
+        "es": {
+          "title": "Punky, Barry y Vacky",
+          "description": "Cremoso helado de vainilla."
+        },
+        "en": {
+          "title": "Punky, Barry y Vacky",
+          "description": "Creamy vanilla ice cream."
+        },
+        "de": {
+          "title": "Punky, Barry und Vacky",
+          "description": "Cremiges Vanilleeis."
+        }
       }
     },
     {
       "id": "Copa al Gusto",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 5.50,
+      "category": "desserts",
+      "price": 5.5,
       "translations": {
         "es": {
           "title": "Copa al Gusto",
@@ -269,12 +230,8 @@
     },
     {
       "id": "Tarta Gran Hotel",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 4.80,
+      "category": "desserts",
+      "price": 4.8,
       "translations": {
         "es": {
           "title": "Tarta Gran Hotel",
@@ -292,12 +249,8 @@
     },
     {
       "id": "Tarta Sacher",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 4.80,
+      "category": "desserts",
+      "price": 4.8,
       "translations": {
         "es": {
           "title": "Tarta Sacher",
@@ -315,12 +268,8 @@
     },
     {
       "id": "Limón Helado",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 5.50,
+      "category": "desserts",
+      "price": 5.5,
       "translations": {
         "es": {
           "title": "Limón Helado",
@@ -338,12 +287,8 @@
     },
     {
       "id": "Naranja Helada",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 5.50,
+      "category": "desserts",
+      "price": 5.5,
       "translations": {
         "es": {
           "title": "Naranja Helada",
@@ -361,12 +306,8 @@
     },
     {
       "id": "Mini Nórdica",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 4.50,
+      "category": "desserts",
+      "price": 4.5,
       "translations": {
         "es": {
           "title": "Mini Nórdica",
@@ -384,54 +325,65 @@
     },
     {
       "id": "Helado Frito con Miel",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 5.30,
+      "category": "desserts",
+      "price": 5.3,
       "translations": {
-        "es": { "title": "Helado Frito con Miel", "description": "" },
-        "en": { "title": "Fried Ice cream with Honey", "description": "" },
-        "de": { "title": "Frittiertes Eis mit Honig", "description": "" }
+        "es": {
+          "title": "Helado Frito con Miel",
+          "description": ""
+        },
+        "en": {
+          "title": "Fried Ice cream with Honey",
+          "description": ""
+        },
+        "de": {
+          "title": "Frittiertes Eis mit Honig",
+          "description": ""
+        }
       }
     },
     {
       "id": "Helado con Nueces",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 5.50,
+      "category": "desserts",
+      "price": 5.5,
       "translations": {
-        "es": { "title": "Helado con Nueces", "description": "" },
-        "en": { "title": "Ice cream with Walnuts", "description": "" },
-        "de": { "title": "Eis mit Walnüssen", "description": "" }
+        "es": {
+          "title": "Helado con Nueces",
+          "description": ""
+        },
+        "en": {
+          "title": "Ice cream with Walnuts",
+          "description": ""
+        },
+        "de": {
+          "title": "Eis mit Walnüssen",
+          "description": ""
+        }
       }
     },
     {
       "id": "Bola Helado",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 3.50,
+      "category": "desserts",
+      "price": 3.5,
       "translations": {
-        "es": { "title": "Bola Helado", "description": "" },
-        "en": { "title": "Ice cream ball", "description": "" },
-        "de": { "title": "Eiskugel", "description": "" }
+        "es": {
+          "title": "Bola Helado",
+          "description": ""
+        },
+        "en": {
+          "title": "Ice cream ball",
+          "description": ""
+        },
+        "de": {
+          "title": "Eiskugel",
+          "description": ""
+        }
       }
     },
     {
       "id": "Postre de Fruta Frita",
-      "category": {
-        "es": "Postres",
-        "en": "Desserts",
-        "de": "Desserts"
-      },
-      "price": 6.50,
+      "category": "desserts",
+      "price": 6.5,
       "translations": {
         "es": {
           "title": "Platano/ Piña / Manzana Frita con Miel y Helado",

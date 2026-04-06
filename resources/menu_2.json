@@ -2,12 +2,8 @@
   "items": [
     {
       "id": "31",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 7.50,
+      "category": "chicken",
+      "price": 7.5,
       "translations": {
         "es": {
           "title": "Pollo con jengibre y cebolla a la plancha",
@@ -25,12 +21,8 @@
     },
     {
       "id": "32",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 7.50,
+      "category": "chicken",
+      "price": 7.5,
       "translations": {
         "es": {
           "title": "Pollo al ajillo picante a la plancha",
@@ -48,12 +40,8 @@
     },
     {
       "id": "33",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 6.30,
+      "category": "chicken",
+      "price": 6.3,
       "translations": {
         "es": {
           "title": "Pollo con almendra",
@@ -71,11 +59,7 @@
     },
     {
       "id": "34",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
+      "category": "chicken",
       "price": 6.95,
       "translations": {
         "es": {
@@ -94,12 +78,8 @@
     },
     {
       "id": "35",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 6.50,
+      "category": "chicken",
+      "price": 6.5,
       "translations": {
         "es": {
           "title": "Pollo frito con salsa de limón",
@@ -117,11 +97,7 @@
     },
     {
       "id": "36",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
+      "category": "chicken",
       "price": 9.35,
       "translations": {
         "es": {
@@ -140,12 +116,8 @@
     },
     {
       "id": "T437",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 7.50,
+      "category": "chicken",
+      "price": 7.5,
       "translations": {
         "es": {
           "title": "Pollo con curry rojo",
@@ -163,12 +135,8 @@
     },
     {
       "id": "T438",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 7.50,
+      "category": "chicken",
+      "price": 7.5,
       "translations": {
         "es": {
           "title": "Pollo con curry verde",
@@ -186,12 +154,8 @@
     },
     {
       "id": "T439",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 7.80,
+      "category": "chicken",
+      "price": 7.8,
       "translations": {
         "es": {
           "title": "Pollo Bangkok",
@@ -209,12 +173,8 @@
     },
     {
       "id": "T440",
-      "category": {
-        "es": "Pollo",
-        "en": "Chicken",
-        "de": "Huhn"
-      },
-      "price": 7.80,
+      "category": "chicken",
+      "price": 7.8,
       "translations": {
         "es": {
           "title": "Pollo con coco y piña",
@@ -232,12 +192,8 @@
     },
     {
       "id": "41",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
-      "price": 6.70,
+      "category": "beef",
+      "price": 6.7,
       "translations": {
         "es": {
           "title": "Ternera con pimiento verde",
@@ -255,11 +211,7 @@
     },
     {
       "id": "42",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
+      "category": "beef",
       "price": 6.95,
       "translations": {
         "es": {
@@ -278,12 +230,8 @@
     },
     {
       "id": "43",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
-      "price": 6.80,
+      "category": "beef",
+      "price": 6.8,
       "translations": {
         "es": {
           "title": "Ternera con salsa curry",
@@ -301,11 +249,7 @@
     },
     {
       "id": "44",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
+      "category": "beef",
       "price": 7.25,
       "translations": {
         "es": {
@@ -324,12 +268,8 @@
     },
     {
       "id": "45",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
-      "price": 6.80,
+      "category": "beef",
+      "price": 6.8,
       "translations": {
         "es": {
           "title": "Ternera con salsa de ostras",
@@ -347,12 +287,8 @@
     },
     {
       "id": "46",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
-      "price": 6.70,
+      "category": "beef",
+      "price": 6.7,
       "translations": {
         "es": {
           "title": "Ternera con salsa picante",
@@ -370,12 +306,8 @@
     },
     {
       "id": "47",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
-      "price": 6.80,
+      "category": "beef",
+      "price": 6.8,
       "translations": {
         "es": {
           "title": "Ternera con salsa satay",
@@ -393,12 +325,8 @@
     },
     {
       "id": "48",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
-      "price": 6.80,
+      "category": "beef",
+      "price": 6.8,
       "translations": {
         "es": {
           "title": "Ternera con salsa de judías negras",
@@ -416,12 +344,8 @@
     },
     {
       "id": "49",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
-      "price": 7.50,
+      "category": "beef",
+      "price": 7.5,
       "translations": {
         "es": {
           "title": "Ternera con salsa de pimienta negra a la plancha",
@@ -439,12 +363,8 @@
     },
     {
       "id": "50",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
-      "price": 7.50,
+      "category": "beef",
+      "price": 7.5,
       "translations": {
         "es": {
           "title": "Ternera con salsa Cantón a la plancha",
@@ -462,12 +382,8 @@
     },
     {
       "id": "51",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
-      "price": 7.70,
+      "category": "beef",
+      "price": 7.7,
       "translations": {
         "es": {
           "title": "Ternera con jengibre y cebolla a la plancha",
@@ -485,11 +401,7 @@
     },
     {
       "id": "T452",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
+      "category": "beef",
       "price": 7.95,
       "translations": {
         "es": {
@@ -508,11 +420,7 @@
     },
     {
       "id": "T453",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
+      "category": "beef",
       "price": 7.95,
       "translations": {
         "es": {
@@ -531,11 +439,7 @@
     },
     {
       "id": "T454",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
+      "category": "beef",
       "price": 7.95,
       "translations": {
         "es": {
@@ -554,11 +458,7 @@
     },
     {
       "id": "T455",
-      "category": {
-        "es": "Ternera",
-        "en": "Beef",
-        "de": "Rindfleisch"
-      },
+      "category": "beef",
       "price": 7.95,
       "translations": {
         "es": {
@@ -577,12 +477,8 @@
     },
     {
       "id": "61",
-      "category": {
-        "es": "Gambas",
-        "en": "Shrimp",
-        "de": "Garnele"
-      },
-      "price": 9.50,
+      "category": "shrimp",
+      "price": 9.5,
       "translations": {
         "es": {
           "title": "Langostinos con sal y pimienta",
@@ -600,11 +496,7 @@
     },
     {
       "id": "62",
-      "category": {
-        "es": "Gambas",
-        "en": "Shrimp",
-        "de": "Garnele"
-      },
+      "category": "shrimp",
       "price": 9.75,
       "translations": {
         "es": {
@@ -623,12 +515,8 @@
     },
     {
       "id": "63",
-      "category": {
-        "es": "Gambas",
-        "en": "Shrimp",
-        "de": "Garnele"
-      },
-      "price": 9.50,
+      "category": "shrimp",
+      "price": 9.5,
       "translations": {
         "es": {
           "title": "Langostinos agridulces",
@@ -646,12 +534,8 @@
     },
     {
       "id": "64",
-      "category": {
-        "es": "Gambas",
-        "en": "Shrimp",
-        "de": "Garnele"
-      },
-      "price": 9.30,
+      "category": "shrimp",
+      "price": 9.3,
       "translations": {
         "es": {
           "title": "Langostinos con salsa picante",
@@ -669,12 +553,8 @@
     },
     {
       "id": "65",
-      "category": {
-        "es": "Gambas",
-        "en": "Shrimp",
-        "de": "Garnele"
-      },
-      "price": 10.50,
+      "category": "shrimp",
+      "price": 10.5,
       "translations": {
         "es": {
           "title": "Langostinos con salsa Cantón a la plancha",
@@ -692,12 +572,8 @@
     },
     {
       "id": "66",
-      "category": {
-        "es": "Gambas",
-        "en": "Shrimp",
-        "de": "Garnele"
-      },
-      "price": 10.80,
+      "category": "shrimp",
+      "price": 10.8,
       "translations": {
         "es": {
           "title": "Langostinos con jengibre y cebollas a la plancha",
@@ -715,12 +591,8 @@
     },
     {
       "id": "67",
-      "category": {
-        "es": "Gambas",
-        "en": "Shrimp",
-        "de": "Garnele"
-      },
-      "price": 10.80,
+      "category": "shrimp",
+      "price": 10.8,
       "translations": {
         "es": {
           "title": "Langostinos al ajillo picante a la plancha",
@@ -738,12 +610,8 @@
     },
     {
       "id": "T468",
-      "category": {
-        "es": "Gambas",
-        "en": "Shrimp",
-        "de": "Garnele"
-      },
-      "price": 9.80,
+      "category": "shrimp",
+      "price": 9.8,
       "translations": {
         "es": {
           "title": "Langostinos con curry rojo",
@@ -761,12 +629,8 @@
     },
     {
       "id": "T469",
-      "category": {
-        "es": "Gambas",
-        "en": "Shrimp",
-        "de": "Garnele"
-      },
-      "price": 9.80,
+      "category": "shrimp",
+      "price": 9.8,
       "translations": {
         "es": {
           "title": "Langostinos con curry verde",
@@ -784,12 +648,8 @@
     },
     {
       "id": "T470",
-      "category": {
-        "es": "Gambas",
-        "en": "Shrimp",
-        "de": "Garnele"
-      },
-      "price": 10.30,
+      "category": "shrimp",
+      "price": 10.3,
       "translations": {
         "es": {
           "title": "Langostinos Bangkok",

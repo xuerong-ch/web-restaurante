@@ -2,478 +2,648 @@
   "items": [
     {
       "id": "71",
-      "category": {
-        "es": "Pato",
-        "en": "Duck",
-        "de": "Ente"
-      },
+      "category": "duck",
       "price": 10.95,
       "translations": {
-        "es": { "title": "Pato con salsa de naranja", "description": "" },
-        "en": { "title": "Duck with Orange sauce", "description": "" },
-        "de": { "title": "Ente mit Orange Soße", "description": "" }
+        "es": {
+          "title": "Pato con salsa de naranja",
+          "description": ""
+        },
+        "en": {
+          "title": "Duck with Orange sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Ente mit Orange Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "72",
-      "category": {
-        "es": "Pato",
-        "en": "Duck",
-        "de": "Ente"
-      },
+      "category": "duck",
       "price": 10.95,
       "translations": {
-        "es": { "title": "Pato con salsa picante", "description": "" },
-        "en": { "title": "Duck with spicy sauce", "description": "" },
-        "de": { "title": "Ente mit Würzig Soße", "description": "" }
+        "es": {
+          "title": "Pato con salsa picante",
+          "description": ""
+        },
+        "en": {
+          "title": "Duck with spicy sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Ente mit Würzig Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "73",
-      "category": {
-        "es": "Pato",
-        "en": "Duck",
-        "de": "Ente"
-      },
+      "category": "duck",
       "price": 10.95,
       "translations": {
-        "es": { "title": "Pato con bambú y seta china", "description": "" },
-        "en": { "title": "Duck with bamboo and chinese mushrooms", "description": "" },
-        "de": { "title": "Ente mit Bambus und chinese Pilze", "description": "" }
+        "es": {
+          "title": "Pato con bambú y seta china",
+          "description": ""
+        },
+        "en": {
+          "title": "Duck with bamboo and chinese mushrooms",
+          "description": ""
+        },
+        "de": {
+          "title": "Ente mit Bambus und chinese Pilze",
+          "description": ""
+        }
       }
     },
     {
       "id": "74",
-      "category": {
-        "es": "Pato",
-        "en": "Duck",
-        "de": "Ente"
-      },
-      "price": 11.50,
+      "category": "duck",
+      "price": 11.5,
       "translations": {
-        "es": { "title": "Pato con salsa Cantón a la plancha", "description": "" },
-        "en": { "title": "Grilled duck with Cantonese sauce", "description": "" },
-        "de": { "title": "Gegrillt Ente mit Canton Soße", "description": "" }
+        "es": {
+          "title": "Pato con salsa Cantón a la plancha",
+          "description": ""
+        },
+        "en": {
+          "title": "Grilled duck with Cantonese sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Gegrillt Ente mit Canton Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "75",
-      "category": {
-        "es": "Pato",
-        "en": "Duck",
-        "de": "Ente"
-      },
-      "price": 11.30,
+      "category": "duck",
+      "price": 11.3,
       "translations": {
-        "es": { "title": "Pato crujiente a la plancha", "description": "" },
-        "en": { "title": "Grilled crispy duck", "description": "" },
-        "de": { "title": "Gegrillt knusprig Ente", "description": "" }
+        "es": {
+          "title": "Pato crujiente a la plancha",
+          "description": ""
+        },
+        "en": {
+          "title": "Grilled crispy duck",
+          "description": ""
+        },
+        "de": {
+          "title": "Gegrillt knusprig Ente",
+          "description": ""
+        }
       }
     },
     {
       "id": "T476",
-      "category": {
-        "es": "Pato",
-        "en": "Duck",
-        "de": "Ente"
-      },
+      "category": "duck",
       "price": 11.95,
       "translations": {
-        "es": { "title": "Pato con curry rojo", "description": "" },
-        "en": { "title": "Duck with red curry sauce", "description": "" },
-        "de": { "title": "Ente mit rot curry Soße", "description": "" }
+        "es": {
+          "title": "Pato con curry rojo",
+          "description": ""
+        },
+        "en": {
+          "title": "Duck with red curry sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Ente mit rot curry Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "T477",
-      "category": {
-        "es": "Pato",
-        "en": "Duck",
-        "de": "Ente"
-      },
+      "category": "duck",
       "price": 11.95,
       "translations": {
-        "es": { "title": "Pato con curry verde", "description": "" },
-        "en": { "title": "Duck with green curry sauce", "description": "" },
-        "de": { "title": "Ente mit grün curry Soße", "description": "" }
+        "es": {
+          "title": "Pato con curry verde",
+          "description": ""
+        },
+        "en": {
+          "title": "Duck with green curry sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Ente mit grün curry Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "T478",
-      "category": {
-        "es": "Pato",
-        "en": "Duck",
-        "de": "Ente"
-      },
+      "category": "duck",
       "price": 11.95,
       "translations": {
-        "es": { "title": "Pato Bangkok", "description": "" },
-        "en": { "title": "Bangkok duck", "description": "" },
-        "de": { "title": "Bangkok Ente", "description": "" }
+        "es": {
+          "title": "Pato Bangkok",
+          "description": ""
+        },
+        "en": {
+          "title": "Bangkok duck",
+          "description": ""
+        },
+        "de": {
+          "title": "Bangkok Ente",
+          "description": ""
+        }
       }
     },
     {
       "id": "81",
-      "category": {
-        "es": "Menú de niño",
-        "en": "Children's menu",
-        "de": "Kindermenü"
-      },
+      "category": "children_s_menu",
       "price": 4.95,
       "translations": {
-        "es": { "title": "Salchichas", "description": "" },
-        "en": { "title": "Sausage", "description": "" },
-        "de": { "title": "Wurst", "description": "" }
+        "es": {
+          "title": "Salchichas",
+          "description": ""
+        },
+        "en": {
+          "title": "Sausage",
+          "description": ""
+        },
+        "de": {
+          "title": "Wurst",
+          "description": ""
+        }
       }
     },
     {
       "id": "82",
-      "category": {
-        "es": "Menú de niño",
-        "en": "Children's menu",
-        "de": "Kindermenü"
-      },
+      "category": "children_s_menu",
       "price": 4.95,
       "translations": {
-        "es": { "title": "Bola de pollo", "description": "" },
-        "en": { "title": "Chicken ball", "description": "" },
-        "de": { "title": "Huhn Ball", "description": "" }
+        "es": {
+          "title": "Bola de pollo",
+          "description": ""
+        },
+        "en": {
+          "title": "Chicken ball",
+          "description": ""
+        },
+        "de": {
+          "title": "Huhn Ball",
+          "description": ""
+        }
       }
     },
     {
       "id": "83",
-      "category": {
-        "es": "Menú de niño",
-        "en": "Children's menu",
-        "de": "Kindermenü"
-      },
+      "category": "children_s_menu",
       "price": 4.95,
       "translations": {
-        "es": { "title": "Pollo curry", "description": "" },
-        "en": { "title": "Chicken curry", "description": "" },
-        "de": { "title": "Huhn curry", "description": "" }
+        "es": {
+          "title": "Pollo curry",
+          "description": ""
+        },
+        "en": {
+          "title": "Chicken curry",
+          "description": ""
+        },
+        "de": {
+          "title": "Huhn curry",
+          "description": ""
+        }
       }
     },
     {
       "id": "84",
-      "category": {
-        "es": "Menú de niño",
-        "en": "Children's menu",
-        "de": "Kindermenü"
-      },
+      "category": "children_s_menu",
       "price": 4.95,
       "translations": {
-        "es": { "title": "Palito de pescado", "description": "" },
-        "en": { "title": "Fish fingers", "description": "" },
-        "de": { "title": "Fischstäbchen", "description": "" }
+        "es": {
+          "title": "Palito de pescado",
+          "description": ""
+        },
+        "en": {
+          "title": "Fish fingers",
+          "description": ""
+        },
+        "de": {
+          "title": "Fischstäbchen",
+          "description": ""
+        }
       }
     },
     {
       "id": "85",
-      "category": {
-        "es": "Menú de niño",
-        "en": "Children's menu",
-        "de": "Kindermenü"
-      },
+      "category": "children_s_menu",
       "price": 4.95,
       "translations": {
-        "es": { "title": "Pechuga de pollo empanada", "description": "" },
-        "en": { "title": "Breaded Chicken", "description": "" },
-        "de": { "title": "Paniertes Huhn", "description": "" }
+        "es": {
+          "title": "Pechuga de pollo empanada",
+          "description": ""
+        },
+        "en": {
+          "title": "Breaded Chicken",
+          "description": ""
+        },
+        "de": {
+          "title": "Paniertes Huhn",
+          "description": ""
+        }
       }
     },
     {
       "id": "86",
-      "category": {
-        "es": "Menú de niño",
-        "en": "Children's menu",
-        "de": "Kindermenü"
-      },
+      "category": "children_s_menu",
       "price": 4.95,
       "translations": {
-        "es": { "title": "Alitas de pollo fritas", "description": "" },
-        "en": { "title": "Fried chicken wings", "description": "" },
-        "de": { "title": "Brat Huhn Flügel", "description": "" }
+        "es": {
+          "title": "Alitas de pollo fritas",
+          "description": ""
+        },
+        "en": {
+          "title": "Fried chicken wings",
+          "description": ""
+        },
+        "de": {
+          "title": "Brat Huhn Flügel",
+          "description": ""
+        }
       }
     },
     {
       "id": "91",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
-      "price": 2.50,
+      "category": "rice_and_noodles",
+      "price": 2.5,
       "translations": {
-        "es": { "title": "Arroz blanco", "description": "" },
-        "en": { "title": "White rice", "description": "" },
-        "de": { "title": "Weiß Reis", "description": "" }
+        "es": {
+          "title": "Arroz blanco",
+          "description": ""
+        },
+        "en": {
+          "title": "White rice",
+          "description": ""
+        },
+        "de": {
+          "title": "Weiß Reis",
+          "description": ""
+        }
       }
     },
     {
       "id": "92",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
+      "category": "rice_and_noodles",
       "price": 3.75,
       "translations": {
-        "es": { "title": "Arroz frito con huevo", "description": "" },
-        "en": { "title": "Fried rice with eggs", "description": "" },
-        "de": { "title": "Brat Reis mit Eier", "description": "" }
+        "es": {
+          "title": "Arroz frito con huevo",
+          "description": ""
+        },
+        "en": {
+          "title": "Fried rice with eggs",
+          "description": ""
+        },
+        "de": {
+          "title": "Brat Reis mit Eier",
+          "description": ""
+        }
       }
     },
     {
       "id": "93",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
+      "category": "rice_and_noodles",
       "price": 4.95,
       "translations": {
-        "es": { "title": "Arroz frito tres delicias", "description": "" },
-        "en": { "title": "Three-Jewel rice", "description": "" },
-        "de": { "title": "Drei Juwelen Reis", "description": "" }
+        "es": {
+          "title": "Arroz frito tres delicias",
+          "description": ""
+        },
+        "en": {
+          "title": "Three-Jewel rice",
+          "description": ""
+        },
+        "de": {
+          "title": "Drei Juwelen Reis",
+          "description": ""
+        }
       }
     },
     {
       "id": "94",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
+      "category": "rice_and_noodles",
       "price": 4.95,
       "translations": {
-        "es": { "title": "Arroz frito con pollo", "description": "" },
-        "en": { "title": "Chicken fried rice", "description": "" },
-        "de": { "title": "Huhn Brat Reis", "description": "" }
+        "es": {
+          "title": "Arroz frito con pollo",
+          "description": ""
+        },
+        "en": {
+          "title": "Chicken fried rice",
+          "description": ""
+        },
+        "de": {
+          "title": "Huhn Brat Reis",
+          "description": ""
+        }
       }
     },
     {
       "id": "95",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
-      "price": 6.50,
+      "category": "rice_and_noodles",
+      "price": 6.5,
       "translations": {
-        "es": { "title": "Arroz frito especial", "description": "" },
-        "en": { "title": "Special fried rice", "description": "" },
-        "de": { "title": "Spezial Brat Reis", "description": "" }
+        "es": {
+          "title": "Arroz frito especial",
+          "description": ""
+        },
+        "en": {
+          "title": "Special fried rice",
+          "description": ""
+        },
+        "de": {
+          "title": "Spezial Brat Reis",
+          "description": ""
+        }
       }
     },
     {
       "id": "96",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
-      "price": 3.50,
+      "category": "rice_and_noodles",
+      "price": 3.5,
       "translations": {
-        "es": { "title": "Tallarines fritos", "description": "" },
-        "en": { "title": "Fried noodles", "description": "" },
-        "de": { "title": "Brat Nudeln", "description": "" }
+        "es": {
+          "title": "Tallarines fritos",
+          "description": ""
+        },
+        "en": {
+          "title": "Fried noodles",
+          "description": ""
+        },
+        "de": {
+          "title": "Brat Nudeln",
+          "description": ""
+        }
       }
     },
     {
       "id": "97",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
+      "category": "rice_and_noodles",
       "price": 5.95,
       "translations": {
-        "es": { "title": "Tallarines con verduras", "description": "" },
-        "en": { "title": "Noodles with vegetables", "description": "" },
-        "de": { "title": "Nudeln mit Gemüses", "description": "" }
+        "es": {
+          "title": "Tallarines con verduras",
+          "description": ""
+        },
+        "en": {
+          "title": "Noodles with vegetables",
+          "description": ""
+        },
+        "de": {
+          "title": "Nudeln mit Gemüses",
+          "description": ""
+        }
       }
     },
     {
       "id": "98",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
+      "category": "rice_and_noodles",
       "price": 6.75,
       "translations": {
-        "es": { "title": "Tallarines con pollo", "description": "" },
-        "en": { "title": "Chicken noodles", "description": "" },
-        "de": { "title": "Huhn Nudeln", "description": "" }
+        "es": {
+          "title": "Tallarines con pollo",
+          "description": ""
+        },
+        "en": {
+          "title": "Chicken noodles",
+          "description": ""
+        },
+        "de": {
+          "title": "Huhn Nudeln",
+          "description": ""
+        }
       }
     },
     {
       "id": "99",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
+      "category": "rice_and_noodles",
       "price": 6.95,
       "translations": {
-        "es": { "title": "Tallarines fritos con gamba", "description": "" },
-        "en": { "title": "Shrimp noodles", "description": "" },
-        "de": { "title": "Garnele Nudeln", "description": "" }
+        "es": {
+          "title": "Tallarines fritos con gamba",
+          "description": ""
+        },
+        "en": {
+          "title": "Shrimp noodles",
+          "description": ""
+        },
+        "de": {
+          "title": "Garnele Nudeln",
+          "description": ""
+        }
       }
     },
     {
       "id": "100",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
-      "price": 7.10,
+      "category": "rice_and_noodles",
+      "price": 7.1,
       "translations": {
-        "es": { "title": "Tallarines fritos tres delicias", "description": "" },
-        "en": { "title": "Three-Jewel noodles", "description": "" },
-        "de": { "title": "Drei Juwelen Nudeln", "description": "" }
+        "es": {
+          "title": "Tallarines fritos tres delicias",
+          "description": ""
+        },
+        "en": {
+          "title": "Three-Jewel noodles",
+          "description": ""
+        },
+        "de": {
+          "title": "Drei Juwelen Nudeln",
+          "description": ""
+        }
       }
     },
     {
       "id": "101",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
-      "price": 8.50,
+      "category": "rice_and_noodles",
+      "price": 8.5,
       "translations": {
-        "es": { "title": "Tallarines al estilo chino a la plancha", "description": "" },
-        "en": { "title": "Grilled Chinese style noodles", "description": "" },
-        "de": { "title": "Gegrillt Chinese Stil Nudeln", "description": "" }
+        "es": {
+          "title": "Tallarines al estilo chino a la plancha",
+          "description": ""
+        },
+        "en": {
+          "title": "Grilled Chinese style noodles",
+          "description": ""
+        },
+        "de": {
+          "title": "Gegrillt Chinese Stil Nudeln",
+          "description": ""
+        }
       }
     },
     {
       "id": "102",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
+      "category": "rice_and_noodles",
       "price": 6.85,
       "translations": {
-        "es": { "title": "Fideos de arroz con verduras", "description": "" },
-        "en": { "title": "Rice noodles with vegetables", "description": "" },
-        "de": { "title": "Reis Nudeln mit Gemüses", "description": "" }
+        "es": {
+          "title": "Fideos de arroz con verduras",
+          "description": ""
+        },
+        "en": {
+          "title": "Rice noodles with vegetables",
+          "description": ""
+        },
+        "de": {
+          "title": "Reis Nudeln mit Gemüses",
+          "description": ""
+        }
       }
     },
     {
       "id": "103",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
+      "category": "rice_and_noodles",
       "price": 6.95,
       "translations": {
-        "es": { "title": "Fideos de arroz con pollo", "description": "" },
-        "en": { "title": "Chicken rice noodles", "description": "" },
-        "de": { "title": "Huhn Reis Nudeln", "description": "" }
+        "es": {
+          "title": "Fideos de arroz con pollo",
+          "description": ""
+        },
+        "en": {
+          "title": "Chicken rice noodles",
+          "description": ""
+        },
+        "de": {
+          "title": "Huhn Reis Nudeln",
+          "description": ""
+        }
       }
     },
     {
       "id": "104",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
-      "price": 7.50,
+      "category": "rice_and_noodles",
+      "price": 7.5,
       "translations": {
-        "es": { "title": "Fideos de arroz con gamba", "description": "" },
-        "en": { "title": "Shrimp rice noodles", "description": "" },
-        "de": { "title": "Garnele Reis Nudeln", "description": "" }
+        "es": {
+          "title": "Fideos de arroz con gamba",
+          "description": ""
+        },
+        "en": {
+          "title": "Shrimp rice noodles",
+          "description": ""
+        },
+        "de": {
+          "title": "Garnele Reis Nudeln",
+          "description": ""
+        }
       }
     },
     {
       "id": "105",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
-      "price": 7.50,
+      "category": "rice_and_noodles",
+      "price": 7.5,
       "translations": {
-        "es": { "title": "Fideos de arroz tres delicias", "description": "" },
-        "en": { "title": "Three-Jewel rice noodles", "description": "" },
-        "de": { "title": "Drei Juwelen Reis Nudeln", "description": "" }
+        "es": {
+          "title": "Fideos de arroz tres delicias",
+          "description": ""
+        },
+        "en": {
+          "title": "Three-Jewel rice noodles",
+          "description": ""
+        },
+        "de": {
+          "title": "Drei Juwelen Reis Nudeln",
+          "description": ""
+        }
       }
     },
     {
       "id": "106",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
-      "price": 7.70,
+      "category": "rice_and_noodles",
+      "price": 7.7,
       "translations": {
-        "es": { "title": "Fideos de arroz estilo Singapur", "description": "" },
-        "en": { "title": "Singapur style rice noodles", "description": "" },
-        "de": { "title": "Singapur Stil Reis Nudeln", "description": "" }
+        "es": {
+          "title": "Fideos de arroz estilo Singapur",
+          "description": ""
+        },
+        "en": {
+          "title": "Singapur style rice noodles",
+          "description": ""
+        },
+        "de": {
+          "title": "Singapur Stil Reis Nudeln",
+          "description": ""
+        }
       }
     },
     {
       "id": "107",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
+      "category": "rice_and_noodles",
       "price": 2.95,
       "translations": {
-        "es": { "title": "Papas fritas", "description": "" },
-        "en": { "title": "Fries", "description": "" },
-        "de": { "title": "Pommes", "description": "" }
+        "es": {
+          "title": "Papas fritas",
+          "description": ""
+        },
+        "en": {
+          "title": "Fries",
+          "description": ""
+        },
+        "de": {
+          "title": "Pommes",
+          "description": ""
+        }
       }
     },
     {
       "id": "T4108",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
+      "category": "rice_and_noodles",
       "price": 6.95,
       "translations": {
-        "es": { "title": "Pad Thai con pollo", "description": "" },
-        "en": { "title": "Chicken Pad Thai", "description": "" },
-        "de": { "title": "Huhn Pad Thai", "description": "" }
+        "es": {
+          "title": "Pad Thai con pollo",
+          "description": ""
+        },
+        "en": {
+          "title": "Chicken Pad Thai",
+          "description": ""
+        },
+        "de": {
+          "title": "Huhn Pad Thai",
+          "description": ""
+        }
       }
     },
     {
       "id": "T4109",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
-      "price": 7.30,
+      "category": "rice_and_noodles",
+      "price": 7.3,
       "translations": {
-        "es": { "title": "Pad Thai con gamba", "description": "" },
-        "en": { "title": "Shrimp Pad Thai", "description": "" },
-        "de": { "title": "Garnele Pad Thai", "description": "" }
+        "es": {
+          "title": "Pad Thai con gamba",
+          "description": ""
+        },
+        "en": {
+          "title": "Shrimp Pad Thai",
+          "description": ""
+        },
+        "de": {
+          "title": "Garnele Pad Thai",
+          "description": ""
+        }
       }
     },
     {
       "id": "T4110",
-      "category": {
-        "es": "Arroz y tallarines",
-        "en": "Rice and noodles",
-        "de": "Reis und Nudeln"
-      },
-      "price": 7.50,
+      "category": "rice_and_noodles",
+      "price": 7.5,
       "translations": {
-        "es": { "title": "Pad Thai completo", "description": "tallarines picantes con gamba, pollo, ternera y verdura" },
-        "en": { "title": "Complete Pad Thai", "description": "spicy noodles with shrimp, chicken, beef and vegetables" },
-        "de": { "title": "Komplett Pad Thai", "description": "Würzig Nudeln mit Garnele, Huhn, Rindfleisch und Gemüses" }
+        "es": {
+          "title": "Pad Thai completo",
+          "description": "tallarines picantes con gamba, pollo, ternera y verdura"
+        },
+        "en": {
+          "title": "Complete Pad Thai",
+          "description": "spicy noodles with shrimp, chicken, beef and vegetables"
+        },
+        "de": {
+          "title": "Komplett Pad Thai",
+          "description": "Würzig Nudeln mit Garnele, Huhn, Rindfleisch und Gemüses"
+        }
       }
     }
   ]

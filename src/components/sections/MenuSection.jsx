@@ -1,7 +1,13 @@
-function MenuSection({ variant = 'starters', sectionData }) {
+import categoriesMaster from '../../data/categories.json'
+
+function MenuSection({ variant = 'starters', sectionData, lang = 'es' }) {
   const { id, subtitle, title, description, featuredDish, items, layoutType } = sectionData
 
   const bgClass = variant === 'mains' ? 'bg-surface-container-low' : 'bg-surface'
+
+  const getItemText = (item, field) => {
+    return item.translations?.[lang]?.[field] || item.translations?.['es']?.[field] || item[field]
+  }
 
   const renderStarters = () => (
     <>
@@ -31,14 +37,19 @@ function MenuSection({ variant = 'starters', sectionData }) {
           </div>
         </div>
       )}
-      <div className="space-y-12">
+      <div className="space-y-6">
         {items.map((item, index) => (
-          <div key={index} className="flex flex-col md:flex-row md:items-baseline justify-between py-6 border-b border-outline-variant/15">
-            <div className="max-w-md">
-              <h4 className="text-xl font-serif text-on-surface mb-1">{item.name}</h4>
-              <p className="text-sm text-on-surface-variant font-body">{item.description}</p>
+          <div key={index} className="py-2">
+            <div className="flex justify-between items-center group w-full">
+              <span className="text-xl font-serif text-on-surface group-hover:text-primary transition-colors shrink-0 pr-4">
+                {getItemText(item, 'title') || item.name}
+              </span>
+              <div className="flex-1 border-b border-dashed border-outline-variant/40 group-hover:border-primary/40 transition-colors"></div>
+              <span className="text-lg font-serif text-secondary shrink-0 pl-4">{item.price}</span>
             </div>
-            <span className="text-lg font-serif text-secondary mt-2 md:mt-0">{item.price}</span>
+            <div className="max-w-md mt-2">
+              <p className="text-sm text-on-surface-variant font-body">{getItemText(item, 'description') || item.description}</p>
+            </div>
           </div>
         ))}
       </div>
@@ -69,13 +80,17 @@ function MenuSection({ variant = 'starters', sectionData }) {
       <div className="md:col-span-5 flex flex-col justify-center">
         <div className="bg-surface p-12 shadow-sm">
           <h3 className="text-2xl font-serif text-on-surface mb-6">Joyas del Wok</h3>
-          <div className="space-y-8">
+          <div className="space-y-6">
             {items.map((item, index) => (
               <div key={index}>
-                <h4 className="text-lg font-serif text-primary">{item.name}</h4>
-                <p className="text-xs text-on-surface-variant mt-2">{item.description}</p>
-                <p className="text-sm font-serif text-secondary mt-1">{item.price}</p>
-                {index < items.length - 1 && <div className="h-px bg-outline-variant/20 mt-8"></div>}
+                <div className="flex justify-between items-center group w-full">
+                  <span className="text-lg font-serif text-primary group-hover:text-primary transition-colors shrink-0 pr-3">
+                    {getItemText(item, 'title') || item.name}
+                  </span>
+                  <div className="flex-1 border-b border-dashed border-outline-variant/40 group-hover:border-primary/40 transition-colors"></div>
+                  <p className="text-sm font-serif text-secondary shrink-0 pl-3">{item.price}</p>
+                </div>
+                <p className="text-xs text-on-surface-variant mt-2 max-w-[85%]">{getItemText(item, 'description') || item.description}</p>
               </div>
             ))}
           </div>
@@ -88,18 +103,55 @@ function MenuSection({ variant = 'starters', sectionData }) {
     <div className="grid md:grid-cols-3 gap-12">
       {items.map((item, index) => (
         <div key={index} className="text-center">
-          <img 
-            className="w-full aspect-square object-cover mb-8" 
-            alt={item.alt} 
-            src={item.image}
-          />
+          {item.image && (
+            <div className="mb-8 overflow-hidden rounded-[2rem] bg-surface-container-low p-3 shadow-[0_18px_50px_rgba(27,28,23,0.08)] ring-1 ring-black/5">
+              <img 
+                className="w-full aspect-square rounded-[1.4rem] object-cover object-center transition-transform duration-700 hover:scale-[1.01]" 
+                alt={item.alt} 
+                src={item.image}
+              />
+            </div>
+          )}
           <h3 className="text-xl font-serif text-on-surface mb-2">{item.name}</h3>
-          <p className="text-sm text-on-surface-variant font-body mb-4 px-4">{item.description}</p>
+          <p className="text-sm text-on-surface-variant font-body mb-4 px-4">{getItemText(item, 'description') || item.description}</p>
           <span className="text-lg font-serif text-secondary">{item.price}</span>
         </div>
       ))}
     </div>
   )
+
+  const renderDrinks = () => {
+    // Agrupar items por subcategoría (por ejemplo: "white_wine", "beer", etc.)
+    const groupedItems = items.reduce((acc, item) => {
+      const sub = item.subcategory || 'otros'
+      if (!acc[sub]) acc[sub] = []
+      acc[sub].push(item)
+      return acc
+    }, {})
+
+    return (
+      <div className="space-y-16">
+        {Object.entries(groupedItems).map(([subcat, subItems]) => (
+          <div key={subcat}>
+            <h3 className="text-2xl font-serif text-primary border-b border-outline-variant/30 pb-4 mb-8">
+              {categoriesMaster[subcat]?.[lang] || categoriesMaster[subcat]?.es || subcat}
+            </h3>
+            <div className="grid md:grid-cols-2 gap-x-12 gap-y-6">
+              {subItems.map((item, index) => (
+                <div key={index} className="flex justify-between items-center group w-full">
+                  <span className="text-lg font-serif text-on-surface group-hover:text-primary transition-colors shrink-0 pr-3">
+                    {getItemText(item, 'title') || item.name}
+                  </span>
+                  <div className="flex-1 border-b border-dashed border-outline-variant/40 group-hover:border-primary/40 transition-colors"></div>
+                  <span className="text-md font-serif text-secondary shrink-0 pl-3">{item.price}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    )
+  }
 
   const renderContent = () => {
     switch(variant) {
@@ -107,6 +159,8 @@ function MenuSection({ variant = 'starters', sectionData }) {
         return renderMains()
       case 'desserts':
         return renderDesserts()
+      case 'drinks':
+        return renderDrinks()
       default:
         return renderStarters()
     }

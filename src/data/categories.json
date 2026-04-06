@@ -1,0 +1,117 @@
+{
+  "portada": {
+    "es": "Portada",
+    "en": "Cover",
+    "de": "Titelseite"
+  },
+  "drinks": {
+    "es": "Bodega y Bebidas",
+    "en": "Drinks",
+    "de": "Getränke"
+  },
+  "desserts": {
+    "es": "Postres",
+    "en": "Desserts",
+    "de": "Desserts"
+  },
+  "starters": {
+    "es": "Entrantes",
+    "en": "Starters",
+    "de": "Vorspeisen"
+  },
+  "mains": {
+    "es": "Principales",
+    "en": "Mains",
+    "de": "Hauptgerichte"
+  },
+  "dim_sum": {
+    "es": "Dim Sum",
+    "en": "Dim Sum",
+    "de": "Dim Sum"
+  },
+  "soups": {
+    "es": "Sopas",
+    "en": "Soups",
+    "de": "Suppen"
+  },
+  "chicken": {
+    "es": "Pollo",
+    "en": "Chicken",
+    "de": "Huhn"
+  },
+  "beef": {
+    "es": "Ternera",
+    "en": "Beef",
+    "de": "Rindfleisch"
+  },
+  "shrimp": {
+    "es": "Mariscos",
+    "en": "Seafood",
+    "de": "Meeresfrüchte"
+  },
+  "duck": {
+    "es": "Pato",
+    "en": "Duck",
+    "de": "Ente"
+  },
+  "children_s_menu": {
+    "es": "Menú Infantil",
+    "en": "Kids Menu",
+    "de": "Kindermenü"
+  },
+  "rice_and_noodles": {
+    "es": "Arroz y Tallarines",
+    "en": "Rice & Noodles",
+    "de": "Reis & Nudeln"
+  },
+  "special_dishes": {
+    "es": "Especialidades",
+    "en": "Specialties",
+    "de": "Spezialitäten"
+  },
+  "white_wine": {
+    "es": "Vino Blanco",
+    "en": "White Wine",
+    "de": "Weißwein"
+  },
+  "red_wine": {
+    "es": "Vino Tinto",
+    "en": "Red Wine",
+    "de": "Rotwein"
+  },
+  "rose_wine": {
+    "es": "Vino Rosado",
+    "en": "Rosé Wine",
+    "de": "Roséwein"
+  },
+  "aperitifs": {
+    "es": "Aperitivos",
+    "en": "Aperitifs",
+    "de": "Aperitifs"
+  },
+  "liquor": {
+    "es": "Licores",
+    "en": "Liquors",
+    "de": "Liköre"
+  },
+  "beers": {
+    "es": "Cervezas",
+    "en": "Beers",
+    "de": "Biere"
+  },
+  "beer": {
+    "es": "Cervezas",
+    "en": "Beers",
+    "de": "Biere"
+  },
+  "soft_drinks": {
+    "es": "Refrescos",
+    "en": "Soft Drinks",
+    "de": "Getränke"
+  },
+  "spirits": {
+    "es": "Bebidas Espirituosas",
+    "en": "Spirits",
+    "de": "Spirituosen"
+  }
+}

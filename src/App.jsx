@@ -1,121 +1,241 @@
+import { useState } from 'react'
 import Sidebar from './components/layout/Sidebar'
 import MobileHeader from './components/layout/MobileHeader'
 import Footer from './components/layout/Footer'
 import Hero from './components/sections/Hero'
 import MenuSection from './components/sections/MenuSection'
+import { useScrollSpy } from './hooks/useScrollSpy'
+import categoriesMaster from './data/categories.json'
 
-const startersData = {
-  id: 'starters',
-  subtitle: '— Capítulo I',
-  title: 'Starters & Dim Sum',
-  description: 'Pequeños bocados de seda diseñados para despertar los sentidos del comensal.',
-  featuredDish: {
-    name: 'Har Gow de Langosta Real',
-    description: 'Transparente y delicada masa de almidón de trigo rellena de langosta fresca del Mar de China, jengibre joven y un toque de oro comestible.',
-    price: '18',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC2cefaJik7Pv5BRmcHjOPtCN6aVxO7U0MeuJrrzNPqCxyjqx10ldP5616k5SkNiFwmUjZ9qgfz_mQYq_W0WXf8eZziqBlGdzJ36sBonlr9UZG5BMGryzRiouHZ9iV7D6yfYOEvGmTT5FIRtVUaCMc4zdb1NuGFMTpMD9OpaSxjeJFa6V5kpWqwbMf-58SqT5_72NPo9QdxDhN_6k2I3nRvp02NrWUSKT_ud4tLI9amKzmHY0H2FoF8gSsx7hvh-5DpCJ8QS1yxW4c',
-    alt: 'Close-up of three delicate shrimp dumplings in a bamboo steamer with soft steam rising and dark atmospheric background'
+import menu1 from '../resources/menu_1.json'
+import menu2 from '../resources/menu_2.json'
+import menu3 from '../resources/menu_3.json'
+import menu4 from '../resources/menu_4.json'
+import desserts from '../resources/desserts.json'
+import drinks from '../resources/drinks.json'
+import dimsum from '../resources/dimsum.json'
+
+const staticSectionData = {
+  starters: {
+    id: 'starters',
+    translations: {
+      es: {
+        subtitle: '— Capítulo I',
+        title: 'Starters & Dim Sum',
+        description: 'Pequeños bocados de seda diseñados para despertar los sentidos del comensal.'
+      },
+      en: {
+        subtitle: '— Chapter I',
+        title: 'Starters & Dim Sum',
+        description: 'Small silk bites designed to awaken the diner\'s senses.'
+      },
+      de: {
+        subtitle: '— Kapitel I',
+        title: 'Vorspeisen & Dim Sum',
+        description: 'Kleine Seidenhappen, entworfen, um die Sinne des Gastes zu wecken.'
+      }
+    }
   },
-  items: [
-    {
-      name: 'Siu Mai Tradicional',
-      description: 'Cerdo ibérico, setas shiitake y huevas de pez volador.',
-      price: '14'
+  mains: {
+    id: 'mains',
+    translations: {
+      es: {
+        subtitle: '— Capítulo II',
+        title: 'Principales',
+        featuredDishName: 'Pato Laqueado Pekín',
+        featuredDishDesc: 'Asado durante 24 horas en horno de leña de frutal. Servido con crepes finos, cebolleta, pepino y nuestra salsa secreta de la casa.'
+      },
+      en: {
+        subtitle: '— Chapter II',
+        title: 'Main Courses',
+        featuredDishName: 'Peking Roast Duck',
+        featuredDishDesc: 'Roasted for 24 hours in a fruit wood oven. Served with thin crepes, chives, cucumber and our secret house sauce.'
+      },
+      de: {
+        subtitle: '— Kapitel II',
+        title: 'Hauptgerichte',
+        featuredDishName: 'Peking-Ente',
+        featuredDishDesc: '24 Stunden im Obstholzofen geröstet. Serviert mit dünnen Crêpes, Schnittlauch, Gurke und unserer geheimen Haussauce.'
+      }
     },
-    {
-      name: 'Rollos de Primavera Imperial',
-      description: 'Vegetales de temporada salteados al wok con salsa de ciruela casera.',
-      price: '12'
-    },
-    {
-      name: 'Wonton de Szechuan',
-      description: 'Bocadillos de pollo en aceite de chile tostado y sésamo negro.',
-      price: '15'
+    featuredDish: {
+      price: '65',
+      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCi8TTXuCLH0VenSof-ooVmoEEj2kvOhzsVw9C1hAPT8O8Yb7FjVOlLV7XbBzUlCuXueYVNPin3mOODtg0jkk_C-O_IkOf6gQ-zA9TdzJxXG9DqKjshCJb0QwtFOSDrR1P4LoVwnpIE5kYLeU6tvU_6Sxrk8vVSrMQaxAEn0zv9RxqWdGx-FrAMiSfOrXw9g4CpglGPQvLlc2tDSpQ-wJDL3ZVhU8wa_fe3AW8qUs16KZyYLmTnqF_ptjFoKe2AX5ufe_KF4VJoADU',
+      alt: 'Traditional Peking Duck carved with crispy skin on a white porcelain plate, garnished with scallions and hoisin sauce'
     }
-  ]
-}
-
-const mainsData = {
-  id: 'mains',
-  subtitle: '— Capítulo II',
-  title: 'Principales',
-  featuredDish: {
-    name: 'Pato Laqueado Pekín',
-    description: 'Asado durante 24 horas en horno de leña de frutal. Servido con crepes finos, cebolleta, pepino y nuestra salsa secreta Imperial.',
-    price: '65',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCi8TTXuCLH0VenSof-ooVmoEEj2kvOhzsVw9C1hAPT8O8Yb7FjVOlLV7XbBzUlCuXueYVNPin3mOODtg0jkk_C-O_IkOf6gQ-zA9TdzJxXG9DqKjshCJb0QwtFOSDrR1P4LoVwnpIE5kYLeU6tvU_6Sxrk8vVSrMQaxAEn0zv9RxqWdGx-FrAMiSfOrXw9g4CpglGPQvLlc2tDSpQ-wJDL3ZVhU8wa_fe3AW8qUs16KZyYLmTnqF_ptjFoKe2AX5ufe_KF4VJoADU',
-    alt: 'Traditional Peking Duck carved with crispy skin on a white porcelain plate, garnished with scallions and hoisin sauce'
   },
-  items: [
-    {
-      name: 'Solomillo al Estilo Cantonés',
-      description: 'Dados de solomillo salteados con pimienta negra y ajo fermentado.',
-      price: '32'
+  desserts: {
+    id: 'desserts',
+    translations: {
+      es: {
+        subtitle: '— El Epílogo',
+        title: 'Postres & Tés'
+      },
+      en: {
+        subtitle: '— The Epilogue',
+        title: 'Desserts & Teas'
+      },
+      de: {
+        subtitle: '— Der Epilog',
+        title: 'Desserts & Tees'
+      }
     },
-    {
-      name: 'Lubina al Vapor con Soja',
-      description: 'Filete de lubina salvaje con jengibre, cilantro y aceite de sésamo caliente.',
-      price: '28'
+    items: []
+  },
+  drinks: {
+    id: 'drinks',
+    translations: {
+      es: {
+        subtitle: '— El Brindis',
+        title: 'Bodega y Bebidas'
+      },
+      en: {
+        subtitle: '— The Toast',
+        title: 'Cellar & Drinks'
+      },
+      de: {
+        subtitle: '— Der Toast',
+        title: 'Weinkeller & Getränke'
+      }
     },
-    {
-      name: "Bogavante 'Ginger & Scallion'",
-      description: 'Bogavante azul salteado al wok con jengibre fresco y cebolleta china.',
-      price: '45'
-    }
-  ]
+    items: []
+  }
 }
 
-const dessertsData = {
-  id: 'desserts',
-  subtitle: '— El Epílogo',
-  title: 'Postres & Tés',
-  items: [
-    {
-      name: 'Milhojas de Matcha',
-      description: 'Capas de hojaldre crujiente con crema ligera de té matcha de grado ceremonial.',
-      price: '10',
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBnIddmccixZA0itoiWcP4ITa23WZsbXUPyEL4N07yhpPVOf3TDnWO9D1SS14kSh4kflHxyHDEeo89jO8KPU0ne4wXImERlCoEWjJtuSeIlERv34PhzOLqOhL22uWU01U3IB0fzJCa5Vwm4706UdagfezoBl8rqlgIx-t0A_Ae69TRBxEtmiLx9xjCTXjDLqQhCCyKJ9r4FsOEq7GkZaLscdjfYI_6-6XHTgMbZMve2rBl2PMcCDiW2AyOMTvmcY29WtHaMtUqPSk0',
-      alt: 'Artisanal matcha green tea cake with delicate layers and white chocolate decoration on a minimalist plate'
-    },
-    {
-      name: 'Bolas de Sésamo Calientes',
-      description: 'Mochi de arroz glutinoso relleno de pasta de judía roja dulce.',
-      price: '8',
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCO3je_qYsXxl_59nvXWg9o1AYI-YidB_Zss1imG8ugFlt2xe0RBZCKUFGg1fSPFrB4D1fr4QmSIeWKEFvuPU7MsdVngoOzp0cIGxfwQoE05jKwM6LEcGulw-0RJt0LEwAgAqfZ8dc7TvuAeeqdVsADodxEwcnu_LrRrQ4wGxhx0bWefVqiWgcgOvx5mCjTj-lX6Eo8ztp4xBjwmGF-xjjnjiyNd-3577hhjVbDw9DLIt5gELRMaqd-FVsQPdbHLn_OoFsLHEt_JDw',
-      alt: 'Golden fried sesame balls coated in seeds, served in a wooden bowl with a warm honey drizzle'
-    },
-    {
-      name: 'Selección de Té Imperial',
-      description: 'Tés raros recolectados en las montañas de Yunnan, servidos en ceremonia.',
-      price: '12',
-      image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDB98Gulwy4C-GaOXKIBPOPQM27l0pKTQzH6ADhcyCaiV_I9QMUT1aI7JRZb8seFXrFVe6qxEWj75IcfvPlyURCxmCNMYdUXuFDyRaDWCEJtCzN2ZuJ7rvwhbLxKryM4GmeqIc13HyfXXMQeYbDDVuc5GLNv0mizqr5YN4TVEVsfPq6NfYJgWJ4ElMhjSnvrvya9rb4b8TtBZUIkyt1uSHhax-NUZjuAGFvqbZN8miBx5kTRSYyxQRYswynci0N3kvBOD80qUKo0XA',
-      alt: 'Traditional Chinese tea ceremony set with porcelain cups and dark loose leaf tea on a wooden tray'
-    }
-  ]
+const drinkCategories = ['white_wine', 'red_wine', 'rose_wine', 'aperitifs', 'liquor', 'spirits', 'beer', 'soft_drinks']
+
+const dessertImageMap = {
+  'Crema Catalana': '/desserts/crema_catalana.png',
+  'Copa Nata Nueces': '/desserts/copa_nata_nueces.png',
+  'Tarta Fantástica Individual': '/desserts/tarta_fantastica_individual.png',
+  'Flan Biscuit': '/desserts/flan_biscuit.png',
+  'Trufito': '/desserts/trufito.png',
+  'Coco Helado': '/desserts/coco_helado.png',
+  'Copa Frutas del Bosque': '/desserts/copa_frutas_del_bosque.png',
+  'Copa Sorbete de Limón': '/desserts/copa_sorbetes_de_limon.png',
+  'Coulant de Chocolate': '/desserts/coulant_de_chocolate.png',
+  'Copa Turrón': '/desserts/copa_turron.png',
+  'Punky, Barry y Vacky': '/desserts/punky_barry_y_vacky.png',
+  'Copa al Gusto': '/desserts/copa_al_gusto.png',
+  'Tarta Gran Hotel': '/desserts/tarta_gran_hotel.png',
+  'Tarta Sacher': '/desserts/tarta_sacher.png',
+  'Limón Helado': '/desserts/limon_helado.png',
+  'Naranja Helada': '/desserts/naranja_helada.png',
+  'Mini Nórdica': '/desserts/mini_nordica.jpg',
+  'Helado Frito con Miel': '/desserts/helado_frito.png',
+  'Helado con Nueces': '/desserts/helado_con_nueces.png',
+  'Bola Helado': '/desserts/bola_helado.png',
+  'Postre de Fruta Frita': '/desserts/platano_frito_con_miel_y_helado.png'
 }
 
-function ReservationButton() {
-  return (
-    <button className="fixed bottom-10 right-10 z-40 bg-primary text-on-primary w-20 h-20 shadow-[0_0_32px_rgba(107,0,14,0.15)] flex flex-col items-center justify-center group hover:bg-primary-container transition-all duration-500">
-      <span className="material-symbols-outlined text-2xl mb-1 group-hover:scale-110 transition-transform">calendar_month</span>
-      <span className="text-[8px] font-label uppercase tracking-widest">Reserva</span>
-    </button>
-  )
-}
+const allJsonData = [menu1, menu2, menu3, menu4, desserts, drinks, dimsum]
+const itemsByCategory = {}
+
+allJsonData.forEach(data => {
+  const items = data.items || data
+  const itemList = Array.isArray(items) ? items : [items]
+  
+  itemList.forEach(item => {
+    if (!item.category) return
+    
+    // Group drinks
+    const isDrink = drinkCategories.includes(item.category)
+    const targetCategory = isDrink ? 'drinks' : item.category
+    
+    if (!itemsByCategory[targetCategory]) {
+      itemsByCategory[targetCategory] = []
+    }
+    
+    const mappedItem = {
+      id: item.id,
+      name: item.translations?.es?.title || item.id, // Fallback original name
+      translations: item.translations || {},
+      description: item.translations?.es?.description || '',
+      price: item.price,
+      subcategory: isDrink ? item.category : null // Store original category for grouping
+    }
+    if (item.image) mappedItem.image = item.image
+    if (item.alt) mappedItem.alt = item.alt
+    if (item.category === 'desserts' && dessertImageMap[item.id]) {
+      mappedItem.image = dessertImageMap[item.id]
+      mappedItem.alt = item.translations?.es?.title || item.id
+    }
+    
+    itemsByCategory[targetCategory].push(mappedItem)
+  })
+})
+
+const keysWithoutDrinksAndDimSum = Object.keys(itemsByCategory).filter(k => k !== 'drinks' && k !== 'dim_sum')
+
+// order: drinks, starters, dim_sum, ...rest
+const orderedCategories = ['drinks', 'starters', 'dim_sum', ...keysWithoutDrinksAndDimSum.filter(k => k !== 'starters')]
+const categoriesIds = ['portada', ...orderedCategories]
 
 function App() {
+  const [lang, setLang] = useState('es')
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const activeId = useScrollSpy(categoriesIds)
+
+  const sidebarCategories = orderedCategories // without 'portada'
+
   return (
     <>
-      <Sidebar />
-      <MobileHeader />
+      <Sidebar 
+        categories={sidebarCategories} 
+        activeId={activeId} 
+        lang={lang} 
+        onLangChange={setLang}
+        isOpen={isMobileMenuOpen}
+        onClose={() => setIsMobileMenuOpen(false)}
+      />
+      <MobileHeader 
+        onToggleMenu={() => setIsMobileMenuOpen(!isMobileMenuOpen)} 
+        lang={lang}
+        onLangChange={setLang}
+      />
       <main className="md:pl-64">
-        <Hero />
-        <MenuSection variant="starters" sectionData={startersData} />
-        <MenuSection variant="mains" sectionData={mainsData} />
-        <MenuSection variant="desserts" sectionData={dessertsData} />
+        <Hero lang={lang} />
+        {orderedCategories.map(categoryId => {
+          const items = itemsByCategory[categoryId] || []
+          const staticData = staticSectionData[categoryId] || {}
+          const t = staticData.translations?.[lang] || staticData.translations?.es || {}
+          
+          const sectionItems = staticData.items && staticData.items.length > 0 ? staticData.items : items
+          
+          let featuredDish = null
+          if (staticData.featuredDish) {
+            featuredDish = {
+              ...staticData.featuredDish,
+              name: t.featuredDishName || staticData.featuredDish.name,
+              description: t.featuredDishDesc || staticData.featuredDish.description
+            }
+          }
+
+          const sectionData = {
+            id: categoryId,
+            subtitle: t.subtitle || `— ${categoriesMaster[categoryId]?.[lang] || categoriesMaster[categoryId]?.es || categoryId}`,
+            title: t.title || categoriesMaster[categoryId]?.[lang] || categoriesMaster[categoryId]?.es || categoryId,
+            description: t.description || '',
+            featuredDish,
+            items: sectionItems
+          }
+          
+          let variant = 'starters'
+          if (categoryId === 'desserts') variant = 'desserts'
+          else if (categoryId === 'mains') variant = 'mains'
+          else if (categoryId === 'drinks') variant = 'drinks'
+
+          return (
+            <MenuSection 
+              key={categoryId} 
+              variant={variant} 
+              sectionData={sectionData} 
+              lang={lang}
+            />
+          )
+        })}
         <Footer />
       </main>
-      <ReservationButton />
     </>
   )
 }

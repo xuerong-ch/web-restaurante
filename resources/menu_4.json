@@ -2,170 +2,230 @@
   "items": [
     {
       "id": "301",
-      "category": {
-        "es": "Platos especiales",
-        "en": "Special dishes",
-        "de": "Spezial dishes"
-      },
+      "category": "special_dishes",
       "price": 10.95,
       "translations": {
-        "es": { "title": "Curry rojo especial Thai", "description": "pollo, ternera y gamba" },
-        "en": { "title": "Special red Thai curry", "description": "chicken, beef and shrimp" },
-        "de": { "title": "Spezial rot Thai curry", "description": "Huhn, Rindfleisch und Garnele" }
+        "es": {
+          "title": "Curry rojo especial Thai",
+          "description": "pollo, ternera y gamba"
+        },
+        "en": {
+          "title": "Special red Thai curry",
+          "description": "chicken, beef and shrimp"
+        },
+        "de": {
+          "title": "Spezial rot Thai curry",
+          "description": "Huhn, Rindfleisch und Garnele"
+        }
       }
     },
     {
       "id": "302",
-      "category": {
-        "es": "Platos especiales",
-        "en": "Special dishes",
-        "de": "Spezial dishes"
-      },
+      "category": "special_dishes",
       "price": 7.95,
       "translations": {
-        "es": { "title": "Pollo al estilo mongoliano", "description": "" },
-        "en": { "title": "Mongolian style chicken", "description": "" },
-        "de": { "title": "Mongolisch Stil Huhn", "description": "" }
+        "es": {
+          "title": "Pollo al estilo mongoliano",
+          "description": ""
+        },
+        "en": {
+          "title": "Mongolian style chicken",
+          "description": ""
+        },
+        "de": {
+          "title": "Mongolisch Stil Huhn",
+          "description": ""
+        }
       }
     },
     {
       "id": "303",
-      "category": {
-        "es": "Platos especiales",
-        "en": "Special dishes",
-        "de": "Spezial dishes"
-      },
-      "price": 8.50,
+      "category": "special_dishes",
+      "price": 8.5,
       "translations": {
-        "es": { "title": "Ternera al estilo mongoliano", "description": "" },
-        "en": { "title": "Mongolian style beef", "description": "" },
-        "de": { "title": "Mongolisch Stil Rindfleisch", "description": "" }
+        "es": {
+          "title": "Ternera al estilo mongoliano",
+          "description": ""
+        },
+        "en": {
+          "title": "Mongolian style beef",
+          "description": ""
+        },
+        "de": {
+          "title": "Mongolisch Stil Rindfleisch",
+          "description": ""
+        }
       }
     },
     {
       "id": "304",
-      "category": {
-        "es": "Platos especiales",
-        "en": "Special dishes",
-        "de": "Spezial dishes"
-      },
-      "price": 13.80,
+      "category": "special_dishes",
+      "price": 13.8,
       "translations": {
-        "es": { "title": "Solomillo al estilo mongoliano", "description": "" },
-        "en": { "title": "Mongolian style sirloin", "description": "" },
-        "de": { "title": "Mongolisch Stil Lendenstück", "description": "" }
+        "es": {
+          "title": "Solomillo al estilo mongoliano",
+          "description": ""
+        },
+        "en": {
+          "title": "Mongolian style sirloin",
+          "description": ""
+        },
+        "de": {
+          "title": "Mongolisch Stil Lendenstück",
+          "description": ""
+        }
       }
     },
     {
       "id": "305",
-      "category": {
-        "es": "Platos especiales",
-        "en": "Special dishes",
-        "de": "Spezial dishes"
-      },
+      "category": "special_dishes",
       "price": 12.95,
       "translations": {
-        "es": { "title": "Cordero al estilo mongoliano", "description": "" },
-        "en": { "title": "Mongolian style lamb", "description": "" },
-        "de": { "title": "Mongolisch Stil lamb", "description": "" }
+        "es": {
+          "title": "Cordero al estilo mongoliano",
+          "description": ""
+        },
+        "en": {
+          "title": "Mongolian style lamb",
+          "description": ""
+        },
+        "de": {
+          "title": "Mongolisch Stil lamb",
+          "description": ""
+        }
       }
     },
     {
       "id": "306",
-      "category": {
-        "es": "Platos especiales",
-        "en": "Special dishes",
-        "de": "Spezial dishes"
-      },
-      "price": 13.50,
+      "category": "special_dishes",
+      "price": 13.5,
       "translations": {
-        "es": { "title": "Cordero a la cazuela caliente", "description": "" },
-        "en": { "title": "Lamb hot pot", "description": "" },
-        "de": { "title": "Lamm Hot Pot", "description": "" }
+        "es": {
+          "title": "Cordero a la cazuela caliente",
+          "description": ""
+        },
+        "en": {
+          "title": "Lamb hot pot",
+          "description": ""
+        },
+        "de": {
+          "title": "Lamm Hot Pot",
+          "description": ""
+        }
       }
     },
     {
       "id": "307",
-      "category": {
-        "es": "Platos especiales",
-        "en": "Special dishes",
-        "de": "Spezial dishes"
-      },
-      "price": 14.50,
+      "category": "special_dishes",
+      "price": 14.5,
       "translations": {
-        "es": { "title": "Solomillo a la cazuela caliente", "description": "" },
-        "en": { "title": "Sirloin hot pot", "description": "" },
-        "de": { "title": "Lendenstück Hot Pot", "description": "" }
+        "es": {
+          "title": "Solomillo a la cazuela caliente",
+          "description": ""
+        },
+        "en": {
+          "title": "Sirloin hot pot",
+          "description": ""
+        },
+        "de": {
+          "title": "Lendenstück Hot Pot",
+          "description": ""
+        }
       }
     },
     {
       "id": "308",
-      "category": {
-        "es": "Platos especiales",
-        "en": "Special dishes",
-        "de": "Spezial dishes"
-      },
-      "price": 8.50,
+      "category": "special_dishes",
+      "price": 8.5,
       "translations": {
-        "es": { "title": "Verduras a la cazuela caliente", "description": "" },
-        "en": { "title": "Vegetables hot pot", "description": "" },
-        "de": { "title": "Gemüses Hot Pot", "description": "" }
+        "es": {
+          "title": "Verduras a la cazuela caliente",
+          "description": ""
+        },
+        "en": {
+          "title": "Vegetables hot pot",
+          "description": ""
+        },
+        "de": {
+          "title": "Gemüses Hot Pot",
+          "description": ""
+        }
       }
     },
     {
       "id": "309",
-      "category": {
-        "es": "Platos especiales",
-        "en": "Special dishes",
-        "de": "Spezial dishes"
-      },
-      "price": 10.50,
+      "category": "special_dishes",
+      "price": 10.5,
       "translations": {
-        "es": { "title": "Especiales a la cazuela caliente", "description": "pollo, langostino y ternera" },
-        "en": { "title": "Hot pot special", "description": "chicken, shrimp and beef" },
-        "de": { "title": "Hot Pot Spezial", "description": "Huhn, Garnele und Rindfleisch" }
+        "es": {
+          "title": "Especiales a la cazuela caliente",
+          "description": "pollo, langostino y ternera"
+        },
+        "en": {
+          "title": "Hot pot special",
+          "description": "chicken, shrimp and beef"
+        },
+        "de": {
+          "title": "Hot Pot Spezial",
+          "description": "Huhn, Garnele und Rindfleisch"
+        }
       }
     },
     {
       "id": "310",
-      "category": {
-        "es": "Platos especiales",
-        "en": "Special dishes",
-        "de": "Spezial dishes"
-      },
+      "category": "special_dishes",
       "price": 12.95,
       "translations": {
-        "es": { "title": "Cordero con jengibre y cebolla a la plancha", "description": "" },
-        "en": { "title": "Grilled lamb with ginger and onion", "description": "" },
-        "de": { "title": "Gegrillt Lamm mit Ingwer und Zwiebel", "description": "" }
+        "es": {
+          "title": "Cordero con jengibre y cebolla a la plancha",
+          "description": ""
+        },
+        "en": {
+          "title": "Grilled lamb with ginger and onion",
+          "description": ""
+        },
+        "de": {
+          "title": "Gegrillt Lamm mit Ingwer und Zwiebel",
+          "description": ""
+        }
       }
     },
     {
       "id": "311",
-      "category": {
-        "es": "Platos especiales",
-        "en": "Special dishes",
-        "de": "Spezial dishes"
-      },
+      "category": "special_dishes",
       "price": 13.95,
       "translations": {
-        "es": { "title": "Solomillo Cantón a la plancha", "description": "" },
-        "en": { "title": "Grilled sirloin with Cantonese sauce", "description": "" },
-        "de": { "title": "Gegrillt Lendenstück mit Canton Soße", "description": "" }
+        "es": {
+          "title": "Solomillo Cantón a la plancha",
+          "description": ""
+        },
+        "en": {
+          "title": "Grilled sirloin with Cantonese sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Gegrillt Lendenstück mit Canton Soße",
+          "description": ""
+        }
       }
     },
     {
       "id": "312",
-      "category": {
-        "es": "Platos especiales",
-        "en": "Special dishes",
-        "de": "Spezial dishes"
-      },
+      "category": "special_dishes",
       "price": 13.95,
       "translations": {
-        "es": { "title": "Solomillo con pimienta negra a la plancha", "description": "" },
-        "en": { "title": "Grilled sirloin with black pepper sauce", "description": "" },
-        "de": { "title": "Gegrillt Lendenstück mit black Pfeffer Soße", "description": "" }
+        "es": {
+          "title": "Solomillo con pimienta negra a la plancha",
+          "description": ""
+        },
+        "en": {
+          "title": "Grilled sirloin with black pepper sauce",
+          "description": ""
+        },
+        "de": {
+          "title": "Gegrillt Lendenstück mit black Pfeffer Soße",
+          "description": ""
+        }
       }
     }
   ]

@@ -1,49 +1,82 @@
-function Sidebar() {
+import categoriesMaster from '../../data/categories.json'
+
+function Sidebar({ categories = ['starters', 'mains', 'desserts'], activeId = 'starters', lang = 'es', onLangChange, isOpen, onClose }) {
+  const handleScroll = (e, id) => {
+    e.preventDefault()
+    const element = document.getElementById(id)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+    if (onClose) onClose()
+  }
+
   return (
-    <aside className="hidden md:flex flex-col justify-between py-12 px-8 h-screen w-64 fixed left-0 top-0 bg-[#fbf9f1] dark:bg-stone-950">
-      <div className="flex flex-col space-y-12">
-        <div className="space-y-1">
-          <h1 className="text-3xl font-serif text-[#6b000e] dark:text-red-800 tracking-tighter">
-            The Imperial
+    <>
+      {/* Overlay para móviles */}
+      {isOpen && (
+        <div 
+          className="md:hidden fixed inset-0 bg-black/60 z-40 backdrop-blur-sm transition-opacity"
+          onClick={onClose}
+        ></div>
+      )}
+
+      <aside className={`flex flex-col justify-between py-12 px-8 h-screen w-64 fixed left-0 top-0 bg-[#fbf9f1] dark:bg-stone-950 z-50 transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0`}>
+      <div className="flex flex-col h-full overflow-hidden">
+        <div className="hidden md:block space-y-1 mb-12 shrink-0">
+          <h1 className="text-3xl font-serif text-[#6b000e] dark:text-red-800 tracking-tighter" style={{ fontFamily: "'Fjalla One', sans-serif" }}>
+            HONG KONG II
           </h1>
-          <p className="uppercase tracking-widest font-sans text-xs text-on-surface-variant">
-            Editorial
+          <p className="uppercase tracking-widest font-sans text-xs text-[#1b1c17] dark:text-stone-400 opacity-70">
+            Restaurante Chino
           </p>
         </div>
-        <nav className="flex flex-col space-y-6">
-          <a className="text-[#960018] dark:text-red-500 font-bold border-b-2 border-[#e9c349] pb-1 uppercase tracking-widest text-xs" href="#portada">
-            Portada
-          </a>
-          <a className="text-[#1b1c17] dark:text-stone-400 opacity-70 hover:opacity-100 transition-opacity hover:text-[#735c00] uppercase tracking-widest text-xs" href="#starters">
-            Starters
-          </a>
-          <a className="text-[#1b1c17] dark:text-stone-400 opacity-70 hover:opacity-100 transition-opacity hover:text-[#735c00] uppercase tracking-widest text-xs" href="#mains">
-            Mains
-          </a>
-          <a className="text-[#1b1c17] dark:text-stone-400 opacity-70 hover:opacity-100 transition-opacity hover:text-[#735c00] uppercase tracking-widest text-xs" href="#desserts">
-            Desserts
-          </a>
+        <nav className="flex flex-col space-y-6 overflow-y-auto flex-1 pr-2 pb-4 scrollbar-hide">
+          {categories.map(categoryId => {
+            const isActive = activeId === categoryId
+            const name = categoriesMaster[categoryId]?.[lang] || categoriesMaster[categoryId]?.es || categoryId
+            
+            return (
+              <a 
+                key={categoryId}
+                onClick={(e) => handleScroll(e, categoryId)}
+                className={`font-bold border-b-2 pb-1 uppercase tracking-widest text-xs transition-all cursor-pointer ${
+                  isActive 
+                    ? 'text-[#960018] dark:text-red-500 border-[#e9c349] opacity-100' 
+                    : 'text-[#1b1c17] dark:text-stone-400 border-transparent opacity-70 hover:opacity-100 hover:text-[#735c00]'
+                }`}
+                href={`#${categoryId}`}
+              >
+                {name}
+              </a>
+            )
+          })}
         </nav>
       </div>
-      <div className="flex flex-col space-y-4">
-        <div className="flex space-x-4">
-          <button className="text-xs font-label uppercase tracking-widest hover:text-secondary transition-colors">
+      <div className="flex flex-col space-y-4 shrink-0 pt-4">
+        {/* Los botones de idioma se han movido al MobileHeader en vista móvil, pero los mantenemos en el Sidebar para la vista de PC */}
+        <div className="hidden md:flex space-x-4 text-on-surface">
+          <button 
+            onClick={() => onLangChange('es')}
+            className={`text-xs font-bold uppercase tracking-widest transition-colors ${lang === 'es' ? 'text-[#960018] dark:text-red-500' : 'text-[#1b1c17] dark:text-stone-300 opacity-80 hover:opacity-100 hover:text-[#960018] dark:hover:text-red-400'}`}
+          >
             ES
           </button>
-          <button className="text-xs font-label uppercase tracking-widest opacity-40 hover:text-secondary transition-colors">
+          <button 
+            onClick={() => onLangChange('en')}
+            className={`text-xs font-bold uppercase tracking-widest transition-colors ${lang === 'en' ? 'text-[#960018] dark:text-red-500' : 'text-[#1b1c17] dark:text-stone-300 opacity-80 hover:opacity-100 hover:text-[#960018] dark:hover:text-red-400'}`}
+          >
             EN
           </button>
-          <button className="text-xs font-label uppercase tracking-widest opacity-40 hover:text-secondary transition-colors">
+          <button 
+            onClick={() => onLangChange('de')}
+            className={`text-xs font-bold uppercase tracking-widest transition-colors ${lang === 'de' ? 'text-[#960018] dark:text-red-500' : 'text-[#1b1c17] dark:text-stone-300 opacity-80 hover:opacity-100 hover:text-[#960018] dark:hover:text-red-400'}`}
+          >
             DE
           </button>
         </div>
-        <img 
-          alt="The Imperial Editorial Logo" 
-          className="w-12 h-12 grayscale opacity-80" 
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCawTRP70oUF9pPrLtvW1D5ch1vEO3t0D1IlhsdAjsq_5cYkMSykchVay8d4nCidIpENQyHHNdzBQXp7wMKCtE5lFvMvfJMpltN0AiinZMkU_T_PRdQn34vjA7qnbQj0uE1-75wjQZUJkz7IUI4TX26k8pBHj7M4AxdSzUie3CLzsZYjIT6xN_Fk2LTMYiC2dLeQXiGcmI19IJpAXfNEXNBtQ03gPlWDYUENKkPYp7Il3ifIzAzFGBL5mjwfgMFsloTESY8WxBqwVI"
-        />
       </div>
     </aside>
+    </>
   )
 }
 

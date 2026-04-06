@@ -1,0 +1,119 @@
+{
+  "items": [
+    {
+      "id": "SPECIAL-HK-4",
+      "category": {
+        "es": "Menús",
+        "en": "Menus",
+        "de": "Menüs"
+      },
+      "price": 86.00,
+      "translations": {
+        "es": {
+          "title": "Menú Especial Hong Kong para 4 personas",
+          "description": "Sopa de pollo con maíz, Entremeses variados, Pato aromático crujiente con crepes, Solomillo mongoliano, Pollo con curry, Pollo crujiente con sal y pimienta, Arroz frito especial, Langostinos con salsa Cantón a la plancha"
+        },
+        "en": {
+          "title": "Special Hong Kong Menu for 4 people",
+          "description": "Chicken soup with corn, Varied appetizers, Crispy aromatic duck with pancakes, Mongolian sirloin, Chicken with curry sauce, Crispy chicken with salt and pepper, Special fried rice, Shrimp with Cantonese sauce"
+        },
+        "de": {
+          "title": "Spezial Hong Kong Menü zum 4 Menschen",
+          "description": "Huhn Suppe mit Korn, Abwechslungsreiche Vorspeisen, Knusprig aromatisch Ente mit Pfannkuchen, Mongolisch Lendenstück, Huhn mit curry Soße, Knusprig Huhn mit Salz und Pfeffer, Spezial Brat Reis, Garnele mit Canton Soße"
+        }
+      }
+    },
+    {
+      "id": "MENU-A-2",
+      "category": {
+        "es": "Menús",
+        "en": "Menus",
+        "de": "Menüs"
+      },
+      "price": 27.80,
+      "translations": {
+        "es": {
+          "title": "Menú A para 2 personas",
+          "description": "Sopa de pollo con maíz, Rollitos de primavera, Costillas, Ternera con judías negras, Pollo agridulce, Arroz frito con huevo"
+        },
+        "en": {
+          "title": "Menu A for 2 people",
+          "description": "Chicken soup with corn, Spring rolls, Ribs, Beef with black bean sauce, Chicken with sweet and sour sauce, Fried rice with eggs"
+        },
+        "de": {
+          "title": "Menü A zum 2 Menschen",
+          "description": "Huhn Suppe mit Korn, Frühlingsrollen, Rippen, Rindfleisch mit schwarze Bohne Soße, Huhn mit süß und sauer Soße, Brat Reis mit Eier"
+        }
+      }
+    },
+    {
+      "id": "MENU-B-2",
+      "category": {
+        "es": "Menús",
+        "en": "Menus",
+        "de": "Menüs"
+      },
+      "price": 33.00,
+      "translations": {
+        "es": {
+          "title": "Menú B para 2 personas",
+          "description": "Sopa de pollo con maíz, Pato aromático crujiente con crepes, Ternera cantonesa a la plancha, Pollo agridulce, Arroz frito con huevos"
+        },
+        "en": {
+          "title": "Menu B for 2 people",
+          "description": "Chicken soup with corn, Crispy aromatic duck with pancakes, Grilled beef with Cantonese sauce, Chicken with sweet and sour sauce, Fried rice with eggs"
+        },
+        "de": {
+          "title": "Menü B zum 2 Menschen",
+          "description": "Huhn Suppe mit Korn, Knusprig aromatisch Ente mit Pfannkuchen, Gegrillt Rindfleisch mit Canton Soße, Huhn mit süß und sauer Soße, Brat Reis mit Eier"
+        }
+      }
+    },
+    {
+      "id": "MENU-A-4",
+      "category": {
+        "es": "Menús",
+        "en": "Menus",
+        "de": "Menüs"
+      },
+      "price": 55.60,
+      "translations": {
+        "es": {
+          "title": "Menú A para 4 personas",
+          "description": "Sopa de pollo con maíz, Rollitos de primavera, Costillas, Pollo con curry, Pollo agridulce, Ternera con judías negras, Langostinos con sal y pimienta, Arroz frito con huevo"
+        },
+        "en": {
+          "title": "Menu A for 4 people",
+          "description": "Chicken soup with corn, Spring rolls, Ribs, Chicken with curry sauce, Chicken with sweet and sour sauce, Beef with black bean sauce, Shrimp with salt and pepper, Fried rice with eggs"
+        },
+        "de": {
+          "title": "Menü A zum 4 Menschen",
+          "description": "Huhn Suppe mit Korn, Frühlingsrollen, Rippen, Huhn mit curry Soße, Huhn mit süß und sauer Soße, Rindfleisch mit schwarze Bohne Soße, Garnele mit Salz und Pfeffer, Brat Reis mit Eier"
+        }
+      }
+    },
+    {
+      "id": "MENU-B-4",
+      "category": {
+        "es": "Menús",
+        "en": "Menus",
+        "de": "Menüs"
+      },
+      "price": 66.00,
+      "translations": {
+        "es": {
+          "title": "Menú B para 4 personas",
+          "description": "Sopa de pollo con maíz, Pato aromático crujiente con crepes, Costillas, Ternera cantonesa a la plancha, Pollo al curry, Pollo agridulce, Langostinos crujientes con chili y salsa agridulce, Arroz frito con huevos"
+        },
+        "en": {
+          "title": "Menu B for 4 people",
+          "description": "Chicken soup with corn, Crispy aromatic duck with pancakes, Ribs, Grilled beef with Cantonese sauce, Chicken with curry sauce, Chicken with sweet and sour sauce, Crispy shrimp with chili and sweet and sour sauce, Fried rice with eggs"
+        },
+        "de": {
+          "title": "Menü B zum 4 Menschen",
+          "description": "Huhn Suppe mit Korn, Knusprig aromatisch Ente mit Pfannkuchen, Rippen, Gegrillt Rindfleisch mit Canton Soße, Huhn mit curry Soße, Huhn mit süß und sauer Soße, Knusprig Garnele mit Chili und süß und sauer Soße, Brat Reis mit Eier"
+        }
+      }
+    }
+  ]
+}
