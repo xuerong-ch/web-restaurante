@@ -24,7 +24,7 @@ function MenuSection({ variant = 'starters', sectionData = { items: [] }, lang =
           scrollTrigger: {
             trigger: el,
             start: 'top 85%',
-            toggleActions: 'play none none none'
+            once: true
           }
         }
       )
