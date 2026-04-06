@@ -1,19 +1,22 @@
-function Footer() {
+const texts = {
+  es: {
+    rights: "Todos los derechos reservados."
+  },
+  en: {
+    rights: "All rights reserved."
+  },
+  de: {
+    rights: "Alle Rechte vorbehalten."
+  }
+}
+
+function Footer({ lang = 'es' }) {
+  const t = texts[lang] || texts.es
+
   return (
-    <footer className="bg-[#eae8e0] dark:bg-stone-900 full-width py-12 flex flex-col items-center justify-center space-y-4 w-full">
-      <div className="flex space-x-8 mb-4">
-        <a className="font-sans text-[10px] uppercase tracking-[0.2em] text-[#5a403f] hover:text-[#1b1c17] transition-colors" href="#">
-          Privacy
-        </a>
-        <a className="font-sans text-[10px] uppercase tracking-[0.2em] text-[#5a403f] hover:text-[#1b1c17] transition-colors" href="#">
-          Terms
-        </a>
-        <a className="font-sans text-[10px] uppercase tracking-[0.2em] text-[#5a403f] hover:text-[#1b1c17] transition-colors" href="#">
-          Contact
-        </a>
-      </div>
-      <p className="font-sans text-[10px] uppercase tracking-[0.2em] text-on-surface-variant">
-        © {new Date().getFullYear()} Restaurante Hongkong. Todos los derechos reservados.
+    <footer className="bg-surface-container-high dark:bg-stone-900 full-width py-12 flex flex-col items-center justify-center space-y-4 w-full">
+      <p className="font-sans text-[10px] uppercase tracking-[0.2em] text-on-surface-variant text-center px-4">
+        © {new Date().getFullYear()} Restaurante Hongkong. {t.rights}
       </p>
     </footer>
   )

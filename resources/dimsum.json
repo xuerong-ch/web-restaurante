@@ -1,9 +1,9 @@
 {
   "items": [
     {
-      "id": "item-001",
+      "id": "sau-mai-de-arroz",
       "category": "dim_sum",
-      "price": 5.50,
+      "price": 5.5,
       "translations": {
         "es": {
           "title": "Sau Mai de Arroz",
@@ -20,9 +20,9 @@
       }
     },
     {
-      "id": "item-002",
+      "id": "shien-l-pao",
       "category": "dim_sum",
-      "price": 4.50,
+      "price": 4.5,
       "translations": {
         "es": {
           "title": "Shien ló Pao",
@@ -39,9 +39,9 @@
       }
     },
     {
-      "id": "item-003",
+      "id": "shia-chiao",
       "category": "dim_sum",
-      "price": 5.50,
+      "price": 5.5,
       "translations": {
         "es": {
           "title": "Shia Chiao",
@@ -58,9 +58,9 @@
       }
     },
     {
-      "id": "item-004",
+      "id": "sau-mai",
       "category": "dim_sum",
-      "price": 5.50,
+      "price": 5.5,
       "translations": {
         "es": {
           "title": "Sau Mai",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "item-005",
+      "id": "kuotie",
       "category": "dim_sum",
       "price": 4.95,
       "translations": {
@@ -96,9 +96,9 @@
       }
     },
     {
-      "id": "item-006",
+      "id": "siau-long-pao",
       "category": "dim_sum",
-      "price": 4.50,
+      "price": 4.5,
       "translations": {
         "es": {
           "title": "Siau Long Pao",
@@ -115,9 +115,9 @@
       }
     },
     {
-      "id": "item-007",
+      "id": "sau-mai-de-4-estaciones",
       "category": "dim_sum",
-      "price": 5.50,
+      "price": 5.5,
       "translations": {
         "es": {
           "title": "Sau Mai de 4 estaciones",
@@ -134,9 +134,9 @@
       }
     },
     {
-      "id": "item-008",
+      "id": "gyozas-de-pollo-a-la-plancha",
       "category": "dim_sum",
-      "price": 5.50,
+      "price": 5.5,
       "translations": {
         "es": {
           "title": "Gyozas de pollo a la plancha",
@@ -153,9 +153,9 @@
       }
     },
     {
-      "id": "item-009",
+      "id": "empanadillas-vegetales-shuijing",
       "category": "dim_sum",
-      "price": 5.50,
+      "price": 5.5,
       "translations": {
         "es": {
           "title": "Empanadillas vegetales Shuijing",
@@ -172,9 +172,9 @@
       }
     },
     {
-      "id": "item-010",
+      "id": "alb-ndigas-de-sepia-y-gambas",
       "category": "dim_sum",
-      "price": 6.50,
+      "price": 6.5,
       "translations": {
         "es": {
           "title": "Albóndigas de sepia y gambas",
@@ -191,9 +191,9 @@
       }
     },
     {
-      "id": "item-011",
+      "id": "samosa",
       "category": "dim_sum",
-      "price": 4.50,
+      "price": 4.5,
       "translations": {
         "es": {
           "title": "Samosa",
@@ -210,9 +210,9 @@
       }
     },
     {
-      "id": "item-012",
+      "id": "sau-mai-de-marisco",
       "category": "dim_sum",
-      "price": 5.60,
+      "price": 5.6,
       "translations": {
         "es": {
           "title": "Sau Mai de marisco",
@@ -229,9 +229,9 @@
       }
     },
     {
-      "id": "item-013",
+      "id": "ensalada-de-algas-wakame",
       "category": "dim_sum",
-      "price": 5.50,
+      "price": 5.5,
       "translations": {
         "es": {
           "title": "Ensalada de algas wakame",
@@ -248,9 +248,9 @@
       }
     },
     {
-      "id": "item-014",
+      "id": "combinado-1-sau-mai",
       "category": "dim_sum",
-      "price": 5.60,
+      "price": 5.6,
       "translations": {
         "es": {
           "title": "Combinado 1: Sau Mai",
@@ -267,9 +267,9 @@
       }
     },
     {
-      "id": "item-015",
+      "id": "combinado-2-vapor",
       "category": "dim_sum",
-      "price": 9.50,
+      "price": 9.5,
       "translations": {
         "es": {
           "title": "Combinado 2: Vapor",
@@ -286,9 +286,9 @@
       }
     },
     {
-      "id": "item-016",
+      "id": "combinado-3-fritos",
       "category": "dim_sum",
-      "price": 9.50,
+      "price": 9.5,
       "translations": {
         "es": {
           "title": "Combinado 3: Fritos",

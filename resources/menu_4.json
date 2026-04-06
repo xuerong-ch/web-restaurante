@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "id": "301",
+      "id": "curry-rojo-especial-thai",
       "category": "special_dishes",
       "price": 10.95,
       "translations": {
@@ -20,7 +20,7 @@
       }
     },
     {
-      "id": "302",
+      "id": "pollo-al-estilo-mongoliano",
       "category": "special_dishes",
       "price": 7.95,
       "translations": {
@@ -39,7 +39,7 @@
       }
     },
     {
-      "id": "303",
+      "id": "ternera-al-estilo-mongoliano",
       "category": "special_dishes",
       "price": 8.5,
       "translations": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "304",
+      "id": "solomillo-al-estilo-mongoliano",
       "category": "special_dishes",
       "price": 13.8,
       "translations": {
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "305",
+      "id": "cordero-al-estilo-mongoliano",
       "category": "special_dishes",
       "price": 12.95,
       "translations": {
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "306",
+      "id": "cordero-a-la-cazuela-caliente",
       "category": "special_dishes",
       "price": 13.5,
       "translations": {
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "307",
+      "id": "solomillo-a-la-cazuela-caliente",
       "category": "special_dishes",
       "price": 14.5,
       "translations": {
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "308",
+      "id": "verduras-a-la-cazuela-caliente",
       "category": "special_dishes",
       "price": 8.5,
       "translations": {
@@ -153,7 +153,7 @@
       }
     },
     {
-      "id": "309",
+      "id": "especiales-a-la-cazuela-caliente",
       "category": "special_dishes",
       "price": 10.5,
       "translations": {
@@ -172,7 +172,7 @@
       }
     },
     {
-      "id": "310",
+      "id": "cordero-con-jengibre-y-cebolla-a-la-plancha",
       "category": "special_dishes",
       "price": 12.95,
       "translations": {
@@ -191,7 +191,7 @@
       }
     },
     {
-      "id": "311",
+      "id": "solomillo-cant-n-a-la-plancha",
       "category": "special_dishes",
       "price": 13.95,
       "translations": {
@@ -210,7 +210,7 @@
       }
     },
     {
-      "id": "312",
+      "id": "solomillo-con-pimienta-negra-a-la-plancha",
       "category": "special_dishes",
       "price": 13.95,
       "translations": {

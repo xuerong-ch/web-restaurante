@@ -1,7 +1,8 @@
-import { useRef } from 'react'
+import { useRef, useMemo } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import heroFallback from '../../../resources/image_background.png'
+import config from '../../data/config.json'
 
 const texts = {
   es: {
@@ -38,34 +39,34 @@ function Hero({ lang = 'es' }) {
   const t = texts[lang] || texts.es
 
   const [subtitle, mainTitle] = t.title.split('\n')
-  const contactActions = [
+  const contactActions = useMemo(() => [
     {
-      href: 'tel:+34618085634',
+      href: `tel:${config.contact.phone1}`,
       icon: 'call',
       eyebrow: t.call,
-      label: '+34 618 085 634'
+      label: config.contact.phone1Label
     },
     {
-      href: 'tel:+34928070233',
+      href: `tel:${config.contact.phone2}`,
       icon: 'call',
       eyebrow: t.call,
-      label: '928 070 223'
+      label: config.contact.phone2Label
     },
     {
-      href: 'https://wa.me/34618085634',
+      href: `https://wa.me/${config.contact.whatsapp.replace('+', '')}`,
       icon: 'chat',
       eyebrow: t.whatsapp,
-      label: '+34 618 085 634',
+      label: config.contact.whatsappLabel,
       external: true
     },
     {
-      href: 'https://maps.app.goo.gl/FEZs4RnNpNkw9Hwv7',
+      href: config.contact.mapsUrl,
       icon: 'location_on',
       eyebrow: t.location,
       label: t.openMap,
       external: true
     }
-  ]
+  ], [t])
 
   useGSAP(() => {
     gsap.to('.hero-bg', {
@@ -99,8 +100,7 @@ function Hero({ lang = 'es' }) {
 
   return (
     <section ref={containerRef} className="relative min-h-screen flex items-center overflow-hidden" id="portada">
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[#140608]"></div>
+      <div className="absolute inset-0 z-0 bg-black">
         <picture>
           <source
             media="(max-width: 900px)"
@@ -122,24 +122,21 @@ function Hero({ lang = 'es' }) {
         </picture>
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-surface"></div>
       </div>
-      <div className="relative z-10 px-6 py-8 md:px-20 max-w-4xl">
-        <span className="hero-text text-[#e9c349] font-label uppercase tracking-[0.3em] text-xs mb-4 block opacity-0">
+      <div className="relative z-10 px-6 py-8 sm:px-12 lg:px-20 max-w-4xl">
+        <span className="hero-text text-secondary font-label uppercase tracking-[0.3em] text-xs mb-4 block opacity-0">
           {t.legacy}
         </span>
         <h1 className="flex flex-col mb-8">
-          <span className="hero-text text-4xl md:text-5xl font-serif text-surface mb-2 tracking-wide drop-shadow-md opacity-0">
+          <span className="hero-text text-4xl lg:text-5xl font-serif text-surface mb-2 tracking-wide drop-shadow-md opacity-0">
             {subtitle}
           </span>
           <span 
-            className="hero-text text-6xl md:text-8xl text-primary-container leading-none tracking-wider drop-shadow-lg opacity-0" 
-            style={{ 
-              fontFamily: "'Fjalla One', sans-serif"
-            }}
+            className="hero-text text-6xl md:text-7xl lg:text-8xl text-primary-container leading-none tracking-wider drop-shadow-lg opacity-0 font-display" 
           >
             {mainTitle}
           </span>
         </h1>
-        <p className="hero-text text-surface/90 text-lg md:text-xl font-body max-w-md leading-relaxed opacity-0">
+        <p className="hero-text text-surface/90 text-lg lg:text-xl font-body max-w-md leading-relaxed opacity-0">
           {t.description}
         </p>
         <div className="mt-10 grid max-w-2xl gap-3 sm:grid-cols-2">
@@ -158,7 +155,7 @@ function Hero({ lang = 'es' }) {
                 <span className="mb-1 block text-[10px] font-label uppercase tracking-[0.22em] text-surface/60">
                   {action.eyebrow}
                 </span>
-                <span className="block text-sm md:text-[15px] font-body font-semibold text-surface/95">
+                <span className="block text-sm lg:text-[15px] font-body font-semibold text-surface/95">
                   {action.label}
                 </span>
               </span>

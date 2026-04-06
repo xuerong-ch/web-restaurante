@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "id": "71",
+      "id": "pato-con-salsa-de-naranja",
       "category": "duck",
       "price": 10.95,
       "translations": {
@@ -20,7 +20,7 @@
       }
     },
     {
-      "id": "72",
+      "id": "pato-con-salsa-picante",
       "category": "duck",
       "price": 10.95,
       "translations": {
@@ -39,7 +39,7 @@
       }
     },
     {
-      "id": "73",
+      "id": "pato-con-bamb-y-seta-china",
       "category": "duck",
       "price": 10.95,
       "translations": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "74",
+      "id": "pato-con-salsa-cant-n-a-la-plancha",
       "category": "duck",
       "price": 11.5,
       "translations": {
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "75",
+      "id": "pato-crujiente-a-la-plancha",
       "category": "duck",
       "price": 11.3,
       "translations": {
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "T476",
+      "id": "pato-con-curry-rojo",
       "category": "duck",
       "price": 11.95,
       "translations": {
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "T477",
+      "id": "pato-con-curry-verde",
       "category": "duck",
       "price": 11.95,
       "translations": {
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "T478",
+      "id": "pato-bangkok",
       "category": "duck",
       "price": 11.95,
       "translations": {
@@ -153,7 +153,7 @@
       }
     },
     {
-      "id": "81",
+      "id": "salchichas",
       "category": "children_s_menu",
       "price": 4.95,
       "translations": {
@@ -172,7 +172,7 @@
       }
     },
     {
-      "id": "82",
+      "id": "bola-de-pollo",
       "category": "children_s_menu",
       "price": 4.95,
       "translations": {
@@ -191,7 +191,7 @@
       }
     },
     {
-      "id": "83",
+      "id": "pollo-curry",
       "category": "children_s_menu",
       "price": 4.95,
       "translations": {
@@ -210,7 +210,7 @@
       }
     },
     {
-      "id": "84",
+      "id": "palito-de-pescado",
       "category": "children_s_menu",
       "price": 4.95,
       "translations": {
@@ -229,7 +229,7 @@
       }
     },
     {
-      "id": "85",
+      "id": "pechuga-de-pollo-empanada",
       "category": "children_s_menu",
       "price": 4.95,
       "translations": {
@@ -248,7 +248,7 @@
       }
     },
     {
-      "id": "86",
+      "id": "alitas-de-pollo-fritas",
       "category": "children_s_menu",
       "price": 4.95,
       "translations": {
@@ -267,7 +267,7 @@
       }
     },
     {
-      "id": "91",
+      "id": "arroz-blanco",
       "category": "rice_and_noodles",
       "price": 2.5,
       "translations": {
@@ -286,7 +286,7 @@
       }
     },
     {
-      "id": "92",
+      "id": "arroz-frito-con-huevo",
       "category": "rice_and_noodles",
       "price": 3.75,
       "translations": {
@@ -305,7 +305,7 @@
       }
     },
     {
-      "id": "93",
+      "id": "arroz-frito-tres-delicias",
       "category": "rice_and_noodles",
       "price": 4.95,
       "translations": {
@@ -324,7 +324,7 @@
       }
     },
     {
-      "id": "94",
+      "id": "arroz-frito-con-pollo",
       "category": "rice_and_noodles",
       "price": 4.95,
       "translations": {
@@ -343,7 +343,7 @@
       }
     },
     {
-      "id": "95",
+      "id": "arroz-frito-especial",
       "category": "rice_and_noodles",
       "price": 6.5,
       "translations": {
@@ -362,7 +362,7 @@
       }
     },
     {
-      "id": "96",
+      "id": "tallarines-fritos",
       "category": "rice_and_noodles",
       "price": 3.5,
       "translations": {
@@ -381,7 +381,7 @@
       }
     },
     {
-      "id": "97",
+      "id": "tallarines-con-verduras",
       "category": "rice_and_noodles",
       "price": 5.95,
       "translations": {
@@ -400,7 +400,7 @@
       }
     },
     {
-      "id": "98",
+      "id": "tallarines-con-pollo",
       "category": "rice_and_noodles",
       "price": 6.75,
       "translations": {
@@ -419,7 +419,7 @@
       }
     },
     {
-      "id": "99",
+      "id": "tallarines-fritos-con-gamba",
       "category": "rice_and_noodles",
       "price": 6.95,
       "translations": {
@@ -438,7 +438,7 @@
       }
     },
     {
-      "id": "100",
+      "id": "tallarines-fritos-tres-delicias",
       "category": "rice_and_noodles",
       "price": 7.1,
       "translations": {
@@ -457,7 +457,7 @@
       }
     },
     {
-      "id": "101",
+      "id": "tallarines-al-estilo-chino-a-la-plancha",
       "category": "rice_and_noodles",
       "price": 8.5,
       "translations": {
@@ -476,7 +476,7 @@
       }
     },
     {
-      "id": "102",
+      "id": "fideos-de-arroz-con-verduras",
       "category": "rice_and_noodles",
       "price": 6.85,
       "translations": {
@@ -495,7 +495,7 @@
       }
     },
     {
-      "id": "103",
+      "id": "fideos-de-arroz-con-pollo",
       "category": "rice_and_noodles",
       "price": 6.95,
       "translations": {
@@ -514,7 +514,7 @@
       }
     },
     {
-      "id": "104",
+      "id": "fideos-de-arroz-con-gamba",
       "category": "rice_and_noodles",
       "price": 7.5,
       "translations": {
@@ -533,7 +533,7 @@
       }
     },
     {
-      "id": "105",
+      "id": "fideos-de-arroz-tres-delicias",
       "category": "rice_and_noodles",
       "price": 7.5,
       "translations": {
@@ -552,7 +552,7 @@
       }
     },
     {
-      "id": "106",
+      "id": "fideos-de-arroz-estilo-singapur",
       "category": "rice_and_noodles",
       "price": 7.7,
       "translations": {
@@ -571,7 +571,7 @@
       }
     },
     {
-      "id": "107",
+      "id": "papas-fritas",
       "category": "rice_and_noodles",
       "price": 2.95,
       "translations": {
@@ -590,7 +590,7 @@
       }
     },
     {
-      "id": "T4108",
+      "id": "pad-thai-con-pollo",
       "category": "rice_and_noodles",
       "price": 6.95,
       "translations": {
@@ -609,7 +609,7 @@
       }
     },
     {
-      "id": "T4109",
+      "id": "pad-thai-con-gamba",
       "category": "rice_and_noodles",
       "price": 7.3,
       "translations": {
@@ -628,7 +628,7 @@
       }
     },
     {
-      "id": "T4110",
+      "id": "pad-thai-completo",
       "category": "rice_and_noodles",
       "price": 7.5,
       "translations": {

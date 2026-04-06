@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "id": "Crema Catalana",
+      "id": "crema-catalana",
       "category": "desserts",
       "price": 5.6,
       "translations": {
@@ -17,10 +17,11 @@
           "title": "Katalanische Creme",
           "description": "Biscuit-Eis mit einer Mischung aus Eigelb und karamellisiertem Zucker."
         }
-      }
+      },
+      "image": "/desserts/crema_catalana.png"
     },
     {
-      "id": "Copa Nata Nueces",
+      "id": "copa-nata-nueces",
       "category": "desserts",
       "price": 6.5,
       "translations": {
@@ -36,10 +37,11 @@
           "title": "Sahne-Nuss-Becher",
           "description": "Sahneeis mit Karamell und leckeren karamellisierten Walnüssen."
         }
-      }
+      },
+      "image": "/desserts/copa_nata_nueces.png"
     },
     {
-      "id": "Tarta Fantástica Individual",
+      "id": "tarta-fant-stica-individual",
       "category": "desserts",
       "price": 5.5,
       "translations": {
@@ -55,10 +57,11 @@
           "title": "Fantástica-Törtchen",
           "description": "Vanille- und Karamelleis, dekoriert mit schokolierten Toffee-Kugeln und Karamellsirup."
         }
-      }
+      },
+      "image": "/desserts/tarta_fantastica_individual.png"
     },
     {
-      "id": "Flan Biscuit",
+      "id": "flan-biscuit",
       "category": "desserts",
       "price": 5.1,
       "translations": {
@@ -74,10 +77,11 @@
           "title": "Biscuit-Flan",
           "description": "Biscuit-Eis garniert mit Pinienkernen und Karamellsauce."
         }
-      }
+      },
+      "image": "/desserts/flan_biscuit.png"
     },
     {
-      "id": "Trufito",
+      "id": "trufito",
       "category": "desserts",
       "price": 5.1,
       "translations": {
@@ -93,10 +97,11 @@
           "title": "Trufito",
           "description": "Eiscreme, Sauce und ein knackiger Schokoladenüberzug mit Mandelstückchen."
         }
-      }
+      },
+      "image": "/desserts/trufito.png"
     },
     {
-      "id": "Coco Helado",
+      "id": "coco-helado",
       "category": "desserts",
       "price": 5.8,
       "translations": {
@@ -112,10 +117,11 @@
           "title": "Kokoseis",
           "description": "Kokoseis mit Kokosraspeln in der natürlichen Kokosnussschale."
         }
-      }
+      },
+      "image": "/desserts/coco_helado.png"
     },
     {
-      "id": "Copa Frutas del Bosque",
+      "id": "copa-frutas-del-bosque",
       "category": "desserts",
       "price": 6.5,
       "translations": {
@@ -131,10 +137,11 @@
           "title": "Waldfrüchte-Becher",
           "description": "Joghurt-Eis mit köstlicher Waldbeersauce und ganzen Waldbeeren."
         }
-      }
+      },
+      "image": "/desserts/copa_frutas_del_bosque.png"
     },
     {
-      "id": "Copa Sorbete de Limón",
+      "id": "copa-sorbete-de-lim-n",
       "category": "desserts",
       "price": 5.8,
       "translations": {
@@ -150,10 +157,11 @@
           "title": "Zitronensorbet-Becher",
           "description": "Ein erfrischendes Zitronensorbet."
         }
-      }
+      },
+      "image": "/desserts/copa_sorbetes_de_limon.png"
     },
     {
-      "id": "Coulant de Chocolate",
+      "id": "coulant-de-chocolate",
       "category": "desserts",
       "price": 5.8,
       "translations": {
@@ -169,10 +177,11 @@
           "title": "Schokoladen-Coulant",
           "description": "Fluffiger Schokoladenkuchen mit einem flüssigen Schokoladenkern."
         }
-      }
+      },
+      "image": "/desserts/coulant_de_chocolate.png"
     },
     {
-      "id": "Copa Turrón",
+      "id": "copa-turr-n",
       "category": "desserts",
       "price": 6.8,
       "translations": {
@@ -188,10 +197,11 @@
           "title": "Turrón-Becher",
           "description": "Turrón-Eiscreme mit Karamellsauce und Mandelkrokant."
         }
-      }
+      },
+      "image": "/desserts/copa_turron.png"
     },
     {
-      "id": "Punky, Barry y Vacky",
+      "id": "punky-barry-y-vacky",
       "category": "desserts",
       "price": 4.95,
       "translations": {
@@ -207,10 +217,11 @@
           "title": "Punky, Barry und Vacky",
           "description": "Cremiges Vanilleeis."
         }
-      }
+      },
+      "image": "/desserts/punky_barry_y_vacky.png"
     },
     {
-      "id": "Copa al Gusto",
+      "id": "copa-al-gusto",
       "category": "desserts",
       "price": 5.5,
       "translations": {
@@ -226,10 +237,11 @@
           "title": "Eisbecher nach Wahl",
           "description": "Ein echter Klassiker: köstliches Vanille-, Erdbeer- und Schokoladeneis. Kannst du widerstehen?"
         }
-      }
+      },
+      "image": "/desserts/copa_al_gusto.png"
     },
     {
-      "id": "Tarta Gran Hotel",
+      "id": "tarta-gran-hotel",
       "category": "desserts",
       "price": 4.8,
       "translations": {
@@ -245,10 +257,11 @@
           "title": "Gran Hotel Torte",
           "description": "Exquisite Eistorte aus Sahne, Vanille und Turrón auf Biskuitboden, dekoriert mit Mandeln und Kirschen."
         }
-      }
+      },
+      "image": "/desserts/tarta_gran_hotel.png"
     },
     {
-      "id": "Tarta Sacher",
+      "id": "tarta-sacher",
       "category": "desserts",
       "price": 4.8,
       "translations": {
@@ -264,10 +277,11 @@
           "title": "Sachertorte",
           "description": "Schokoladenbiskuit mit Aprikosenmarmelade, überzogen mit dunkler Schokoladenglasur."
         }
-      }
+      },
+      "image": "/desserts/tarta_sacher.png"
     },
     {
-      "id": "Limón Helado",
+      "id": "lim-n-helado",
       "category": "desserts",
       "price": 5.5,
       "translations": {
@@ -283,10 +297,11 @@
           "title": "Gefrorene Zitrone",
           "description": "Erfrischendes Zitroneneis in der natürlichen Fruchtschale."
         }
-      }
+      },
+      "image": "/desserts/limon_helado.png"
     },
     {
-      "id": "Naranja Helada",
+      "id": "naranja-helada",
       "category": "desserts",
       "price": 5.5,
       "translations": {
@@ -302,10 +317,11 @@
           "title": "Gefrorene Orange",
           "description": "Orangeneis, serviert in der natürlichen Fruchtschale."
         }
-      }
+      },
+      "image": "/desserts/naranja_helada.png"
     },
     {
-      "id": "Mini Nórdica",
+      "id": "mini-n-rdica",
       "category": "desserts",
       "price": 4.5,
       "translations": {
@@ -321,10 +337,11 @@
           "title": "Mini Nórdica",
           "description": "Mini-Sahnetörtchen mit knusprigen Schokoladenplättchen im Inneren."
         }
-      }
+      },
+      "image": "/desserts/mini_nordica.jpg"
     },
     {
-      "id": "Helado Frito con Miel",
+      "id": "helado-frito-con-miel",
       "category": "desserts",
       "price": 5.3,
       "translations": {
@@ -340,10 +357,11 @@
           "title": "Frittiertes Eis mit Honig",
           "description": ""
         }
-      }
+      },
+      "image": "/desserts/helado_frito.png"
     },
     {
-      "id": "Helado con Nueces",
+      "id": "helado-con-nueces",
       "category": "desserts",
       "price": 5.5,
       "translations": {
@@ -359,10 +377,11 @@
           "title": "Eis mit Walnüssen",
           "description": ""
         }
-      }
+      },
+      "image": "/desserts/helado_con_nueces.png"
     },
     {
-      "id": "Bola Helado",
+      "id": "bola-helado",
       "category": "desserts",
       "price": 3.5,
       "translations": {
@@ -378,10 +397,11 @@
           "title": "Eiskugel",
           "description": ""
         }
-      }
+      },
+      "image": "/desserts/bola_helado.png"
     },
     {
-      "id": "Postre de Fruta Frita",
+      "id": "platano-pi-a-manzana-frita-con-miel-y-helado",
       "category": "desserts",
       "price": 6.5,
       "translations": {
@@ -397,7 +417,8 @@
           "title": "Frittierte Banane / Apfel / Ananas mit Honig und Eis",
           "description": ""
         }
-      }
+      },
+      "image": "/desserts/platano_frito_con_miel_y_helado.png"
     }
   ]
 }

@@ -1,543 +1,1029 @@
 {
   "items": [
     {
-      "id": "B1",
+      "id": "vino-de-la-casa",
       "category": "white_wine",
-      "price": 11.50,
+      "price": 11.5,
       "translations": {
-        "es": { "title": "Vino de la casa", "description": "" },
-        "en": { "title": "House Wine", "description": "" },
-        "de": { "title": "Hauswein", "description": "" }
+        "es": {
+          "title": "Vino de la casa",
+          "description": ""
+        },
+        "en": {
+          "title": "House Wine",
+          "description": ""
+        },
+        "de": {
+          "title": "Hauswein",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B2",
+      "id": "vi-a-sol",
       "category": "white_wine",
-      "price": 15.80,
+      "price": 15.8,
       "translations": {
-        "es": { "title": "Viña Sol", "description": "" },
-        "en": { "title": "Viña Sol", "description": "" },
-        "de": { "title": "Viña Sol", "description": "" }
+        "es": {
+          "title": "Viña Sol",
+          "description": ""
+        },
+        "en": {
+          "title": "Viña Sol",
+          "description": ""
+        },
+        "de": {
+          "title": "Viña Sol",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B3",
+      "id": "vi-a-sol-b",
       "category": "white_wine",
-      "price": 8.50,
+      "price": 8.5,
       "translations": {
-        "es": { "title": "Viña Sol ½ B", "description": "Media botella" },
-        "en": { "title": "Viña Sol ½ B", "description": "Half bottle" },
-        "de": { "title": "Viña Sol ½ B", "description": "Halbe Flasche" }
+        "es": {
+          "title": "Viña Sol ½ B",
+          "description": "Media botella"
+        },
+        "en": {
+          "title": "Viña Sol ½ B",
+          "description": "Half bottle"
+        },
+        "de": {
+          "title": "Viña Sol ½ B",
+          "description": "Halbe Flasche"
+        }
       }
     },
     {
-      "id": "B4",
+      "id": "san-valent-n",
       "category": "white_wine",
-      "price": 15.50,
+      "price": 15.5,
       "translations": {
-        "es": { "title": "San Valentín", "description": "" },
-        "en": { "title": "San Valentín", "description": "" },
-        "de": { "title": "San Valentín", "description": "" }
+        "es": {
+          "title": "San Valentín",
+          "description": ""
+        },
+        "en": {
+          "title": "San Valentín",
+          "description": ""
+        },
+        "de": {
+          "title": "San Valentín",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B5",
+      "id": "san-valent-n-b",
       "category": "white_wine",
-      "price": 7.80,
+      "price": 7.8,
       "translations": {
-        "es": { "title": "San Valentín ½ B", "description": "Media botella" },
-        "en": { "title": "San Valentín ½ B", "description": "Half bottle" },
-        "de": { "title": "San Valentín ½ B", "description": "Halbe Flasche" }
+        "es": {
+          "title": "San Valentín ½ B",
+          "description": "Media botella"
+        },
+        "en": {
+          "title": "San Valentín ½ B",
+          "description": "Half bottle"
+        },
+        "de": {
+          "title": "San Valentín ½ B",
+          "description": "Halbe Flasche"
+        }
       }
     },
     {
-      "id": "B7",
+      "id": "marqu-s-de-c-ceres",
       "category": "white_wine",
-      "price": 16.50,
+      "price": 16.5,
       "translations": {
-        "es": { "title": "Marqués de Cáceres", "description": "" },
-        "en": { "title": "Marqués de Cáceres", "description": "" },
-        "de": { "title": "Marqués de Cáceres", "description": "" }
+        "es": {
+          "title": "Marqués de Cáceres",
+          "description": ""
+        },
+        "en": {
+          "title": "Marqués de Cáceres",
+          "description": ""
+        },
+        "de": {
+          "title": "Marqués de Cáceres",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B8",
+      "id": "el-grifo",
       "category": "white_wine",
-      "price": 19.50,
+      "price": 19.5,
       "translations": {
-        "es": { "title": "El Grifo", "description": "" },
-        "en": { "title": "El Grifo", "description": "" },
-        "de": { "title": "El Grifo", "description": "" }
+        "es": {
+          "title": "El Grifo",
+          "description": ""
+        },
+        "en": {
+          "title": "El Grifo",
+          "description": ""
+        },
+        "de": {
+          "title": "El Grifo",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B9",
+      "id": "vino-de-la-casa",
       "category": "red_wine",
-      "price": 11.50,
+      "price": 11.5,
       "translations": {
-        "es": { "title": "Vino de la casa", "description": "" },
-        "en": { "title": "House Wine", "description": "" },
-        "de": { "title": "Hauswein", "description": "" }
+        "es": {
+          "title": "Vino de la casa",
+          "description": ""
+        },
+        "en": {
+          "title": "House Wine",
+          "description": ""
+        },
+        "de": {
+          "title": "Hauswein",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B10",
+      "id": "crianza-g-mez-de-segura",
       "category": "red_wine",
-      "price": 13.50,
+      "price": 13.5,
       "translations": {
-        "es": { "title": "Crianza Gómez de Segura", "description": "" },
-        "en": { "title": "Crianza Gómez de Segura", "description": "" },
-        "de": { "title": "Crianza Gómez de Segura", "description": "" }
+        "es": {
+          "title": "Crianza Gómez de Segura",
+          "description": ""
+        },
+        "en": {
+          "title": "Crianza Gómez de Segura",
+          "description": ""
+        },
+        "de": {
+          "title": "Crianza Gómez de Segura",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B11",
+      "id": "heras-cord-n",
       "category": "red_wine",
       "price": 17.85,
       "translations": {
-        "es": { "title": "Heras Cordón", "description": "" },
-        "en": { "title": "Heras Cordón", "description": "" },
-        "de": { "title": "Heras Cordón", "description": "" }
+        "es": {
+          "title": "Heras Cordón",
+          "description": ""
+        },
+        "en": {
+          "title": "Heras Cordón",
+          "description": ""
+        },
+        "de": {
+          "title": "Heras Cordón",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B12",
+      "id": "reserva-heras-cord-n",
       "category": "red_wine",
       "price": 21.75,
       "translations": {
-        "es": { "title": "Reserva Heras Cordón", "description": "" },
-        "en": { "title": "Reserva Heras Cordón", "description": "" },
-        "de": { "title": "Reserva Heras Cordón", "description": "" }
+        "es": {
+          "title": "Reserva Heras Cordón",
+          "description": ""
+        },
+        "en": {
+          "title": "Reserva Heras Cordón",
+          "description": ""
+        },
+        "de": {
+          "title": "Reserva Heras Cordón",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B13",
+      "id": "nin-n",
       "category": "red_wine",
-      "price": 15.50,
+      "price": 15.5,
       "translations": {
-        "es": { "title": "Ninín", "description": "Ribera del Duero" },
-        "en": { "title": "Ninín", "description": "Ribera del Duero" },
-        "de": { "title": "Ninín", "description": "Ribera del Duero" }
+        "es": {
+          "title": "Ninín",
+          "description": "Ribera del Duero"
+        },
+        "en": {
+          "title": "Ninín",
+          "description": "Ribera del Duero"
+        },
+        "de": {
+          "title": "Ninín",
+          "description": "Ribera del Duero"
+        }
       }
     },
     {
-      "id": "B14",
+      "id": "antonino-izquierdo",
       "category": "red_wine",
-      "price": 32.80,
+      "price": 32.8,
       "translations": {
-        "es": { "title": "Antonino Izquierdo", "description": "Vendimia seleccionada" },
-        "en": { "title": "Antonino Izquierdo", "description": "Selected harvest" },
-        "de": { "title": "Antonino Izquierdo", "description": "Ausgewählte Ernte" }
+        "es": {
+          "title": "Antonino Izquierdo",
+          "description": "Vendimia seleccionada"
+        },
+        "en": {
+          "title": "Antonino Izquierdo",
+          "description": "Selected harvest"
+        },
+        "de": {
+          "title": "Antonino Izquierdo",
+          "description": "Ausgewählte Ernte"
+        }
       }
     },
     {
-      "id": "B20",
+      "id": "vino-de-la-casa",
       "category": "rose_wine",
-      "price": 11.50,
+      "price": 11.5,
       "translations": {
-        "es": { "title": "Vino de la casa", "description": "" },
-        "en": { "title": "House Wine", "description": "" },
-        "de": { "title": "Hauswein", "description": "" }
+        "es": {
+          "title": "Vino de la casa",
+          "description": ""
+        },
+        "en": {
+          "title": "House Wine",
+          "description": ""
+        },
+        "de": {
+          "title": "Hauswein",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B21",
+      "id": "torres-de-casta",
       "category": "rose_wine",
-      "price": 15.60,
+      "price": 15.6,
       "translations": {
-        "es": { "title": "Torres de Casta", "description": "" },
-        "en": { "title": "Torres de Casta", "description": "" },
-        "de": { "title": "Torres de Casta", "description": "" }
+        "es": {
+          "title": "Torres de Casta",
+          "description": ""
+        },
+        "en": {
+          "title": "Torres de Casta",
+          "description": ""
+        },
+        "de": {
+          "title": "Torres de Casta",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B22",
+      "id": "torres-de-casta-b",
       "category": "rose_wine",
       "price": 8.65,
       "translations": {
-        "es": { "title": "Torres de Casta ½ B", "description": "Media botella" },
-        "en": { "title": "Torres de Casta ½ B", "description": "Half bottle" },
-        "de": { "title": "Torres de Casta ½ B", "description": "Halbe Flasche" }
+        "es": {
+          "title": "Torres de Casta ½ B",
+          "description": "Media botella"
+        },
+        "en": {
+          "title": "Torres de Casta ½ B",
+          "description": "Half bottle"
+        },
+        "de": {
+          "title": "Torres de Casta ½ B",
+          "description": "Halbe Flasche"
+        }
       }
     },
     {
-      "id": "B23",
+      "id": "mateus-ros",
       "category": "rose_wine",
-      "price": 15.60,
+      "price": 15.6,
       "translations": {
-        "es": { "title": "Mateus Rosé", "description": "" },
-        "en": { "title": "Mateus Rosé", "description": "" },
-        "de": { "title": "Mateus Rosé", "description": "" }
+        "es": {
+          "title": "Mateus Rosé",
+          "description": ""
+        },
+        "en": {
+          "title": "Mateus Rosé",
+          "description": ""
+        },
+        "de": {
+          "title": "Mateus Rosé",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B26",
+      "id": "sangr-a-1l",
       "category": "rose_wine",
-      "price": 14.50,
+      "price": 14.5,
       "translations": {
-        "es": { "title": "Sangría 1L", "description": "" },
-        "en": { "title": "Sangria 1L", "description": "" },
-        "de": { "title": "Sangria 1L", "description": "" }
+        "es": {
+          "title": "Sangría 1L",
+          "description": ""
+        },
+        "en": {
+          "title": "Sangria 1L",
+          "description": ""
+        },
+        "de": {
+          "title": "Sangria 1L",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B27",
+      "id": "sangr-a-l",
       "category": "rose_wine",
-      "price": 7.50,
+      "price": 7.5,
       "translations": {
-        "es": { "title": "Sangría ½ L", "description": "" },
-        "en": { "title": "Sangria ½ L", "description": "" },
-        "de": { "title": "Sangria ½ L", "description": "" }
+        "es": {
+          "title": "Sangría ½ L",
+          "description": ""
+        },
+        "en": {
+          "title": "Sangria ½ L",
+          "description": ""
+        },
+        "de": {
+          "title": "Sangria ½ L",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B28",
+      "id": "martini-sprite",
       "category": "aperitifs",
       "price": 5.95,
       "translations": {
-        "es": { "title": "Martini Sprite", "description": "" },
-        "en": { "title": "Martini Sprite", "description": "" },
-        "de": { "title": "Martini Sprite", "description": "" }
+        "es": {
+          "title": "Martini Sprite",
+          "description": ""
+        },
+        "en": {
+          "title": "Martini Sprite",
+          "description": ""
+        },
+        "de": {
+          "title": "Martini Sprite",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B29",
+      "id": "gin-tonic",
       "category": "aperitifs",
       "price": 5.95,
       "translations": {
-        "es": { "title": "Gin Tonic", "description": "" },
-        "en": { "title": "Gin Tonic", "description": "" },
-        "de": { "title": "Gin Tonic", "description": "" }
+        "es": {
+          "title": "Gin Tonic",
+          "description": ""
+        },
+        "en": {
+          "title": "Gin Tonic",
+          "description": ""
+        },
+        "de": {
+          "title": "Gin Tonic",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B30",
+      "id": "bacardi-coke",
       "category": "aperitifs",
       "price": 5.95,
       "translations": {
-        "es": { "title": "Bacardi coke", "description": "" },
-        "en": { "title": "Bacardi coke", "description": "" },
-        "de": { "title": "Bacardi Cola", "description": "" }
+        "es": {
+          "title": "Bacardi coke",
+          "description": ""
+        },
+        "en": {
+          "title": "Bacardi coke",
+          "description": ""
+        },
+        "de": {
+          "title": "Bacardi Cola",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B31",
+      "id": "malib-coke",
       "category": "aperitifs",
       "price": 5.95,
       "translations": {
-        "es": { "title": "Malibú coke", "description": "" },
-        "en": { "title": "Malibú coke", "description": "" },
-        "de": { "title": "Malibú Cola", "description": "" }
+        "es": {
+          "title": "Malibú coke",
+          "description": ""
+        },
+        "en": {
+          "title": "Malibú coke",
+          "description": ""
+        },
+        "de": {
+          "title": "Malibú Cola",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B-vodka-coke",
+      "id": "vodka-coke",
       "category": "aperitifs",
       "price": 5.95,
       "translations": {
-        "es": { "title": "Vodka coke", "description": "" },
-        "en": { "title": "Vodka coke", "description": "" },
-        "de": { "title": "Wodka Cola", "description": "" }
+        "es": {
+          "title": "Vodka coke",
+          "description": ""
+        },
+        "en": {
+          "title": "Vodka coke",
+          "description": ""
+        },
+        "de": {
+          "title": "Wodka Cola",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B60",
+      "id": "t-a-mar-a",
       "category": "liquor",
-      "price": 5.30,
+      "price": 5.3,
       "translations": {
-        "es": { "title": "Tía María", "description": "" },
-        "en": { "title": "Tía María", "description": "" },
-        "de": { "title": "Tía María", "description": "" }
+        "es": {
+          "title": "Tía María",
+          "description": ""
+        },
+        "en": {
+          "title": "Tía María",
+          "description": ""
+        },
+        "de": {
+          "title": "Tía María",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B61",
+      "id": "baileys",
       "category": "liquor",
-      "price": 5.30,
+      "price": 5.3,
       "translations": {
-        "es": { "title": "Baileys", "description": "" },
-        "en": { "title": "Baileys", "description": "" },
-        "de": { "title": "Baileys", "description": "" }
+        "es": {
+          "title": "Baileys",
+          "description": ""
+        },
+        "en": {
+          "title": "Baileys",
+          "description": ""
+        },
+        "de": {
+          "title": "Baileys",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B62",
+      "id": "sambuca",
       "category": "liquor",
-      "price": 4.30,
+      "price": 4.3,
       "translations": {
-        "es": { "title": "Sambuca", "description": "" },
-        "en": { "title": "Sambuca", "description": "" },
-        "de": { "title": "Sambuca", "description": "" }
+        "es": {
+          "title": "Sambuca",
+          "description": ""
+        },
+        "en": {
+          "title": "Sambuca",
+          "description": ""
+        },
+        "de": {
+          "title": "Sambuca",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B63",
+      "id": "ron-miel",
       "category": "liquor",
-      "price": 4.30,
+      "price": 4.3,
       "translations": {
-        "es": { "title": "Ron miel", "description": "" },
-        "en": { "title": "Honey rum", "description": "" },
-        "de": { "title": "Honigrum", "description": "" }
+        "es": {
+          "title": "Ron miel",
+          "description": ""
+        },
+        "en": {
+          "title": "Honey rum",
+          "description": ""
+        },
+        "de": {
+          "title": "Honigrum",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B32",
+      "id": "magno",
       "category": "spirits",
-      "price": 5.30,
+      "price": 5.3,
       "translations": {
-        "es": { "title": "Magno", "description": "" },
-        "en": { "title": "Magno", "description": "" },
-        "de": { "title": "Magno", "description": "" }
+        "es": {
+          "title": "Magno",
+          "description": ""
+        },
+        "en": {
+          "title": "Magno",
+          "description": ""
+        },
+        "de": {
+          "title": "Magno",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B33",
+      "id": "veterano",
       "category": "spirits",
-      "price": 4.30,
+      "price": 4.3,
       "translations": {
-        "es": { "title": "Veterano", "description": "" },
-        "en": { "title": "Veterano", "description": "" },
-        "de": { "title": "Veterano", "description": "" }
+        "es": {
+          "title": "Veterano",
+          "description": ""
+        },
+        "en": {
+          "title": "Veterano",
+          "description": ""
+        },
+        "de": {
+          "title": "Veterano",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B34",
+      "id": "brandy-103",
       "category": "spirits",
-      "price": 5.30,
+      "price": 5.3,
       "translations": {
-        "es": { "title": "Brandy 103", "description": "" },
-        "en": { "title": "Brandy 103", "description": "" },
-        "de": { "title": "Brandy 103", "description": "" }
+        "es": {
+          "title": "Brandy 103",
+          "description": ""
+        },
+        "en": {
+          "title": "Brandy 103",
+          "description": ""
+        },
+        "de": {
+          "title": "Brandy 103",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B35",
+      "id": "remy-martin",
       "category": "spirits",
-      "price": 9.80,
+      "price": 9.8,
       "translations": {
-        "es": { "title": "Remy Martin", "description": "" },
-        "en": { "title": "Remy Martin", "description": "" },
-        "de": { "title": "Remy Martin", "description": "" }
+        "es": {
+          "title": "Remy Martin",
+          "description": ""
+        },
+        "en": {
+          "title": "Remy Martin",
+          "description": ""
+        },
+        "de": {
+          "title": "Remy Martin",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B37",
+      "id": "ballantines",
       "category": "spirits",
-      "price": 5.30,
+      "price": 5.3,
       "translations": {
-        "es": { "title": "Ballantines", "description": "" },
-        "en": { "title": "Ballantines", "description": "" },
-        "de": { "title": "Ballantines", "description": "" }
+        "es": {
+          "title": "Ballantines",
+          "description": ""
+        },
+        "en": {
+          "title": "Ballantines",
+          "description": ""
+        },
+        "de": {
+          "title": "Ballantines",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B38",
+      "id": "100-pipers",
       "category": "spirits",
-      "price": 5.30,
+      "price": 5.3,
       "translations": {
-        "es": { "title": "100 Pipers", "description": "" },
-        "en": { "title": "100 Pipers", "description": "" },
-        "de": { "title": "100 Pipers", "description": "" }
+        "es": {
+          "title": "100 Pipers",
+          "description": ""
+        },
+        "en": {
+          "title": "100 Pipers",
+          "description": ""
+        },
+        "de": {
+          "title": "100 Pipers",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B39",
+      "id": "j-b",
       "category": "spirits",
-      "price": 5.30,
+      "price": 5.3,
       "translations": {
-        "es": { "title": "J&B", "description": "" },
-        "en": { "title": "J&B", "description": "" },
-        "de": { "title": "J&B", "description": "" }
+        "es": {
+          "title": "J&B",
+          "description": ""
+        },
+        "en": {
+          "title": "J&B",
+          "description": ""
+        },
+        "de": {
+          "title": "J&B",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B40",
+      "id": "jack-daniel-s",
       "category": "spirits",
-      "price": 6.50,
+      "price": 6.5,
       "translations": {
-        "es": { "title": "Jack Daniel's", "description": "" },
-        "en": { "title": "Jack Daniel's", "description": "" },
-        "de": { "title": "Jack Daniel's", "description": "" }
+        "es": {
+          "title": "Jack Daniel's",
+          "description": ""
+        },
+        "en": {
+          "title": "Jack Daniel's",
+          "description": ""
+        },
+        "de": {
+          "title": "Jack Daniel's",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B41",
+      "id": "johny-walker-r",
       "category": "spirits",
-      "price": 5.30,
+      "price": 5.3,
       "translations": {
-        "es": { "title": "Johny Walker R", "description": "" },
-        "en": { "title": "Johny Walker Red Label", "description": "" },
-        "de": { "title": "Johny Walker Red Label", "description": "" }
+        "es": {
+          "title": "Johny Walker R",
+          "description": ""
+        },
+        "en": {
+          "title": "Johny Walker Red Label",
+          "description": ""
+        },
+        "de": {
+          "title": "Johny Walker Red Label",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B42",
+      "id": "johny-walker-b",
       "category": "spirits",
-      "price": 6.50,
+      "price": 6.5,
       "translations": {
-        "es": { "title": "Johny Walker B", "description": "" },
-        "en": { "title": "Johny Walker Black Label", "description": "" },
-        "de": { "title": "Johny Walker Black Label", "description": "" }
+        "es": {
+          "title": "Johny Walker B",
+          "description": ""
+        },
+        "en": {
+          "title": "Johny Walker Black Label",
+          "description": ""
+        },
+        "de": {
+          "title": "Johny Walker Black Label",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B43",
+      "id": "chivas",
       "category": "spirits",
-      "price": 7.50,
+      "price": 7.5,
       "translations": {
-        "es": { "title": "Chivas", "description": "" },
-        "en": { "title": "Chivas", "description": "" },
-        "de": { "title": "Chivas", "description": "" }
+        "es": {
+          "title": "Chivas",
+          "description": ""
+        },
+        "en": {
+          "title": "Chivas",
+          "description": ""
+        },
+        "de": {
+          "title": "Chivas",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B44",
+      "id": "jarra-de-cerveza",
       "category": "beer",
-      "price": 3.50,
+      "price": 3.5,
       "translations": {
-        "es": { "title": "Jarra de cerveza", "description": "Cerveza grande" },
-        "en": { "title": "Large Beer", "description": "Jar" },
-        "de": { "title": "Großes Bier", "description": "Krug" }
+        "es": {
+          "title": "Jarra de cerveza",
+          "description": "Cerveza grande"
+        },
+        "en": {
+          "title": "Large Beer",
+          "description": "Jar"
+        },
+        "de": {
+          "title": "Großes Bier",
+          "description": "Krug"
+        }
       }
     },
     {
-      "id": "B45",
+      "id": "ca-a-de-cerveza",
       "category": "beer",
-      "price": 2.30,
+      "price": 2.3,
       "translations": {
-        "es": { "title": "Caña de cerveza", "description": "Cerveza pequeña" },
-        "en": { "title": "Small Beer", "description": "Glass" },
-        "de": { "title": "Kleines Bier", "description": "Glas" }
+        "es": {
+          "title": "Caña de cerveza",
+          "description": "Cerveza pequeña"
+        },
+        "en": {
+          "title": "Small Beer",
+          "description": "Glass"
+        },
+        "de": {
+          "title": "Kleines Bier",
+          "description": "Glas"
+        }
       }
     },
     {
-      "id": "B46",
+      "id": "heineken",
       "category": "beer",
-      "price": 3.50,
+      "price": 3.5,
       "translations": {
-        "es": { "title": "Heineken", "description": "" },
-        "en": { "title": "Heineken", "description": "" },
-        "de": { "title": "Heineken", "description": "" }
+        "es": {
+          "title": "Heineken",
+          "description": ""
+        },
+        "en": {
+          "title": "Heineken",
+          "description": ""
+        },
+        "de": {
+          "title": "Heineken",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B47",
+      "id": "coronita",
       "category": "beer",
-      "price": 3.50,
+      "price": 3.5,
       "translations": {
-        "es": { "title": "Coronita", "description": "" },
-        "en": { "title": "Coronita", "description": "" },
-        "de": { "title": "Coronita", "description": "" }
+        "es": {
+          "title": "Coronita",
+          "description": ""
+        },
+        "en": {
+          "title": "Coronita",
+          "description": ""
+        },
+        "de": {
+          "title": "Coronita",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B48",
+      "id": "tsingtao",
       "category": "beer",
-      "price": 3.80,
+      "price": 3.8,
       "translations": {
-        "es": { "title": "Tsingtao", "description": "Cerveza china" },
-        "en": { "title": "Tsingtao", "description": "Chinese beer" },
-        "de": { "title": "Tsingtao", "description": "Chinesisches Bier" }
+        "es": {
+          "title": "Tsingtao",
+          "description": "Cerveza china"
+        },
+        "en": {
+          "title": "Tsingtao",
+          "description": "Chinese beer"
+        },
+        "de": {
+          "title": "Tsingtao",
+          "description": "Chinesisches Bier"
+        }
       }
     },
     {
-      "id": "B49",
+      "id": "strong-bow",
       "category": "beer",
-      "price": 3.50,
+      "price": 3.5,
       "translations": {
-        "es": { "title": "Strong Bow", "description": "" },
-        "en": { "title": "Strongbow", "description": "" },
-        "de": { "title": "Strongbow Cider", "description": "" }
+        "es": {
+          "title": "Strong Bow",
+          "description": ""
+        },
+        "en": {
+          "title": "Strongbow",
+          "description": ""
+        },
+        "de": {
+          "title": "Strongbow Cider",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B50",
+      "id": "cerveza-sin-alcohol",
       "category": "beer",
-      "price": 2.50,
+      "price": 2.5,
       "translations": {
-        "es": { "title": "Cerveza sin alcohol", "description": "" },
-        "en": { "title": "Alcohol-free Beer", "description": "" },
-        "de": { "title": "Alkoholfreies Bier", "description": "" }
+        "es": {
+          "title": "Cerveza sin alcohol",
+          "description": ""
+        },
+        "en": {
+          "title": "Alcohol-free Beer",
+          "description": ""
+        },
+        "de": {
+          "title": "Alkoholfreies Bier",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B-kopper",
+      "id": "kopper",
       "category": "beer",
-      "price": 4.50,
+      "price": 4.5,
       "translations": {
-        "es": { "title": "Kopper", "description": "" },
-        "en": { "title": "Kopper", "description": "" },
-        "de": { "title": "Kopper", "description": "" }
+        "es": {
+          "title": "Kopper",
+          "description": ""
+        },
+        "en": {
+          "title": "Kopper",
+          "description": ""
+        },
+        "de": {
+          "title": "Kopper",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B51",
+      "id": "fanta",
       "category": "soft_drinks",
       "price": 2.95,
       "translations": {
-        "es": { "title": "Fanta", "description": "Naranja o limón" },
-        "en": { "title": "Fanta", "description": "Orange or lemon" },
-        "de": { "title": "Fanta", "description": "Orange oder Zitrone" }
+        "es": {
+          "title": "Fanta",
+          "description": "Naranja o limón"
+        },
+        "en": {
+          "title": "Fanta",
+          "description": "Orange or lemon"
+        },
+        "de": {
+          "title": "Fanta",
+          "description": "Orange oder Zitrone"
+        }
       }
     },
     {
-      "id": "B52",
+      "id": "refresco",
       "category": "soft_drinks",
       "price": 2.95,
       "translations": {
-        "es": { "title": "Refresco", "description": "Sprite, Coca Cola o Tonic" },
-        "en": { "title": "Soft Drink", "description": "Sprite, Coca Cola or Tonic" },
-        "de": { "title": "Erfrischungsgetränk", "description": "Sprite, Coca Cola oder Tonic" }
+        "es": {
+          "title": "Refresco",
+          "description": "Sprite, Coca Cola o Tonic"
+        },
+        "en": {
+          "title": "Soft Drink",
+          "description": "Sprite, Coca Cola or Tonic"
+        },
+        "de": {
+          "title": "Erfrischungsgetränk",
+          "description": "Sprite, Coca Cola oder Tonic"
+        }
       }
     },
     {
-      "id": "B54",
+      "id": "agua",
       "category": "soft_drinks",
       "price": 2.15,
       "translations": {
-        "es": { "title": "Agua", "description": "" },
-        "en": { "title": "Water", "description": "" },
-        "de": { "title": "Wasser", "description": "" }
+        "es": {
+          "title": "Agua",
+          "description": ""
+        },
+        "en": {
+          "title": "Water",
+          "description": ""
+        },
+        "de": {
+          "title": "Wasser",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B55",
+      "id": "nestea",
       "category": "soft_drinks",
       "price": 2.95,
       "translations": {
-        "es": { "title": "Nestea", "description": "" },
-        "en": { "title": "Nestea", "description": "" },
-        "de": { "title": "Nestea", "description": "" }
+        "es": {
+          "title": "Nestea",
+          "description": ""
+        },
+        "en": {
+          "title": "Nestea",
+          "description": ""
+        },
+        "de": {
+          "title": "Nestea",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B57",
+      "id": "appletiser",
       "category": "soft_drinks",
       "price": 2.95,
       "translations": {
-        "es": { "title": "Appletiser", "description": "" },
-        "en": { "title": "Appletiser", "description": "" },
-        "de": { "title": "Appletiser", "description": "" }
+        "es": {
+          "title": "Appletiser",
+          "description": ""
+        },
+        "en": {
+          "title": "Appletiser",
+          "description": ""
+        },
+        "de": {
+          "title": "Appletiser",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B58",
+      "id": "zumo-de-fruta",
       "category": "soft_drinks",
       "price": 2.95,
       "translations": {
-        "es": { "title": "Zumo de fruta", "description": "" },
-        "en": { "title": "Fruit Juice", "description": "" },
-        "de": { "title": "Fruchtsaft", "description": "" }
+        "es": {
+          "title": "Zumo de fruta",
+          "description": ""
+        },
+        "en": {
+          "title": "Fruit Juice",
+          "description": ""
+        },
+        "de": {
+          "title": "Fruchtsaft",
+          "description": ""
+        }
       }
     },
     {
-      "id": "B59",
+      "id": "zumo-de-naranja-fresco",
       "category": "soft_drinks",
-      "price": 3.80,
+      "price": 3.8,
       "translations": {
-        "es": { "title": "Zumo de naranja fresco", "description": "" },
-        "en": { "title": "Fresh Orange Juice", "description": "" },
-        "de": { "title": "Frisch gepresster Orangensaft", "description": "" }
+        "es": {
+          "title": "Zumo de naranja fresco",
+          "description": ""
+        },
+        "en": {
+          "title": "Fresh Orange Juice",
+          "description": ""
+        },
+        "de": {
+          "title": "Frisch gepresster Orangensaft",
+          "description": ""
+        }
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "id": "001",
+      "id": "pan-de-gambas",
       "category": "starters",
       "price": 1.8,
       "translations": {
@@ -20,7 +20,7 @@
       }
     },
     {
-      "id": "002",
+      "id": "langostinos-fritos-con-s-samo",
       "category": "starters",
       "price": 8.95,
       "translations": {
@@ -39,7 +39,7 @@
       }
     },
     {
-      "id": "003",
+      "id": "langostinos-rebozados",
       "category": "starters",
       "price": 8.95,
       "translations": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "004",
+      "id": "rollitos-de-primavera-2",
       "category": "starters",
       "price": 2.5,
       "translations": {
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "005",
+      "id": "pan-chino",
       "category": "starters",
       "price": 1.8,
       "translations": {
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "006",
+      "id": "wan-tun-frito",
       "category": "starters",
       "price": 4.5,
       "translations": {
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "007",
+      "id": "pinchos-de-pollo-satay",
       "category": "starters",
       "price": 6.5,
       "translations": {
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "008",
+      "id": "pato-crujiente-con-crepes",
       "category": "starters",
       "price": 13.95,
       "translations": {
@@ -153,7 +153,7 @@
       }
     },
     {
-      "id": "009",
+      "id": "costillas-con-salsa-capital",
       "category": "starters",
       "price": 6.95,
       "translations": {
@@ -172,7 +172,7 @@
       }
     },
     {
-      "id": "010",
+      "id": "costillas-con-sal-pimienta",
       "category": "starters",
       "price": 6.95,
       "translations": {
@@ -191,7 +191,7 @@
       }
     },
     {
-      "id": "011",
+      "id": "alitas-de-pollo-fritas-con-sal-y-pimienta",
       "category": "starters",
       "price": 6.75,
       "translations": {
@@ -210,7 +210,7 @@
       }
     },
     {
-      "id": "012",
+      "id": "entremeses-variados",
       "category": "starters",
       "price": 11.5,
       "translations": {
@@ -229,7 +229,7 @@
       }
     },
     {
-      "id": "013",
+      "id": "gamba-al-ajillo",
       "category": "starters",
       "price": 8.95,
       "translations": {
@@ -248,7 +248,7 @@
       }
     },
     {
-      "id": "T414",
+      "id": "rollitos-thai",
       "category": "starters",
       "price": 4.5,
       "translations": {
@@ -267,7 +267,7 @@
       }
     },
     {
-      "id": "T415",
+      "id": "rollitos-de-langostino",
       "category": "starters",
       "price": 5.75,
       "translations": {
@@ -286,7 +286,7 @@
       }
     },
     {
-      "id": "T416",
+      "id": "costilla-bangkok",
       "category": "starters",
       "price": 7.95,
       "translations": {
@@ -305,7 +305,7 @@
       }
     },
     {
-      "id": "016",
+      "id": "sopa-de-pollo-con-ma-z",
       "category": "soups",
       "price": 2.95,
       "translations": {
@@ -324,7 +324,7 @@
       }
     },
     {
-      "id": "017",
+      "id": "sopa-de-pollo-con-tallarines",
       "category": "soups",
       "price": 2.95,
       "translations": {
@@ -343,7 +343,7 @@
       }
     },
     {
-      "id": "018",
+      "id": "sopa-de-wanton",
       "category": "soups",
       "price": 3.5,
       "translations": {
@@ -362,7 +362,7 @@
       }
     },
     {
-      "id": "019",
+      "id": "sopa-vegetal",
       "category": "soups",
       "price": 2.95,
       "translations": {
@@ -381,7 +381,7 @@
       }
     },
     {
-      "id": "020",
+      "id": "sopa-agripicante",
       "category": "soups",
       "price": 3.5,
       "translations": {
@@ -400,7 +400,7 @@
       }
     },
     {
-      "id": "021",
+      "id": "pollo-crujiente-con-sal-y-pimienta",
       "category": "chicken",
       "price": 6.8,
       "translations": {
@@ -419,7 +419,7 @@
       }
     },
     {
-      "id": "022",
+      "id": "pollo-con-bamb-y-setas-chinas",
       "category": "chicken",
       "price": 6.5,
       "translations": {
@@ -438,7 +438,7 @@
       }
     },
     {
-      "id": "023",
+      "id": "pollo-con-salsa-curry",
       "category": "chicken",
       "price": 6.3,
       "translations": {
@@ -457,7 +457,7 @@
       }
     },
     {
-      "id": "024",
+      "id": "pollo-crujiente-con-chili-y-salsa-agridulce",
       "category": "chicken",
       "price": 6.85,
       "translations": {
@@ -476,7 +476,7 @@
       }
     },
     {
-      "id": "025",
+      "id": "pollo-agridulce",
       "category": "chicken",
       "price": 6.3,
       "translations": {
@@ -495,7 +495,7 @@
       }
     },
     {
-      "id": "026",
+      "id": "pollo-con-salsa-picante",
       "category": "chicken",
       "price": 6.3,
       "translations": {
@@ -514,7 +514,7 @@
       }
     },
     {
-      "id": "027",
+      "id": "pollo-con-salsa-de-satay",
       "category": "chicken",
       "price": 6.5,
       "translations": {
@@ -533,7 +533,7 @@
       }
     },
     {
-      "id": "028",
+      "id": "pollo-con-salsa-de-jud-as-negras",
       "category": "chicken",
       "price": 6.3,
       "translations": {
@@ -552,7 +552,7 @@
       }
     },
     {
-      "id": "029",
+      "id": "pollo-con-salsa-de-pimienta-negra-a-la-plancha",
       "category": "chicken",
       "price": 7.3,
       "translations": {
@@ -571,7 +571,7 @@
       }
     },
     {
-      "id": "030",
+      "id": "pollo-con-salsa-cant-n-a-la-plancha",
       "category": "chicken",
       "price": 7.3,
       "translations": {
@@ -585,25 +585,6 @@
         },
         "de": {
           "title": "Gegrillt Huhn mit Canton Soße",
-          "description": ""
-        }
-      }
-    },
-    {
-      "id": "031",
-      "category": "chicken",
-      "price": 7.5,
-      "translations": {
-        "es": {
-          "title": "Pollo con jengibre y cebolla a la plancha",
-          "description": ""
-        },
-        "en": {
-          "title": "Grilled chicken with ginger and onion",
-          "description": ""
-        },
-        "de": {
-          "title": "",
           "description": ""
         }
       }

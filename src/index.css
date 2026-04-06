@@ -7,7 +7,7 @@
   --color-primary: #6b000e;
   --color-primary-container: #960018;
   --color-on-primary: #ffffff;
-  --color-secondary: #735c00;
+  --color-secondary: #e9c349;
   --color-on-surface: #1b1c17;
   --color-on-surface-variant: #5a403f;
   --color-outline-variant: #e2bebb;
@@ -15,6 +15,7 @@
   --font-serif: "Noto Serif", serif;
   --font-body: "Manrope", sans-serif;
   --font-label: "Manrope", sans-serif;
+  --font-display: "Fjalla One", sans-serif;
 }
 
 html {

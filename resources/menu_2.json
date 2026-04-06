@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "id": "31",
+      "id": "pollo-con-jengibre-y-cebolla-a-la-plancha",
       "category": "chicken",
       "price": 7.5,
       "translations": {
@@ -20,7 +20,7 @@
       }
     },
     {
-      "id": "32",
+      "id": "pollo-al-ajillo-picante-a-la-plancha",
       "category": "chicken",
       "price": 7.5,
       "translations": {
@@ -39,7 +39,7 @@
       }
     },
     {
-      "id": "33",
+      "id": "pollo-con-almendra",
       "category": "chicken",
       "price": 6.3,
       "translations": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "34",
+      "id": "pollo-frito-con-almendra",
       "category": "chicken",
       "price": 6.95,
       "translations": {
@@ -77,7 +77,7 @@
       }
     },
     {
-      "id": "35",
+      "id": "pollo-frito-con-salsa-de-lim-n",
       "category": "chicken",
       "price": 6.5,
       "translations": {
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "36",
+      "id": "especial-curry-a-la-plancha-ternera-pollo-y-gamba",
       "category": "chicken",
       "price": 9.35,
       "translations": {
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "T437",
+      "id": "pollo-con-curry-rojo",
       "category": "chicken",
       "price": 7.5,
       "translations": {
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "T438",
+      "id": "pollo-con-curry-verde",
       "category": "chicken",
       "price": 7.5,
       "translations": {
@@ -153,7 +153,7 @@
       }
     },
     {
-      "id": "T439",
+      "id": "pollo-bangkok",
       "category": "chicken",
       "price": 7.8,
       "translations": {
@@ -172,7 +172,7 @@
       }
     },
     {
-      "id": "T440",
+      "id": "pollo-con-coco-y-pi-a",
       "category": "chicken",
       "price": 7.8,
       "translations": {
@@ -191,7 +191,7 @@
       }
     },
     {
-      "id": "41",
+      "id": "ternera-con-pimiento-verde",
       "category": "beef",
       "price": 6.7,
       "translations": {
@@ -210,7 +210,7 @@
       }
     },
     {
-      "id": "42",
+      "id": "ternera-con-bamb-y-setas-chinas",
       "category": "beef",
       "price": 6.95,
       "translations": {
@@ -229,7 +229,7 @@
       }
     },
     {
-      "id": "43",
+      "id": "ternera-con-salsa-curry",
       "category": "beef",
       "price": 6.8,
       "translations": {
@@ -248,7 +248,7 @@
       }
     },
     {
-      "id": "44",
+      "id": "ternera-crujiente-con-chili-y-salsa-agridulce",
       "category": "beef",
       "price": 7.25,
       "translations": {
@@ -267,7 +267,7 @@
       }
     },
     {
-      "id": "45",
+      "id": "ternera-con-salsa-de-ostras",
       "category": "beef",
       "price": 6.8,
       "translations": {
@@ -286,7 +286,7 @@
       }
     },
     {
-      "id": "46",
+      "id": "ternera-con-salsa-picante",
       "category": "beef",
       "price": 6.7,
       "translations": {
@@ -305,7 +305,7 @@
       }
     },
     {
-      "id": "47",
+      "id": "ternera-con-salsa-satay",
       "category": "beef",
       "price": 6.8,
       "translations": {
@@ -324,7 +324,7 @@
       }
     },
     {
-      "id": "48",
+      "id": "ternera-con-salsa-de-jud-as-negras",
       "category": "beef",
       "price": 6.8,
       "translations": {
@@ -343,7 +343,7 @@
       }
     },
     {
-      "id": "49",
+      "id": "ternera-con-salsa-de-pimienta-negra-a-la-plancha",
       "category": "beef",
       "price": 7.5,
       "translations": {
@@ -362,7 +362,7 @@
       }
     },
     {
-      "id": "50",
+      "id": "ternera-con-salsa-cant-n-a-la-plancha",
       "category": "beef",
       "price": 7.5,
       "translations": {
@@ -381,7 +381,7 @@
       }
     },
     {
-      "id": "51",
+      "id": "ternera-con-jengibre-y-cebolla-a-la-plancha",
       "category": "beef",
       "price": 7.7,
       "translations": {
@@ -400,7 +400,7 @@
       }
     },
     {
-      "id": "T452",
+      "id": "ternera-con-curry-rojo",
       "category": "beef",
       "price": 7.95,
       "translations": {
@@ -419,7 +419,7 @@
       }
     },
     {
-      "id": "T453",
+      "id": "ternera-con-curry-verde",
       "category": "beef",
       "price": 7.95,
       "translations": {
@@ -438,7 +438,7 @@
       }
     },
     {
-      "id": "T454",
+      "id": "ternera-bangkok",
       "category": "beef",
       "price": 7.95,
       "translations": {
@@ -457,7 +457,7 @@
       }
     },
     {
-      "id": "T455",
+      "id": "ternera-frita-con-coco-y-pi-a",
       "category": "beef",
       "price": 7.95,
       "translations": {
@@ -476,7 +476,7 @@
       }
     },
     {
-      "id": "61",
+      "id": "langostinos-con-sal-y-pimienta",
       "category": "shrimp",
       "price": 9.5,
       "translations": {
@@ -495,7 +495,7 @@
       }
     },
     {
-      "id": "62",
+      "id": "langostinos-crujientes-con-chili-y-salsa-agridulce",
       "category": "shrimp",
       "price": 9.75,
       "translations": {
@@ -514,7 +514,7 @@
       }
     },
     {
-      "id": "63",
+      "id": "langostinos-agridulces",
       "category": "shrimp",
       "price": 9.5,
       "translations": {
@@ -533,7 +533,7 @@
       }
     },
     {
-      "id": "64",
+      "id": "langostinos-con-salsa-picante",
       "category": "shrimp",
       "price": 9.3,
       "translations": {
@@ -552,7 +552,7 @@
       }
     },
     {
-      "id": "65",
+      "id": "langostinos-con-salsa-cant-n-a-la-plancha",
       "category": "shrimp",
       "price": 10.5,
       "translations": {
@@ -571,7 +571,7 @@
       }
     },
     {
-      "id": "66",
+      "id": "langostinos-con-jengibre-y-cebollas-a-la-plancha",
       "category": "shrimp",
       "price": 10.8,
       "translations": {
@@ -590,7 +590,7 @@
       }
     },
     {
-      "id": "67",
+      "id": "langostinos-al-ajillo-picante-a-la-plancha",
       "category": "shrimp",
       "price": 10.8,
       "translations": {
@@ -609,7 +609,7 @@
       }
     },
     {
-      "id": "T468",
+      "id": "langostinos-con-curry-rojo",
       "category": "shrimp",
       "price": 9.8,
       "translations": {
@@ -628,7 +628,7 @@
       }
     },
     {
-      "id": "T469",
+      "id": "langostinos-con-curry-verde",
       "category": "shrimp",
       "price": 9.8,
       "translations": {
@@ -647,7 +647,7 @@
       }
     },
     {
-      "id": "T470",
+      "id": "langostinos-bangkok",
       "category": "shrimp",
       "price": 10.3,
       "translations": {
