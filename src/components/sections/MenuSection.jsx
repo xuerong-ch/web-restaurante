@@ -165,8 +165,8 @@ function MenuSection({ variant = 'starters', sectionData = { items: [] }, lang =
     }, {})
 
     return (
-      <div className="space-y-16">
-        {Object.entries(groupedItems).map(([subcat, subItems]) => (
+        <div className="space-y-16">
+          {Object.entries(groupedItems).map(([subcat, subItems]) => (
           <div key={subcat} className="menu-animate">
             <h3 className="text-2xl font-serif text-primary border-b border-outline-variant/30 pb-4 mb-8">
               {categoriesMaster[subcat]?.[lang] || categoriesMaster[subcat]?.es || subcat}

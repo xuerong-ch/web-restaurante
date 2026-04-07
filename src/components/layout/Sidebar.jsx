@@ -1,6 +1,6 @@
 import categoriesMaster from '../../data/categories.json'
 
-function Sidebar({ categories = ['starters', 'mains', 'desserts'], activeId = 'starters', lang = 'es', onLangChange, isOpen, onClose }) {
+function Sidebar({ categories = ['starters', 'mains', 'desserts'], activeId = 'starters', lang = 'es', onLangChange, onBrandClick, isOpen, onClose }) {
   const handleScroll = (e, id) => {
     e.preventDefault()
     const element = document.getElementById(id)
@@ -23,9 +23,13 @@ function Sidebar({ categories = ['starters', 'mains', 'desserts'], activeId = 's
       <aside className={`flex flex-col justify-between py-12 px-8 h-screen w-64 fixed left-0 top-0 bg-surface dark:bg-stone-950 z-50 transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0`}>
       <div className="flex flex-col h-full overflow-hidden">
         <div className="hidden lg:block space-y-1 mb-12 shrink-0">
-          <h1 className="text-3xl font-display text-primary dark:text-red-800 tracking-tighter">
+          <button
+            type="button"
+            onClick={onBrandClick}
+            className="text-left text-3xl font-display text-primary dark:text-red-800 tracking-tighter cursor-pointer transition-opacity hover:opacity-85"
+          >
             HONG KONG II
-          </h1>
+          </button>
           <p className="uppercase tracking-widest font-sans text-xs text-on-surface dark:text-stone-400 opacity-70">
             Restaurante Chino
           </p>
@@ -39,7 +43,7 @@ function Sidebar({ categories = ['starters', 'mains', 'desserts'], activeId = 's
               <a 
                 key={categoryId}
                 onClick={(e) => handleScroll(e, categoryId)}
-                className={`font-bold border-b-2 pb-1 uppercase tracking-widest text-xs transition-all cursor-pointer ${
+                className={`block font-bold border-b-2 pb-1 uppercase tracking-widest text-xs transition-all cursor-pointer ${
                   isActive 
                     ? 'text-primary-container dark:text-red-500 border-secondary opacity-100' 
                     : 'text-on-surface dark:text-stone-400 border-transparent opacity-70 hover:opacity-100 hover:text-secondary'

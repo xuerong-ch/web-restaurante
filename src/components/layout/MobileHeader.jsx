@@ -1,9 +1,13 @@
-function MobileHeader({ onToggleMenu = () => {}, lang = 'es', onLangChange = () => {} }) {
+function MobileHeader({ onToggleMenu = () => {}, lang = 'es', onLangChange = () => {}, onBrandClick = () => {} }) {
   return (
     <header className="flex lg:hidden justify-between items-center px-6 py-4 w-full bg-surface/85 dark:bg-stone-950/85 backdrop-blur-xl sticky top-0 z-50 border-b border-outline/15">
-      <h2 className="text-xl font-display text-primary dark:text-red-800">
+      <button
+        type="button"
+        onClick={onBrandClick}
+        className="text-xl font-display text-primary dark:text-red-800 transition-opacity hover:opacity-85"
+      >
         HONG KONG II
-      </h2>
+      </button>
       <div className="flex items-center space-x-4">
         <div className="flex space-x-3 text-on-surface">
           <button 

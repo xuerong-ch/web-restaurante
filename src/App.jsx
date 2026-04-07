@@ -222,6 +222,16 @@ function MainContent() {
   const { lang: urlLang } = useParams()
   const navigate = useNavigate()
 
+  const scrollToTop = () => {
+    const heroSection = document.getElementById('portada')
+
+    if (heroSection) {
+      heroSection.scrollIntoView({ behavior: 'smooth' })
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+  }
+
   // Verify language, if invalid, redirect to /es
   const isValidLang = ['es', 'en', 'de', 'cn'].includes(urlLang)
   if (!isValidLang) {
@@ -302,6 +312,7 @@ function MainContent() {
         activeId={activeId} 
         lang={lang} 
         onLangChange={setLang}
+        onBrandClick={scrollToTop}
         isOpen={isMobileMenuOpen}
         onClose={() => setIsMobileMenuOpen(false)}
       />
@@ -309,6 +320,7 @@ function MainContent() {
         onToggleMenu={() => setIsMobileMenuOpen(!isMobileMenuOpen)} 
         lang={lang}
         onLangChange={setLang}
+        onBrandClick={scrollToTop}
       />
       <main className="lg:pl-64">
         <Hero lang={lang} />
