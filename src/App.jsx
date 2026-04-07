@@ -102,6 +102,27 @@ const staticSectionData = {
       }
     }
   },
+  children_s_menu: {
+    id: 'children_s_menu',
+    translations: {
+      es: {
+        subtitle: '— Para los Peques',
+        headerNote: 'Acompañado con arroz o patatas fritas.'
+      },
+      en: {
+        subtitle: '— For Little Ones',
+        headerNote: 'Served with rice or French fries.'
+      },
+      de: {
+        subtitle: '— Fur die Kleinen',
+        headerNote: 'Serviert mit Reis oder Pommes frites.'
+      },
+      cn: {
+        subtitle: '— 儿童精选',
+        headerNote: '配米饭或炸薯条。'
+      }
+    }
+  },
   desserts: {
     id: 'desserts',
     translations: {
@@ -186,7 +207,15 @@ allJsonData.forEach(data => {
 const keysWithoutDrinksAndDimSum = Object.keys(itemsByCategory).filter(k => k !== 'drinks' && k !== 'dim_sum')
 
 // order: drinks, starters, dim_sum, ...rest
-const orderedCategories = ['drinks', 'starters', 'dim_sum', ...keysWithoutDrinksAndDimSum.filter(k => k !== 'starters')]
+const remainingCategories = keysWithoutDrinksAndDimSum.filter(k => k !== 'starters' && k !== 'children_s_menu')
+const menusIndex = remainingCategories.indexOf('menus')
+
+if (itemsByCategory.children_s_menu) {
+  const insertIndex = menusIndex >= 0 ? menusIndex : remainingCategories.length
+  remainingCategories.splice(insertIndex, 0, 'children_s_menu')
+}
+
+const orderedCategories = ['drinks', 'starters', 'dim_sum', ...remainingCategories]
 const categoriesIds = ['portada', ...orderedCategories]
 
 function MainContent() {
@@ -244,6 +273,7 @@ function MainContent() {
         id: categoryId,
         subtitle: t.subtitle || `— ${categoriesMaster[categoryId]?.[lang] || categoriesMaster[categoryId]?.es || categoryId}`,
         title: t.title || categoriesMaster[categoryId]?.[lang] || categoriesMaster[categoryId]?.es || categoryId,
+        headerNote: t.headerNote || '',
         description: t.description || '',
         featuredDish,
         items: sectionItems

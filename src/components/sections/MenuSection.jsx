@@ -10,7 +10,7 @@ ScrollTrigger.config({ ignoreMobileResize: true })
 
 function MenuSection({ variant = 'starters', sectionData = { items: [] }, lang = 'es' }) {
   const containerRef = useRef(null)
-  const { id, subtitle, title, description, featuredDish, items = [], layoutType } = sectionData
+  const { id, subtitle, title, headerNote, description, featuredDish, items = [], layoutType } = sectionData
 
   useGSAP(() => {
     const elements = gsap.utils.toArray('.menu-animate')
@@ -209,6 +209,11 @@ function MenuSection({ variant = 'starters', sectionData = { items: [] }, lang =
             {subtitle}
           </span>
           <h2 className="text-4xl lg:text-5xl font-serif italic text-on-surface">{title}</h2>
+          {headerNote && (
+            <p className="mt-3 text-sm text-on-surface-variant font-body italic">
+              {headerNote}
+            </p>
+          )}
         </div>
         {description && (
           <p className="text-on-surface-variant font-body italic text-sm lg:text-base max-w-xs text-right">

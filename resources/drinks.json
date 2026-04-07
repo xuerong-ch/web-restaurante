@@ -1082,48 +1082,25 @@
       }
     },
     {
-      "id": "fanta",
-      "category": "soft_drinks",
-      "price": 2.95,
-      "translations": {
-        "es": {
-          "title": "Fanta",
-          "description": "Naranja o limón"
-        },
-        "en": {
-          "title": "Fanta",
-          "description": "Orange or lemon"
-        },
-        "de": {
-          "title": "Fanta",
-          "description": "Orange oder Zitrone"
-        },
-        "cn": {
-          "title": "芬达",
-          "description": "香橙或柠檬"
-        }
-      }
-    },
-    {
       "id": "refresco",
       "category": "soft_drinks",
       "price": 2.95,
       "translations": {
         "es": {
-          "title": "Refresco",
-          "description": "Sprite, Coca Cola o Tonic"
+          "title": "Coca-Cola, Sprite, Fanta",
+          "description": ""
         },
         "en": {
-          "title": "Soft Drink",
-          "description": "Sprite, Coca Cola or Tonic"
+          "title": "Coca-Cola, Sprite, Fanta",
+          "description": ""
         },
         "de": {
-          "title": "Erfrischungsgetränk",
-          "description": "Sprite, Coca Cola oder Tonic"
+          "title": "Coca-Cola, Sprite, Fanta",
+          "description": ""
         },
         "cn": {
-          "title": "软饮料",
-          "description": "雪碧，可口可乐或汤力水"
+          "title": "可口可乐、雪碧、芬达",
+          "description": ""
         }
       }
     },
